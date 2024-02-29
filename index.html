@@ -1,0 +1,553 @@
+<!DOCTYPE html><html class="hide-aside" lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Shell</title><meta name="author" content="CowboyCyber"><meta name="copyright" content="CowboyCyber"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Shell">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Shell">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/theGhost1.png">
+<meta property="article:author" content="CowboyCyber">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/theGhost1.png"><link rel="shortcut icon" href="/img/laughman.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"//local-search.xml","preload":true,"top_n_per_article":3,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Shell',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-02-29 17:04:11'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/theGhost1.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">41</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-file-lines"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/GhostintheShell.png')"><nav id="nav"><span id="blog-info"><a href="/" title="Shell"><img class="site-icon" src="/img/laughman.png"/><span class="site-name">Shell</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-file-lines"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Shell</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/cowboy446" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:rong73244@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2024/01/27/Course/24Winter/LFM/scanning%20LFM/" title="Basics about Microscope"><img class="post-bg" src="/img/GhostintheShell.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Basics about Microscope"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/01/27/Course/24Winter/LFM/scanning%20LFM/" title="Basics about Microscope">Basics about Microscope</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-27T10:14:00.392Z" title="发表于 2024-01-27 18:14:00">2024-01-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BCS/">BCS</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/BCS/">BCS</a></span></div><div class="content">Basics0. Side Tichniques and TermsThe Parameters of a Microscope
+Magnification: the ratio of the size of an image produced by a microscope to the size of the object
+Resolution: the minimum distance between two objects that can still be distinguished as separate objects
+spatial
+temporal
+angular
+spectral
+
+
+Numerical Aperture (NA): the ability of an optical system to gather light
+NA = n\sin\theta n: refractive index of the medium between the object and the lens $\theta$: half of the angle of the ma ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/01/27/Course/24Winter/LFM/Build%20an%20LFM%20from%200/" title="Microscope from zero"><img class="post-bg" src="/img/GhostintheShell.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Microscope from zero"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/01/27/Course/24Winter/LFM/Build%20an%20LFM%20from%200/" title="Microscope from zero">Microscope from zero</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-27T10:14:00.389Z" title="发表于 2024-01-27 18:14:00">2024-01-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BCS/">BCS</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/BCS/">BCS</a></span></div><div class="content">Build an LFM from zeroHardware1. Tube Lenses镜筒透镜。校正相差
+TTL180-A, Thorlabs
+
+
+Focal length: the distance between the lens and the image sensor
+Working distance: the distance between the front lens and the object
+Design wavelength range
+AR coating: anti-reflection coating range
+Housing length: the distance between the front lens and the back lens
+
+
+2. LED light sourceLED光源
+collimated LED light source, Thorlabs
+
+
+Heatsink: 散热器
+Beam Diameter
+Beam Area
+AR-Coated Aspheric Lens
+Cable Length
+
+3. Objective ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/11/10/Course/23Fall/%E7%94%9F%E5%BF%83/4_%E5%90%AC%E8%A7%89/" title="生心_3_视觉"><img class="post-bg" src="/img/GhostintheShell.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="生心_3_视觉"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/11/10/Course/23Fall/%E7%94%9F%E5%BF%83/4_%E5%90%AC%E8%A7%89/" title="生心_3_视觉">生心_3_视觉</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-10T01:53:36.618Z" title="发表于 2023-11-10 09:53:36">2023-11-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/%E7%94%9F%E5%BF%83/">生心</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E5%BF%85%E4%BF%AE/">必修</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6/">心理学</a></span></div><div class="content">
+听觉刺激
+声音：
+
+物理量：空气或其他介质中的压力变化，一种波（频率，强度）
+知觉声音：“听”的经验
+
+
+物理声音与知觉声音的描述
+
+振幅-响度（Loudness）
+频率-音高（Pitch）
+频率复杂性-音色（Timbre）
+
+
+
+耳的结构和功能耳的结构
+中耳
+中耳的功能
+
+核心问题
+
+原因：卵圆窗膜是气体与液体之隔，使声波有99.99%被反射
+问题：如何使振动传播下去？
+
+
+解决问题的关键：听小骨与声压放大
+
+听小骨的杠杆作用可增大压力
+卵圆窗表面积小于鼓膜面积此两点使得振动可以导致内耳液体运动，进而使振动传播
+
+
+出现响度大的声音时怎么办？
+
+减弱反射的关键结构：
+
+鼓膜张肌
+镫骨肌
+
+
+减弱反射 Attenuation reflex
+
+当肌肉收缩时，听小骨更具有刚性，传至内耳的声音在很大程度上减弱
+减弱反射的延时：50-100ms
+对低频声音的抑制作用强于高频
+减弱反射的作用：
+增加听觉动态范围
+由于对低频声音的抑制作用强于高频，使低频噪声中的高频声音更为突出，利于噪声中的言语知觉
+高声条件下保护内耳，但仅限于非突发的高声（为什么？）
+
+
+
+
+
+
+
+内耳
+
+
+毛细胞信号传导
+
+ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/11/07/Course/23Fall/Psychological%20Insights/4_%E5%BF%83%E7%90%86%E5%AD%A6%E7%9A%84%E5%AD%A6%E7%A7%91%E7%BB%93%E6%9E%84/" title="心哲_4_心理学的学科结构">心哲_4_心理学的学科结构</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-07T11:24:27.554Z" title="发表于 2023-11-07 19:24:27">2023-11-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/Psychology/">Psychology</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E9%80%89%E4%BF%AE/">选修</a></span></div><div class="content">
+心理学内部多样性
+4+1领域体系
+
+内部多样性4+1领域体系哪些维度？
+维度1：导向
+基础研究 vs 实践应用
+  
+
+
+维度2：范围
+宽泛 vs 聚焦
+从宽泛的心理学分支衍生出更加聚焦的分支
+
+人格心理学-&gt;积极心理学
+社会心理学-&gt;文化心理学
+
+
+聚焦特定应用场景：消费心理学、职业心理学
+
+聚焦特定人群：民族心理学，老年心理学
+跨领域交叉融合：文化神经科学
+
+维度3：对象
+研究对象处于心理-生理系统的哪一层级
+
+维度4：人（研究者）
+各个分支有相对紧凑、独立的研究圈子
+
+研究者
+学术组织
+成果出口：期刊、会议
+
+
+两个研究圈子可能在做类似的事，但缺乏沟通
+
+
+4+1理论体系
+
+社会-人格领域
+
+在个体尺度上开展研究，关注社会情境中的个体
+基础与应用并重
+
+
+认知领域
+
+关注基础认知过程及其神经基础
+与生物学、信息科学等领域结合较多
+
+
+发展领域
+
+人毕生发展的关键环节
+
+
+健康领域
+
+关注身心健康的影响因素与干预
+
+
+心理学方法论
+
+为其他领域提供方法基础
+核心：实验设计与心理测量学
+
+
+
+社会-人格领域研究对象：在个体层面开展研究，涉及高级心理加工过程、社会情境的影 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/10/31/Course/23Fall/%E7%A6%BB%E6%95%A3/%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91/2.1_%E5%91%BD%E9%A2%98%E5%92%8C%E8%BF%9E%E7%BB%93%E8%AF%8D/" title="离散_2.1_命题和连结词">离散_2.1_命题和连结词</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-31T03:06:48.928Z" title="发表于 2023-10-31 11:06:48">2023-10-31</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E5%BF%85%E4%BF%AE/">必修</a></span></div><div class="content">
+
+数理逻辑（符号逻辑） Mathematical Logic
+主要研究内容为推理过程是否正确，着重于语句之间的关系而非特定语句是否正确
+研究方法：把逻辑推理符号化
+
+
+
+命题和连结词
+命题：真/假必取其一的陈述句
+命题的抽象：
+
+p,q,r表示命题
+0/1表示真假
+
+
+联结词和复合命题
+
+联结词：如果···那么；没有
+复合命题：由联结词和命题连接成的复杂命题
+否定联结词： $\neg p$
+合取联结词： $p \wedge q$
+析取联结词： $p \vee q$
+蕴涵连结词： $p \rightarrow q$，p是前件，q是后件（若p为0，则蕴涵为1）
+等价联结词： $p \leftrightarrow q$
+
+
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/10/27/Course/23Fall/%E7%94%9F%E5%BF%83/3_%E8%A7%86%E8%A7%89/" title="生心_3_视觉">生心_3_视觉</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-27T03:34:43.041Z" title="发表于 2023-10-27 11:34:43">2023-10-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/%E7%94%9F%E5%BF%83/">生心</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E5%BF%85%E4%BF%AE/">必修</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6/">心理学</a></span></div><div class="content">
+
+What makes us see?
+大脑如何对各种视觉属性进行加工？
+视觉发展的特点？
+
+一、视觉编码知觉的一般原则
+眼睛&amp;到大脑的连接
+
+视网膜的结构与构成
+盲点
+视网膜的中央凹与外周
+视锥（cones）单峰分布，视杆（rods）双峰分布
+
+
+
+颜色视觉
+颜色是什么？
+
+物理属性 —— 波长
+知觉属性？
+
+
+多少种颜色感受器细胞？
+
+
+视锥细胞的数量及分布
+在数量和分布上个体差异很大
+分布特征：视锥只分布在中央凹附近
+
+对立过程理论
+对立过程理论：依据对立色知觉颜色的特点，认为视觉系统中存在三对对立的色彩通道，分别是红绿、黄蓝、黑白，这三对对立色彩通道的相互作用，可以解释人类对颜色的感知。
+
+颜色恒常性及视网膜皮层理论top-down 和 bottom-up 信息流混合
+二、视知觉的神经基础视锥、视杆与神经元之间的连接
+
+连接方式
+视锥与神经节细胞一对一连接
+视杆与神经节细胞多对一连接
+
+
+亮光条件
+
+足以使与视锥或视杆相关联的神经节细胞对输入产生响应
+与视锥相关联的神经节细胞可区分输入来自于哪些视锥
+与视杆相关联的神经节细胞无法区分来自于哪些视杆
+
+
+弱光条件
+
+不足 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/10/24/Course/23Fall/%E7%A6%BB%E6%95%A3/%E5%9B%BE%E8%AE%BA/1.7_%E6%A0%91/" title="离散_1.7_树">离散_1.7_树</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-24T04:06:46.766Z" title="发表于 2023-10-24 12:06:46">2023-10-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E5%BF%85%E4%BF%AE/">必修</a></span></div><div class="content">
+无向树
+树
+树叶
+分支点
+平凡树（平凡图）
+森林
+森林的每个连通分支都是树
+
+
+极小连通：边数最少的连通图极大无回：边数最多的无回路图
+定理16.2：非平凡树至少有两个树叶（d=1）
+
+
+生成树
+
+
+生成树是生成子图
+
+
+
+定理16.3：无向图G连通 == G有生成树
+
+定理16.4：
+定理16.5：G是连通图，T是G的生成树，e是T的树枝，则G中存在由树枝e和其他弦组成的割集，且不同树枝对应不同割集（每个割集只有一条树枝）
+
+基本回路
+基本割集
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/10/24/Course/23Fall/%E7%A6%BB%E6%95%A3/%E5%9B%BE%E8%AE%BA/1.6_%E6%AC%A7%E6%8B%89%E5%9B%BE&amp;%E5%93%88%E5%AF%86%E9%A1%BF%E5%9B%BE/" title="离散_1.6_欧拉图&amp;哈密顿图">离散_1.6_欧拉图&amp;哈密顿图</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-24T01:52:18.466Z" title="发表于 2023-10-24 09:52:18">2023-10-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E5%BF%85%E4%BF%AE/">必修</a></span></div><div class="content">
+
+七桥问题 -&gt; 欧拉，图论 拓扑学
+
+欧拉通路、欧拉图
+欧拉通路：经过所有边的简单通路
+半欧拉图：有欧拉通路的图
+
+欧拉回路：经过图中所有边的简单回路
+
+欧拉图：有欧拉回路的图（平凡图N1为欧拉图）
+
+
+如果仅用边来描述，可把欧拉通路和欧拉回路看作所有边的一种全排列
+
+判据定理：（无向欧拉图的充要条件）G是无向连通图，则G是欧拉图 == G中所有顶点都是偶数度 == G是若干个边不交的圈的并
+1-&gt;2：设欧拉回路总共经过k次顶点N，则d(V)=2k
+2-&gt;3: 任意删除一个圈，度数仍为偶数；对连通分支重复进行
+3-&gt;1: 有公共点但边不交的简单回路，总可以拼接成欧拉回路：在公共点处遍历该点所在的所有圈
+定理：（无向半欧拉图的充要条件）G是无向连通图，则G是半欧拉图 == G恰有两个奇度顶点
+定理：（有向欧拉图的充要条件）G是有向连通图，则G是欧拉图 == G中所有顶点出度等于入度 == G是若干个边不交的有向圈的并
+定理：（有向半欧拉图的充要条件）G是有向单向连通图，则G是半欧拉图 == G恰有两个奇度顶点，其中一个出度多1，另一个入度多1，其余偶度顶点出度 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/10/20/Course/23Fall/%E7%94%9F%E5%BF%83/2_%E7%A5%9E%E7%BB%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8F%91%E8%82%B2%E5%8F%8A%E5%8F%AF%E5%A1%91%E6%80%A7/" title="生心_2_神经系统的发育及可塑性">生心_2_神经系统的发育及可塑性</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-20T03:09:14.872Z" title="发表于 2023-10-20 11:09:14">2023-10-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/%E7%94%9F%E5%BF%83/">生心</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E5%BF%85%E4%BF%AE/">必修</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6/">心理学</a></span></div><div class="content">
+
+神经系统如何从无到有？
+神经系统会改变吗？
+结构
+功能
+
+
+
+
+脑的早期发育人类中枢神经系统的早期发育
+神经元的生长和发育
+增殖 proliferation
+位于神经管内侧壁的神经干细胞快速分裂并转化为神经细胞和神经胶质细胞
+几乎所有神经元在妊娠28周内形成
+
+
+迁移 migration
+新生细胞向相应位置迁移
+迁移受化学物质引导
+
+
+分化 differentiation
+
+细胞分化为神经元后开始形成树突、轴突
+
+
+突触生成 synaptogenesis
+
+出生前很长时间突触开始生长，可以持续一生
+
+
+髓鞘化 myelination
+
+较晚、较慢的神经发育阶段
+开始于脊髓，然后是后脑、中脑、前脑
+轴突成熟包括直径的增大和髓鞘化
+
+
+
+轴突的路径寻找轴突路径的化学梯度引导轴突连接的特异性神经元存活的决定性因素神经元凋亡与突触重建皮层的分化
+出生后大脑的变化
+经验与脑来自经验的精细调节
+
+特殊经验与脑
+
+脑损伤后的可塑性脑损伤类型
+肿瘤
+感染
+放射性物质
+有毒物质
+神经退化
+闭合式脑损伤
+
+机械伤害
+
+血栓
+
+
+
+中风
+
+出血性中风，因出血导致氧、钙和其他化学物质的过剩
+缺血性中风，血 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/10/17/Course/23Fall/Psychological%20Insights/3_%E7%A7%91%E5%AD%A6%E5%BF%83%E7%90%86%E5%AD%A6%E7%9A%84%E6%80%9D%E7%BB%B4/" title="心哲_3_科学心理学的思维">心哲_3_科学心理学的思维</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-17T11:23:43.053Z" title="发表于 2023-10-17 19:23:43">2023-10-17</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Course/">Course</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Course/Psychology/">Psychology</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/">23 Fall</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/23-Fall/%E9%80%89%E4%BF%AE/">选修</a></span></div><div class="content">
+可证伪性
+操作主义
+演绎与归纳逻辑
+证据
+可证伪性
+
+
+案例：放血疗法
+成功病例：证明疗法有效
+失败案例：病入膏肓，已经无药可救可证伪原则
+
+
+科学理论的标准之一：可证伪性
+
+可证伪原则（卡尔·波普尔）：一项科学的理论，其预测应该有可能被证伪。 （明确的预测：什么会发生，什么不会发生）
+
+
+科学过程：提出可证伪的理论，然后严格地尝试证伪
+
+被证伪：从自然界得到反馈，知识得以进步；
+到目前为止未被证伪：（永远）不能说明它是正确的，只能说明得到巩固（corroborated）
+
+
+应当持有证伪主义者态度（falsificationist attitude）
+
+
+发现语境与辩护语境
+赖欣巴哈（Reichenbach）：科学理论的两种语境
+
+发现语境（context of discovery）
+人类提出理论的过程，其来源具有多样性（苯环！）
+
+
+辩护语境（context of justification）
+人类理性的过程（验证理论的过程），基于严格的科学方法
+
+
+
+
+
+两种语境在心理学中的应用
+发现语境：心理学研究灵感可以来源于文献,也可来源于朴素的生活现象
+辩护语境：无论想法来自何处,都应 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/#content-inner">5</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/theGhost1.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CowboyCyber</div><div class="author-info__description">ネットは広大だわ.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">41</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/cowboy446" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:rong73244@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">摸鱼中</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/01/27/Course/24Winter/LFM/scanning%20LFM/" title="Basics about Microscope"><img src="/img/GhostintheShell.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Basics about Microscope"/></a><div class="content"><a class="title" href="/2024/01/27/Course/24Winter/LFM/scanning%20LFM/" title="Basics about Microscope">Basics about Microscope</a><time datetime="2024-01-27T10:14:00.392Z" title="发表于 2024-01-27 18:14:00">2024-01-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/01/27/Course/24Winter/LFM/Build%20an%20LFM%20from%200/" title="Microscope from zero"><img src="/img/GhostintheShell.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Microscope from zero"/></a><div class="content"><a class="title" href="/2024/01/27/Course/24Winter/LFM/Build%20an%20LFM%20from%200/" title="Microscope from zero">Microscope from zero</a><time datetime="2024-01-27T10:14:00.389Z" title="发表于 2024-01-27 18:14:00">2024-01-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/10/Course/23Fall/%E7%94%9F%E5%BF%83/4_%E5%90%AC%E8%A7%89/" title="生心_3_视觉"><img src="/img/GhostintheShell.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="生心_3_视觉"/></a><div class="content"><a class="title" href="/2023/11/10/Course/23Fall/%E7%94%9F%E5%BF%83/4_%E5%90%AC%E8%A7%89/" title="生心_3_视觉">生心_3_视觉</a><time datetime="2023-11-10T01:53:36.618Z" title="发表于 2023-11-10 09:53:36">2023-11-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/07/Course/23Fall/Psychological%20Insights/4_%E5%BF%83%E7%90%86%E5%AD%A6%E7%9A%84%E5%AD%A6%E7%A7%91%E7%BB%93%E6%9E%84/" title="心哲_4_心理学的学科结构">心哲_4_心理学的学科结构</a><time datetime="2023-11-07T11:24:27.554Z" title="发表于 2023-11-07 19:24:27">2023-11-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/31/Course/23Fall/%E7%A6%BB%E6%95%A3/%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91/2.1_%E5%91%BD%E9%A2%98%E5%92%8C%E8%BF%9E%E7%BB%93%E8%AF%8D/" title="离散_2.1_命题和连结词">离散_2.1_命题和连结词</a><time datetime="2023-10-31T03:06:48.928Z" title="发表于 2023-10-31 11:06:48">2023-10-31</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/23-Fall/"><span class="card-category-list-name">23 Fall</span><span class="card-category-list-count">18</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/23-Fall/%E5%BF%85%E4%BF%AE/"><span class="card-category-list-name">必修</span><span class="card-category-list-count">14</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/23-Fall/%E9%80%89%E4%BF%AE/"><span class="card-category-list-name">选修</span><span class="card-category-list-count">4</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/23-Spring/"><span class="card-category-list-name">23 Spring</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/23-Spring/%E9%80%89%E4%BF%AE/"><span class="card-category-list-name">选修</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ACGN/"><span class="card-category-list-name">ACGN</span><span class="card-category-list-count">3</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ACGN/%E5%8A%A8%E6%BC%AB/"><span class="card-category-list-name">动漫</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ACGN/%E7%A7%91%E5%B9%BB/"><span class="card-category-list-name">科幻</span><span class="card-category-list-count">1</span></a></li></ul></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6/" style="font-size: 1.3em; color: #99a1ac">心理学</a> <a href="/tags/%E7%A7%91%E5%AD%A6/" style="font-size: 1.5em; color: #99a9bf">科学</a> <a href="/tags/BCS/" style="font-size: 1.1em; color: #999">BCS</a> <a href="/tags/%E9%9A%8F%E6%83%B3/" style="font-size: 1.3em; color: #99a1ac">随想</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">十一月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/10/"><span class="card-archive-list-date">十月 2023</span><span class="card-archive-list-count">12</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">九月 2023</span><span class="card-archive-list-count">9</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><span class="card-archive-list-count">5</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">5</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">41</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-29T09:04:11.377Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By CowboyCyber</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
