@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Figure test</title>
+    <url>/2024/03/03/demo02/</url>
+    <content><![CDATA[<p>测试一下图床能不能正常用。<br><span id="more"></span></p>
+<p><img src="https://s2.loli.net/2024/03/03/zgCAjZmncTqKolH.jpg" alt=""></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2024/03/03/demo01/</url>
     <content><![CDATA[<p>测试代码块和<code>latex</code>的兼容性。<br><span id="more"></span></p>
@@ -36,13 +43,6 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Figure test</title>
-    <url>/2024/03/03/demo02/</url>
-    <content><![CDATA[<p>测试一下图床能不能正常用。<br><span id="more"></span></p>
-<p><img src="https://s2.loli.net/2024/03/03/zgCAjZmncTqKolH.jpg" alt=""></p>
 ]]></content>
   </entry>
 </search>
