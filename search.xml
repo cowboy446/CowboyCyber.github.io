@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>计算成像</title>
-    <url>/2024/02/28/Courses/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/Computational%20Imaging/</url>
-    <content><![CDATA[<p>参考书：</p>
-<blockquote>
-<p>《傅里叶光学导论》</p>
-</blockquote>
-<h1 id="显微成像概论"><a href="#显微成像概论" class="headerlink" title="显微成像概论"></a>显微成像概论</h1><p>成像技术：传统视频—多维多尺度视频—智能计算成像</p>
-<p>全光函数：$f(x,y,z,L,\lambda,t)$，恢复更多高维信息</p>
-<p>计算成像：Encode-Decode</p>
-<h2 id="现代显微成像"><a href="#现代显微成像" class="headerlink" title="现代显微成像"></a>现代显微成像</h2><p><strong>免疫荧光染色</strong></p>
-<blockquote>
-<p>Photons不是越多越好</p>
-</blockquote>
-<ul>
-<li><p>减弱背景荧光：confocal microscopy 单光子共聚焦—&gt;静态光学层析</p>
-<ul>
-<li>点扫描，需要提高成像速度</li>
-<li>提高速度：Line-scan（对二维背景光过滤能力下降）/Spinning disk</li>
-</ul>
-</li>
-<li><p>提高穿透：双光子/多光子</p>
-<ul>
-<li>波长长的入射光穿透能力更强（指数级别），但还要考虑water absorption</li>
-<li>也是点扫描</li>
-<li>非线性激活，能量平方关系—&gt;聚焦面荧光效果最好，去除杂散光，光学层析</li>
-<li>基本限制：背景荧光噪声—&gt; 三光子：更显著地抑制背景荧光，需要更强的能量——Sample Health！</li>
-</ul>
-</li>
-<li>降低光毒性 Photontoxic<ul>
-<li>长波长光</li>
-<li>低峰值光强，长时间曝光</li>
-<li>脉冲激光</li>
-<li>Light-sheet microscopy，有效利用所有光子</li>
-</ul>
-</li>
-</ul>
-<p><strong>活体介观显微成像？</strong></p>
-<p>细胞 —&gt; 器官尺度。</p>
-<h1 id="成像系统设计"><a href="#成像系统设计" class="headerlink" title="成像系统设计"></a>成像系统设计</h1><h2 id="基本参数"><a href="#基本参数" class="headerlink" title="基本参数"></a>基本参数</h2><h2 id="系统设计流程"><a href="#系统设计流程" class="headerlink" title="系统设计流程"></a>系统设计流程</h2>]]></content>
-      <categories>
-        <category>往日之影</category>
-        <category>24 Spring</category>
-        <category>Research 是面向未来 debug</category>
-        <category>Imaging</category>
-      </categories>
-      <tags>
-        <tag>Imaging</tag>
-        <tag>Microscopy</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2024/03/03/Demo/Hello%20Hexo/</url>
     <content><![CDATA[<p>Welcome to Hexo Next.<br><span id="more"></span></p>
@@ -69,7 +18,12 @@
   <entry>
     <title>社会心理学</title>
     <url>/2024/02/29/Courses/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="导论"><a href="#导论" class="headerlink" title="导论"></a>导论</h1><blockquote>
+    <content><![CDATA[<p>参考书：</p>
+<blockquote>
+<p>《社会心理学》（各种版本）</p>
+<p>《社会性动物》，Elliot Aronson，科普读物</p>
+</blockquote>
+<h1 id="导论"><a href="#导论" class="headerlink" title="导论"></a>导论</h1><blockquote>
 <p> 人与人为什么要相遇？</p>
 </blockquote>
 <h2 id="社会心理学"><a href="#社会心理学" class="headerlink" title="社会心理学"></a>社会心理学</h2><p><code>社会</code>：<strong>Social</strong>, instead of Society：社会场景下的个体</p>
@@ -91,9 +45,9 @@
 </ul>
 <p><strong>情境，人格与行为</strong></p>
 <script type="math/tex; mode=display">B = f(P, E)</script><ul>
-<li>行为：Behavior，B</li>
-<li>人格：Personality，P</li>
-<li>情境：Environment，E</li>
+<li>行为：Behavior，$B$</li>
+<li>人格：Personality，$P$</li>
+<li>情境：Environment，$E$</li>
 <li>人格因素与情境因素的交互作用</li>
 </ul>
 <h2 id="社会心理学的研究方法"><a href="#社会心理学的研究方法" class="headerlink" title="社会心理学的研究方法"></a>社会心理学的研究方法</h2><p><strong>问卷法</strong></p>
@@ -167,6 +121,97 @@
 <p>认识到情境的影响</p>
 <p>谦卑与宽容</p>
 <p>人文情怀 &amp; 科学精神的结合</p>
+<h1 id="社会认知"><a href="#社会认知" class="headerlink" title="社会认知"></a>社会认知</h1><blockquote>
+<p>走向宇宙的 New Type ，就能相互理解了吗？</p>
+</blockquote>
+<p><code>社会认知 Social Cognition</code>：感知、加工、解读社会信息并做出反应的过程</p>
+<h2 id="社会认知的基本原则"><a href="#社会认知的基本原则" class="headerlink" title="社会认知的基本原则"></a>社会认知的基本原则</h2><ol>
+<li><p>建构性 constructive </p>
+<ul>
+<li>对社会、世界的认知取决于<strong>固有的经验、知识、动机、思维模式</strong>等因素</li>
+<li>是高度个人化的，每个人不可避免地戴着“有色眼镜”看世界</li>
+<li><strong>自下而上(bottom-up)</strong> 和 <strong>自上而下(top-down)</strong> 的加工过程交互作用</li>
+</ul>
+</li>
+<li><p>以效率为先</p>
+<ul>
+<li>人类认知系统是为了<strong>节约认知资源</strong>而设计的：人脑的认知资源和外部条件不允许对所有社会信息进行深度加工</li>
+<li>社会认知追求的是快速得到一个可接受的结果，不是最大化准确率</li>
+<li>是各种“偏差”、“误区”的原因<blockquote>
+<p>双加工系统理论：</p>
+<p>系统1：快速、直觉、无意识、自动化</p>
+<p>系统2：慢速、反思、需努力的、受控的</p>
+<p>许多社会认知场景依赖于系统1，这类加工通常是快速、节俭的：有偏差，但性价比高</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="自上而下加工：图示与启动"><a href="#自上而下加工：图示与启动" class="headerlink" title="自上而下加工：图示与启动"></a>自上而下加工：图示与启动</h2><p><code>图示 Schema</code>：一个人关于社会世界的既有知识结构，是对社会世界的一种认知模型</p>
+<ul>
+<li>自我图式：我是什么样的人</li>
+<li>社会规范：什么情境下应该做什么</li>
+<li>刻板印象：对特定群体的先验印象</li>
+<li>关系图式：特定的人际关系应该如何相处</li>
+</ul>
+<p><strong>图示对社会认知的影响</strong></p>
+<ul>
+<li>注意：图示引导人们注意特定的信息，忽略其他信息</li>
+<li>记忆：图示决定了哪些信息被记住，哪些被遗忘</li>
+</ul>
+<p><strong>图示的可提取性</strong></p>
+<ul>
+<li><code>可提取性 availability</code>：一种图示在多大程度上能够被激活</li>
+<li>一个场景下可能有多个图示，图示的可提取性决定了哪个图示被激活</li>
+<li>影响因素：过往经验、当前目标、近期激活</li>
+</ul>
+<p><code>启动 Priming</code>：通过一些情景线索临时激活某种图示，从而影响后续行为</p>
+<ul>
+<li>临时提升某种图示的可提取性</li>
+<li><code>具身认知</code>：身体感觉如何影响社会认知</li>
+<li>社会启动的危机：许多以具身认知为代表的社会启动研究无法复现</li>
+<li>何种刺激能引发何种效果，需要仔细审视相关证据和开放科学方法</li>
+</ul>
+<p><strong>图示对现实的影响：自我实现的预言</strong></p>
+<ul>
+<li><code>自我实现的预言 Self-fulfilling prophecy</code>：预期会影响行为，从而使预期成为现实</li>
+<li>Rosenthal &amp; Jacobson 1968：老师对学生的预期影响学生的学业成绩</li>
+<li>现实案例：星座、MBTI——给自己贴标签，会影响自己的行为</li>
+</ul>
+<h2 id="自下而上的加工：框架效应"><a href="#自下而上的加工：框架效应" class="headerlink" title="自下而上的加工：框架效应"></a>自下而上的加工：框架效应</h2><p><code>框架效应 Framing Effect</code>：在社会认知中，信息的呈现方式(How it is framed)会对信息的加工产生影响，从而影响决策</p>
+<p><strong>顺序框架</strong>：当许多信息顺次呈现时，呈现顺序会影响加工结果</p>
+<ul>
+<li><p><code>首因效应 Primacy Effect</code>：首先呈现的信息产生更强的影响</p>
+<blockquote>
+<p>Asch 1946：特质描述的顺序对印象的影响——第一印象的重要性</p>
+<p>聪明、勤奋、冲动、挑剔、顽固、嫉妒 vs 嫉妒、顽固、挑剔、冲动、勤奋、聪明</p>
+<p>第一组的印象更好</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><p><code>近因效应 Recency Effect</code>：最后呈现的信息产生更强的影响</p>
+<blockquote>
+<p>自我介绍时，最后一位上场的人印象更深刻</p>
+<p>按章节顺序复习，最后一章记得最牢</p>
+<p>……</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>积极和消极框架</strong>：信息的呈现方式（积极/消极）会影响人们的决策</p>
+<p><strong>时间框架</strong>：思考的行为或事件在时间上的远近不同，引发不同的感受</p>
+<blockquote>
+<p>某同学在开学时选修了 <a href="https://jyywiki.cn/OS/2024/"><em><del>NJU Green Advisor OS</del></em></a> 一门任务量大的课程，认为该课程会令他很有收获，但学期后半，繁重的课业让他疲惫、缺少睡眠，因此感到后悔。这是一个时间框架的例子。</p>
+<p><code>建构水平理论 construal level theory</code>：在时间上距离较远的事物，会在更抽象的水平上加工；时间距离越近，加工水平越具体</p>
+</blockquote>
+<h2 id="信息寻求与确证偏差"><a href="#信息寻求与确证偏差" class="headerlink" title="信息寻求与确证偏差"></a>信息寻求与确证偏差</h2><p>除了加工被呈现的信息，人们也主动搜集更多的信息，作为决策判断的基础</p>
+<p><code>确证偏差 Confirmation Bias</code>：人们倾向于寻找支持自己观点的信息，而忽略反对自己观点的信息</p>
+<ul>
+<li>这维护了我们价值体系的稳定性，但也可能导致错误的决策</li>
+</ul>
+<blockquote>
+<p><code>信息茧房 information cocoon</code>：技术的繁荣反而强化了确证偏差，而没有致力于促进偏见的消除</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>往日之影</category>
@@ -176,6 +221,57 @@
       </categories>
       <tags>
         <tag>Psychology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算成像</title>
+    <url>/2024/02/28/Courses/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/Computational%20Imaging/</url>
+    <content><![CDATA[<p>参考书：</p>
+<blockquote>
+<p>《傅里叶光学导论》</p>
+</blockquote>
+<h1 id="显微成像概论"><a href="#显微成像概论" class="headerlink" title="显微成像概论"></a>显微成像概论</h1><p>成像技术：传统视频—多维多尺度视频—智能计算成像</p>
+<p>全光函数：$f(x,y,z,L,\lambda,t)$，恢复更多高维信息</p>
+<p>计算成像：Encode-Decode</p>
+<h2 id="现代显微成像"><a href="#现代显微成像" class="headerlink" title="现代显微成像"></a>现代显微成像</h2><p><strong>免疫荧光染色</strong></p>
+<blockquote>
+<p>Photons不是越多越好</p>
+</blockquote>
+<ul>
+<li><p>减弱背景荧光：confocal microscopy 单光子共聚焦—&gt;静态光学层析</p>
+<ul>
+<li>点扫描，需要提高成像速度</li>
+<li>提高速度：Line-scan（对二维背景光过滤能力下降）/Spinning disk</li>
+</ul>
+</li>
+<li><p>提高穿透：双光子/多光子</p>
+<ul>
+<li>波长长的入射光穿透能力更强（指数级别），但还要考虑water absorption</li>
+<li>也是点扫描</li>
+<li>非线性激活，能量平方关系—&gt;聚焦面荧光效果最好，去除杂散光，光学层析</li>
+<li>基本限制：背景荧光噪声—&gt; 三光子：更显著地抑制背景荧光，需要更强的能量——Sample Health！</li>
+</ul>
+</li>
+<li>降低光毒性 Photontoxic<ul>
+<li>长波长光</li>
+<li>低峰值光强，长时间曝光</li>
+<li>脉冲激光</li>
+<li>Light-sheet microscopy，有效利用所有光子</li>
+</ul>
+</li>
+</ul>
+<p><strong>活体介观显微成像？</strong></p>
+<p>细胞 —&gt; 器官尺度。</p>
+<h1 id="成像系统设计"><a href="#成像系统设计" class="headerlink" title="成像系统设计"></a>成像系统设计</h1><h2 id="基本参数"><a href="#基本参数" class="headerlink" title="基本参数"></a>基本参数</h2><h2 id="系统设计流程"><a href="#系统设计流程" class="headerlink" title="系统设计流程"></a>系统设计流程</h2>]]></content>
+      <categories>
+        <category>往日之影</category>
+        <category>24 Spring</category>
+        <category>Research 是面向未来 debug</category>
+        <category>Imaging</category>
+      </categories>
+      <tags>
+        <tag>Imaging</tag>
+        <tag>Microscopy</tag>
       </tags>
   </entry>
 </search>
