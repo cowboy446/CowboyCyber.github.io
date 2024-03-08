@@ -47,7 +47,7 @@
 <meta property="og:image" content="https://s2.loli.net/2024/02/24/7Ucu9NgZQ8oThAY.png">
 <meta property="og:image" content="https://s2.loli.net/2024/02/24/vo2XBMJpDlcKmCI.png">
 <meta property="article:published_time" content="2024-01-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-03-08T13:47:50.348Z">
+<meta property="article:modified_time" content="2024-03-08T14:33:37.397Z">
 <meta property="article:author" content="Cowboy Cyber">
 <meta property="article:tag" content="Imaging">
 <meta name="twitter:card" content="summary">
@@ -251,7 +251,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-03-08 21:47:50" itemprop="dateModified" datetime="2024-03-08T21:47:50+08:00">2024-03-08</time>
+                <time title="修改时间：2024-03-08 22:33:37" itemprop="dateModified" datetime="2024-03-08T22:33:37+08:00">2024-03-08</time>
               </span>
 
           
@@ -282,30 +282,32 @@
       
         <h1 id="二维信号与系统分析"><a href="#二维信号与系统分析" class="headerlink" title="二维信号与系统分析"></a>二维信号与系统分析</h1><h2 id="二维傅里叶分析"><a href="#二维傅里叶分析" class="headerlink" title="二维傅里叶分析"></a>二维傅里叶分析</h2><p>一维傅里叶变换</p>
 <script type="math/tex; mode=display">\mathcal{F}\{g\}=\int_{-\infty}^{\infty}g(x)\exp[-\mathrm{j}2\pi f x]\mathrm{d}x</script><script type="math/tex; mode=display">\mathcal{F}^{-1}\{G\}=\int_{-\infty}^{\infty}G(f)\exp[\mathrm{j}2\pi f x]\mathrm{d}f</script><h3 id="二维傅里叶变换"><a href="#二维傅里叶变换" class="headerlink" title="二维傅里叶变换"></a>二维傅里叶变换</h3><script type="math/tex; mode=display">\mathcal{F}\{g\}=\iint_{-\infty}^{\infty}g(x,y)\exp[-\mathrm{j}2\pi(f_Xx+f_Yy)]\mathrm{d}x\mathrm{d}y</script><script type="math/tex; mode=display">\mathcal{F}^{-1}\{G\}=\iint_{-\infty}^{\infty}G(f_X,f_Y)\exp[\mathrm{j}2\pi(f_Xx+f_Yy)]\mathrm{d}f_X\mathrm{d}f_Y</script><h3 id="delta-函数"><a href="#delta-函数" class="headerlink" title="$\delta$函数"></a>$\delta$函数</h3><script type="math/tex; mode=display">\delta(t)=\begin{cases}\infty, & t=0\\0, & t\neq0\end{cases}</script><h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><ol>
-<li><p>线性：$\mathcal{F}{ag_1+bg_2}=a\mathcal{F}{g_1}+b\mathcal{F}{g_2}$</p>
+<li><p>线性：</p>
+<script type="math/tex; mode=display">\mathcal{F} \{ ag_1+bg_2 \}=a\mathcal{F}\{g_1\}+b\mathcal{F}\{g_2\}</script></li>
+<li><p>相似性：</p>
+<script type="math/tex; mode=display">\mathcal{F}\{g(ax,by)\}=\frac{1}{|ab|}\mathcal{F}\{g\}(\frac{f_X}{a},\frac{f_Y}{b})</script></li>
+<li>相移：<script type="math/tex; mode=display">\mathcal{F}\{g(x-a,y-b)\}=\exp[-\mathrm{j}2\pi(af_X+bf_Y)]\mathcal{F}\{g\}</script></li>
+<li><p>Parseval定理：</p>
+<script type="math/tex; mode=display">\iint_{-\infty}^{\infty}|g(x,y)|^2\mathrm{d}x\mathrm{d}y=\iint_{-\infty}^{\infty}|G(f_X,f_Y)|^2\mathrm{d}f_X\mathrm{d}f_Y</script></li>
+<li><p>卷积定理：</p>
+<script type="math/tex; mode=display">\mathcal{F}\{g_1*g_2\}=\mathcal{F}\{g_1\}\cdot\mathcal{F}\{g_2\}</script></li>
+<li>自相关定理：<script type="math/tex; mode=display">\mathcal{F}\{g*g\}=|\mathcal{F}\{g\}|^2</script></li>
+<li><p>转动定理：<br>$\mathcal{F}\{g(r,\theta)\}=G(\rho,\phi)$,<br> 在空间上旋转$\theta_0$角度，</p>
+<p> $\mathcal{F}\{g(xcos\theta -ysin\theta, xsin\theta+ycos\theta)\}=G(f_Xcos\theta-f_Ysin\theta, f_Xsin\theta+f_Ycos\theta)$</p>
 </li>
-<li><p>相似性：$\mathcal{F}{g(ax,by)}=\frac{1}{|ab|}\mathcal{F}{g}(\frac{f_X}{a},\frac{f_Y}{b})$</p>
-</li>
-<li>相移：$\mathcal{F}{g(x-a,y-b)}=\exp[-\mathrm{j}2\pi(af_X+bf_Y)]\mathcal{F}{g}$</li>
-<li>Parseval定理：$\iint<em>{-\infty}^{\infty}|g(x,y)|^2\mathrm{d}x\mathrm{d}y=\iint</em>{-\infty}^{\infty}|G(f_X,f_Y)|^2\mathrm{d}f_X\mathrm{d}f_Y$</li>
-<li>卷积定理：$\mathcal{F}{g_1*g_2}=\mathcal{F}{g_1}\cdot\mathcal{F}{g_2}$</li>
-<li>自相关定理：$\mathcal{F}{g*g}=|\mathcal{F}{g}|^2$</li>
-<li>转动定理：$\mathcal{F}{g(r,\theta)}=G(\rho,\phi)$,<br> 在空间上旋转$\theta_0$角度，$\mathcal{F}{g(xcos\theta -ysin\theta, xsin\theta+ycos\theta)}=G(f_Xcos\theta-f_Ysin\theta, f_Xsin\theta+f_Ycos\theta)$</li>
-<li><p>剪切定理：$\mathcal{F}{g(x+ay,y+bx)}=G(f_X-bf_Y, f_Y-af_X)$</p>
-<ul>
+<li><p>剪切定理：</p>
+<script type="math/tex; mode=display">\mathcal{F} \{ g(x+ay,y+bx) \} = G(f_X-bf_Y, f_Y-af_X)</script><ul>
 <li>空域中的水平剪切引起频域中的竖直剪切</li>
 <li>空域中的竖直剪切引起频域中的水平剪切</li>
 </ul>
 </li>
 <li><p>傅里叶积分定理：在$g$的每个连续点上，</p>
-<p>$\mathcal{F}\mathcal{F^{-1}}{g(x,y)}=\mathcal{F^{-1}}\mathcal{F}{g(x,y)}=g(x,y)$</p>
-</li>
+<script type="math/tex; mode=display">\mathcal{F}\mathcal{F^{-1}}\{g(x,y)\}=\mathcal{F^{-1}}\mathcal{F}\{g(x,y)\}=g(x,y)</script></li>
 </ol>
-<h3 id="可分离变量的函数"><a href="#可分离变量的函数" class="headerlink" title="可分离变量的函数"></a>可分离变量的函数</h3><p>若$g(x,y)=g_X(x)g_Y(y)$，则函数$g(x,y)$是可分离变量的函数;</p>
-<p>若$g(r,\theta)=g<em>R(r)g</em>{\Theta}(\theta)$，则函数$g$在极坐标系中可分离变量。</p>
+<h3 id="可分离变量的函数"><a href="#可分离变量的函数" class="headerlink" title="可分离变量的函数"></a>可分离变量的函数</h3><p>若 $g(x,y)=g_X(x)g_Y(y)$ ，则函数 $g(x,y)$ 是可分离变量的函数，极坐标$(r,\theta)$中同理。</p>
 <h4 id="性质-1"><a href="#性质-1" class="headerlink" title="性质"></a>性质</h4><p>傅里叶变换是两个一维傅里叶变换的乘积：</p>
 <script type="math/tex; mode=display">\mathcal{F}\{g(x,y)\}=\mathcal{F}\{g_X(x)g_Y(y)\}=\mathcal{F_X}\{g_X(x)\}\cdot\mathcal{F_{Y}}\{g_Y(y)\}</script><p>极坐标系中同理。</p>
-<h3 id="具有圆对称性的函数：傅里叶-贝塞尔变换"><a href="#具有圆对称性的函数：傅里叶-贝塞尔变换" class="headerlink" title="具有圆对称性的函数：傅里叶-贝塞尔变换"></a>具有圆对称性的函数：傅里叶-贝塞尔变换</h3><p>函数$g$具有圆对称性：$g(r,\theta)=g_R(r)$。</p>
+<h3 id="具有圆对称性的函数：傅里叶-贝塞尔变换"><a href="#具有圆对称性的函数：傅里叶-贝塞尔变换" class="headerlink" title="具有圆对称性的函数：傅里叶-贝塞尔变换"></a>具有圆对称性的函数：傅里叶-贝塞尔变换</h3><p>函数 $g$ 具有圆对称性：$g(r,\theta)=g_R(r)$。</p>
 <ul>
 <li>大部分光学系统具有圆对称性</li>
 </ul>
@@ -316,12 +318,12 @@
 <h3 id="性质-2"><a href="#性质-2" class="headerlink" title="性质"></a>性质</h3><ol>
 <li><p>在$g_R(r)$的每个连续点上，</p>
 <script type="math/tex; mode=display">\mathcal{B}\mathcal{B^{-1}}\{g_R(r)\}=\mathcal{B^{-1}}\mathcal{B}\{g_R(r)\}=\mathcal{B}\mathcal{B}\{g_R(r)\} = g_R(r)</script></li>
-<li><p>相似性：$\mathcal{B}{g_R(ar)}=\frac{1}{a^2}G_0(\frac{\rho}{a})$</p>
+<li><p>相似性：$\mathcal{B} \{ g_R(ar) \} = \frac{1}{a^2}G_0(\frac{\rho}{a})$</p>
 </li>
 </ol>
 <h2 id="常用函数和傅里叶变换对"><a href="#常用函数和傅里叶变换对" class="headerlink" title="常用函数和傅里叶变换对"></a>常用函数和傅里叶变换对</h2><h3 id="矩形函数"><a href="#矩形函数" class="headerlink" title="矩形函数"></a>矩形函数</h3><script type="math/tex; mode=display">rect(x) = \begin{cases}1, & |x|<\frac{1}{2}\\\frac{1}{2}, & |x|=\frac{1}{2}\\0, & |x|>\frac{1}{2}\end{cases}</script><h3 id="sinc函数"><a href="#sinc函数" class="headerlink" title="sinc函数"></a>sinc函数</h3><script type="math/tex; mode=display">sinc(x)=\frac{\sin(\pi x)}{\pi x}</script><h3 id="符号函数"><a href="#符号函数" class="headerlink" title="符号函数"></a>符号函数</h3><script type="math/tex; mode=display">sgn(x)=\begin{cases}1, & x>0\\0, & x=0\\-1, & x<0\end{cases}</script><h3 id="三角形函数"><a href="#三角形函数" class="headerlink" title="三角形函数"></a>三角形函数</h3><script type="math/tex; mode=display">tri(x)=\begin{cases}1-|x|, & |x|<1\\0, & |x|>1\end{cases}</script><h3 id="梳状函数"><a href="#梳状函数" class="headerlink" title="梳状函数"></a>梳状函数</h3><script type="math/tex; mode=display">comb(x)=\sum_{n=-\infty}^{\infty}\delta(x-n)</script><h3 id="圆域函数"><a href="#圆域函数" class="headerlink" title="圆域函数"></a>圆域函数</h3><script type="math/tex; mode=display">circ\sqrt{x^2+y^2}=\begin{cases}1, & \sqrt{x^2+y^2}<1\\\frac{1}{2}, & \sqrt{x^2+y^2}=1\\0, & \sqrt{x^2+y^2}>1\end{cases}</script><h2 id="空间频率和空间频率局域化"><a href="#空间频率和空间频率局域化" class="headerlink" title="空间频率和空间频率局域化"></a>空间频率和空间频率局域化</h2><h3 id="局域空间频率"><a href="#局域空间频率" class="headerlink" title="局域空间频率"></a>局域空间频率</h3><script type="math/tex; mode=display">g(x,y) = a(x,y) exp[\mathrm{j}\phi(x,y)]</script><p>其中$a(x,y)$是幅度函数，$\phi(x,y)$是相位函数。</p>
 <p>定义函数$g$的局域空间频率$(f_X^{(l)},f_Y^{(l)})$为：</p>
-<p>$\begin{cases}f_X^{(l)}(x,y)=\frac{1}{2\pi}\frac{\partial}{\partial x}\phi(x,y) \ f_Y^{(l)}(x,y)=\frac{1}{2\pi}\frac{\partial}{\partial y}\phi(x,y)\end{cases}$</p>
+<p>$\begin{cases}f_X^{(l)}(x,y)=\frac{1}{2\pi}\frac{\partial}{\partial x}\phi(x,y) \\ f_Y^{(l)}(x,y)=\frac{1}{2\pi}\frac{\partial}{\partial y}\phi(x,y)\end{cases}$</p>
 <p>或矢量记号：$\vec{f}^{(\ell)}=\frac{1}{2\pi}\nabla\phi(\vec{x})$</p>
 <p>从而定义一个<strong>局域空间频率</strong>，</p>
 <ul>
@@ -331,9 +333,9 @@
 <script type="math/tex; mode=display">\phi(x,y)=\arctan\frac{f_Y^{(l)}}{f_X^{(l)}}</script></li>
 </ul>
 <h3 id="维格纳分布"><a href="#维格纳分布" class="headerlink" title="维格纳分布"></a>维格纳分布</h3><p>一个函数$g(x,y)$的局域空间频率分布称为维格纳分布，定义为：</p>
-<script type="math/tex; mode=display">W_g(x,y;f_X,f_Y)=\iint_{-\infty}^{\infty}g(x+\frac{\Delta x}{2},y+\frac{\Delta y}{2})g^*(x-\frac{\Delta x}{2},y-\frac{\Delta y}{2})\exp[-j2\pi(f_X\Delta x+f_Y\Delta y)]\mathrm{d}\Delta x\mathrm{d}\Delta y</script><p>将$g$和$g^<em>$的傅里叶变换分别记为$G(f_X,f_Y)$和$G^</em>(f_X,f_Y)$，则维格纳分布可以表示为：</p>
+<script type="math/tex; mode=display">W_g(x,y;f_X,f_Y)=\iint_{-\infty}^{\infty}g(x+\frac{\Delta x}{2},y+\frac{\Delta y}{2})g^*(x-\frac{\Delta x}{2},y-\frac{\Delta y}{2})\exp[-j2\pi(f_X\Delta x+f_Y\Delta y)]\mathrm{d}\Delta x\mathrm{d}\Delta y</script><p>将 $g$ 和 $g^<em>$ 的傅里叶变换分别记为 $G(f_X,f_Y)$ 和 $G^</em>(f_X,f_Y)$，则维格纳分布可以表示为：</p>
 <script type="math/tex; mode=display">W_g(x,y;f_X,f_Y)=\iint_{-\infty}^{\infty}G(f_X+\frac{\Delta f_X}{2},f_Y+\frac{\Delta f_Y}{2})G^*(f_X-\frac{\Delta f_X}{2},f_Y-\frac{\Delta f_Y}{2})\exp[j2\pi(x\Delta f_X +y\Delta f_Y\Delta)]\mathrm{d}\Delta f_X\mathrm{d}\Delta f_Y</script><p>作为能量密度函数：</p>
-<script type="math/tex; mode=display">\iint_{-\infin}^{\infin} W_g(x,y;f_X,f_Y)df_Xdf_Y=|g(x,y)|^2</script><script type="math/tex; mode=display">\iint_{-\infin}^{\infin} W_g(x,y;f_X,f_Y)dx dy=|G(f_X,f_Y)|^2</script><script type="math/tex; mode=display">\iint\iint_{-\infin}^{\infin} W_g(x,y;f_X,f_Y)dx dy df_X df_Y=\iint_{-\infin}^{\infin}|g(x,y)|^2dx dy=\iint_{-\infin}^{\infin}|G(f_X,f_Y)|^2df_X df_Y</script><h2 id="线性系统"><a href="#线性系统" class="headerlink" title="线性系统"></a>线性系统</h2><p>电路网络：输入输出信号是一元（时间）独立的实值函数；</p>
+<script type="math/tex; mode=display">\iint_{- \infty}^{\infty} W_g(x,y;f_X,f_Y)df_Xdf_Y=|g(x,y)|^2</script><script type="math/tex; mode=display">\iint_{-\infty}^{\infty} W_g(x,y;f_X,f_Y)dx dy=|G(f_X,f_Y)|^2</script><script type="math/tex; mode=display">\iint\iint_{-\infty}^{\infty} W_g(x,y;f_X,f_Y)dx dy df_X df_Y=\iint_{-\infty}^{\infty}|g(x,y)|^2dx dy=\iint_{-\infty}^{\infty}|G(f_X,f_Y)|^2df_X df_Y</script><h2 id="线性系统"><a href="#线性系统" class="headerlink" title="线性系统"></a>线性系统</h2><p>电路网络：输入输出信号是一元（时间）独立的实值函数；</p>
 <p>成像系统：输入和输出信号可以是二元（空间）独立的实值函数（光强），也可以是复值函数（光场）。</p>
 <h3 id="线性不变系统"><a href="#线性不变系统" class="headerlink" title="线性不变系统"></a>线性不变系统</h3><ul>
 <li>线性时不变系统：一个系统的脉冲响应$h(t, \tau)$（即在$t$时刻对作用于$\tau$时刻的脉冲的响应）只依赖于时间差$t-\tau$。</li>
@@ -357,18 +359,14 @@
 <script type="math/tex; mode=display">N = L_X\cdot L_Y\cdot B_X\cdot B_Y</script><h3 id="离散傅里叶变换"><a href="#离散傅里叶变换" class="headerlink" title="离散傅里叶变换"></a>离散傅里叶变换</h3><p>利用抽样数据，得到离散傅里叶变换（DFT）：</p>
 <script type="math/tex; mode=display">\tilde{G}_{p,q}=DFT\{\tilde{g}_{n,m}\} = \sum_{n=0}^{N_X-1}\sum_{m=0}^{N_Y-1}\tilde{g}_{n,m}\exp\left[-\mathrm{j}2\pi\left(\frac{np}{N_X}+\frac{mq}{N_Y}\right)\right]</script><p>逆变换：</p>
 <script type="math/tex; mode=display">\tilde{g}_{n,m}=DFT^{-1}\{\tilde{G}_{p,q}\} = \frac{1}{N_XN_Y}\sum_{p=0}^{N_X-1}\sum_{q=0}^{N_Y-1}\tilde{G}_{p,q}\exp\left[\mathrm{j}2\pi\left(\frac{np}{N_X}+\frac{mq}{N_Y}\right)\right]</script><p>可用快速傅里叶变换（FFT）算法进行计算，复杂度为$O(N\log N)$。</p>
-<h2 id="片投影定理"><a href="#片投影定理" class="headerlink" title="片投影定理"></a>片投影定理</h2><ul>
-<li><p>二维函数$g(x,y)$在过原点且与x轴夹角为$\theta$的直线上的投影为</p>
+<h2 id="片投影定理"><a href="#片投影定理" class="headerlink" title="片投影定理"></a>片投影定理</h2><p>二维函数$g(x,y)$在过原点且与x轴夹角为$\theta$的直线上的投影为</p>
 <script type="math/tex; mode=display">p_{\theta}(x')=\int_{-\infty}^{\infty}g(x'cos\theta-y'sin\theta, x'sin\theta+y'cos\theta)\mathrm{d}y'</script><ul>
 <li><p>投影在x’轴上，y’轴垂直于x’轴，其中<br>$x’=x\cos\theta+y\sin\theta$, </p>
 <p>$y’=-x\sin\theta+y\cos\theta$</p>
 </li>
 </ul>
-</li>
-<li><p>投影定理：投影$p<em>{\theta}(x’)$的傅里叶变换$P</em>{\theta}(f)$等同于函数$g(x,y)$的傅里叶变换$G(f_X, f_Y)$沿着过原点且与$f_X$轴夹角为$\theta$的直线的切片：</p>
-<script type="math/tex; mode=display">P_{\theta}(f)=G(f\cos\theta, f\sin\theta)</script></li>
-</ul>
-<h1 id="标量衍射理论基础"><a href="#标量衍射理论基础" class="headerlink" title="标量衍射理论基础"></a>标量衍射理论基础</h1><p>讨论衍射时，衍射物的结构比光波波长大得多，因此可以用标量波动方程来描述光波的传播（矢量近似为标量）。</p>
+<p>投影定理：投影 $p_{\theta}(x’)$ 的傅里叶变换 $P_{\theta}(f)$ 等同于函数 $g(x,y)$ 的傅里叶变换 $G(f_X, f_Y)$ 沿着过原点且与$f_X$轴夹角为$\theta$的直线的切片：</p>
+<script type="math/tex; mode=display">P_{\theta}(f)=G(f\cos\theta, f\sin\theta)</script><h1 id="标量衍射理论基础"><a href="#标量衍射理论基础" class="headerlink" title="标量衍射理论基础"></a>标量衍射理论基础</h1><p>讨论衍射时，衍射物的结构比光波波长大得多，因此可以用标量波动方程来描述光波的传播（矢量近似为标量）。</p>
 <h2 id="数学预备知识"><a href="#数学预备知识" class="headerlink" title="数学预备知识"></a>数学预备知识</h2><h3 id="亥姆霍兹方程"><a href="#亥姆霍兹方程" class="headerlink" title="亥姆霍兹方程"></a>亥姆霍兹方程</h3><p>对于单色波，用标量场$u(P,t)$描述在P点、t时刻的波动，</p>
 <script type="math/tex; mode=display">u(P,t)=Re\{A(P)\exp[\mathrm{j}(-2\pi \nu t+\phi(P))]\}</script><p>其中$A(P)$是振幅，$\phi(P)$是相位，$\nu$是光的频率。</p>
 <p>标量波动方程：</p>
@@ -381,7 +379,7 @@
 <h3 id="亥姆霍兹和基尔霍夫积分定理"><a href="#亥姆霍兹和基尔霍夫积分定理" class="headerlink" title="亥姆霍兹和基尔霍夫积分定理"></a>亥姆霍兹和基尔霍夫积分定理</h3><p>基尔霍夫的衍射理论建立在一个积分定理的基础上，这个积分定理把齐次波动方程在任意一点的解用包围这一点的任意闭合曲面上的解及其一阶导数的值来表示。</p>
 <p><img src="https://s2.loli.net/2024/02/17/qtfs7Ayvea9W3mL.png" alt=""></p>
 <p>选定辅助函数（由$P_0$点向外发散的单位振幅的球面波，自由空间格林函数）</p>
-<script type="math/tex; mode=display">G(P_1) = \frac{\exp(\mathrm{j}kr_{01})}{r_{01}}</script><p>积分体积$V’$为介于$S$和$S<em>{\epsilon}$之间的体积，积分曲面是复合曲面$S’ = S + S</em>{\epsilon}$</p>
+<script type="math/tex; mode=display">G(P_1) = \frac{\exp(\mathrm{j}kr_{01})}{r_{01}}</script><p>积分体积$V’$为介于$S$和$S_{\epsilon}$之间的体积，积分曲面是复合曲面$S’ = S + S_{\epsilon}$</p>
 <p>结合亥姆霍兹方程&amp;格林定理，可得<strong>亥姆霍兹和基尔霍夫的积分定理</strong>：</p>
 <script type="math/tex; mode=display">U(P_{0})=\frac1{4\pi}\iint_{S}\left\{\frac{\partial U}{\partial n}\left[\frac{\exp(\mathrm{j}kr_{01})}{r_{01}}\right]-U\frac\partial{\partial n}\left[\frac{\exp(\mathrm{j}kr_{01})}{r_{01}}\right]\right\}\mathrm{d}s</script><p>从而使任意一点的场可以用波在包围这一点的任意闭合曲面上的“边值”表示。</p>
 <h2 id="平面屏幕衍射的基尔霍夫公式"><a href="#平面屏幕衍射的基尔霍夫公式" class="headerlink" title="平面屏幕衍射的基尔霍夫公式"></a>平面屏幕衍射的基尔霍夫公式</h2><p><img src="https://s2.loli.net/2024/02/17/Vmq5kHOS2uX4GYz.png" alt=""></p>
@@ -678,7 +676,7 @@ I(x,y,z)& \begin{aligned}\approx&\left[\frac{A}{2\lambda z}\right]^2\text{sinc}^
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
