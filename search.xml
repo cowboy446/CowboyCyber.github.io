@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/03/03/Demo/Hello%20Hexo/</url>
-    <content><![CDATA[<p>Welcome to Hexo Next.<br><span id="more"></span></p>
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>社会心理学</title>
     <url>/2024/02/29/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</url>
     <content><![CDATA[<p>参考书：</p>
@@ -226,57 +211,19 @@
       </tags>
   </entry>
   <entry>
-    <title>计算成像导论</title>
-    <url>/2024/02/28/College/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F-%E4%BA%A4%E5%8F%89%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<p>参考书：</p>
-<blockquote>
-<p>《傅里叶光学导论》<a href="https://cowboy446.github.io/2024/02/01/College/计算成像/傅里叶光学导论/">（个人笔记）</a></p>
-</blockquote>
-<h1 id="Lecture-Ⅰ-显微成像概论"><a href="#Lecture-Ⅰ-显微成像概论" class="headerlink" title="Lecture Ⅰ 显微成像概论"></a>Lecture Ⅰ 显微成像概论</h1><p>成像技术：传统视频—多维多尺度视频—智能计算成像</p>
-<p>全光函数：$f(x,y,z,L,\lambda,t)$，恢复更多高维信息</p>
-<p>计算成像：Encode-Decode</p>
-<h2 id="现代显微成像"><a href="#现代显微成像" class="headerlink" title="现代显微成像"></a>现代显微成像</h2><p><strong>免疫荧光染色</strong></p>
-<blockquote>
-<p>Photons不是越多越好</p>
-</blockquote>
-<ul>
-<li><p>减弱背景荧光：confocal microscopy 单光子共聚焦—&gt;静态光学层析</p>
-<ul>
-<li>点扫描，需要提高成像速度</li>
-<li>提高速度：Line-scan（对二维背景光过滤能力下降）/Spinning disk</li>
-</ul>
-</li>
-<li><p>提高穿透：双光子/多光子</p>
-<ul>
-<li>波长长的入射光穿透能力更强（指数级别），但还要考虑water absorption</li>
-<li>也是点扫描</li>
-<li>非线性激活，能量平方关系—&gt;聚焦面荧光效果最好，去除杂散光，光学层析</li>
-<li>基本限制：背景荧光噪声—&gt; 三光子：更显著地抑制背景荧光，需要更强的能量——Sample Health！</li>
-</ul>
-</li>
-<li>降低光毒性 Photontoxic<ul>
-<li>长波长光</li>
-<li>低峰值光强，长时间曝光</li>
-<li>脉冲激光</li>
-<li>Light-sheet microscopy，有效利用所有光子</li>
-</ul>
-</li>
-</ul>
-<p><strong>活体介观显微成像？</strong></p>
-<p>细胞 —&gt; 器官尺度。</p>
-<h1 id="Lecture-Ⅱ-成像系统设计"><a href="#Lecture-Ⅱ-成像系统设计" class="headerlink" title="Lecture Ⅱ 成像系统设计"></a>Lecture Ⅱ 成像系统设计</h1><h2 id="基本参数"><a href="#基本参数" class="headerlink" title="基本参数"></a>基本参数</h2><h2 id="系统设计流程"><a href="#系统设计流程" class="headerlink" title="系统设计流程"></a>系统设计流程</h2>]]></content>
-      <categories>
-        <category>往日之影</category>
-        <category>枫丹科学院纪事</category>
-        <category>24 Spring</category>
-        <category>Imaging</category>
-        <category>课上拾枝</category>
-        <category>Engineering</category>
-      </categories>
-      <tags>
-        <tag>Imaging</tag>
-        <tag>Microscopy</tag>
-      </tags>
+    <title>Hello World</title>
+    <url>/2024/03/03/Demo/Hello%20Hexo/</url>
+    <content><![CDATA[<p>Welcome to Hexo Next.<br><span id="more"></span></p>
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>傅里叶光学导论</title>
@@ -579,6 +526,59 @@ I(x,y,z)& \begin{aligned}\approx&\left[\frac{A}{2\lambda z}\right]^2\text{sinc}^
       </categories>
       <tags>
         <tag>Imaging</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算成像导论</title>
+    <url>/2024/02/28/College/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F-%E4%BA%A4%E5%8F%89%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>参考书：</p>
+<blockquote>
+<p>《傅里叶光学导论》<a href="https://cowboy446.github.io/2024/02/01/College/计算成像/傅里叶光学导论/">（个人笔记）</a></p>
+</blockquote>
+<h1 id="Lecture-Ⅰ-显微成像概论"><a href="#Lecture-Ⅰ-显微成像概论" class="headerlink" title="Lecture Ⅰ 显微成像概论"></a>Lecture Ⅰ 显微成像概论</h1><p>成像技术：传统视频—多维多尺度视频—智能计算成像</p>
+<p>全光函数：$f(x,y,z,L,\lambda,t)$，恢复更多高维信息</p>
+<p>计算成像：Encode-Decode</p>
+<h2 id="现代显微成像"><a href="#现代显微成像" class="headerlink" title="现代显微成像"></a>现代显微成像</h2><p><strong>免疫荧光染色</strong></p>
+<blockquote>
+<p>Photons不是越多越好</p>
+</blockquote>
+<ul>
+<li><p>减弱背景荧光：confocal microscopy 单光子共聚焦—&gt;静态光学层析</p>
+<ul>
+<li>点扫描，需要提高成像速度</li>
+<li>提高速度：Line-scan（对二维背景光过滤能力下降）/Spinning disk</li>
+</ul>
+</li>
+<li><p>提高穿透：双光子/多光子</p>
+<ul>
+<li>波长长的入射光穿透能力更强（指数级别），但还要考虑water absorption</li>
+<li>也是点扫描</li>
+<li>非线性激活，能量平方关系—&gt;聚焦面荧光效果最好，去除杂散光，光学层析</li>
+<li>基本限制：背景荧光噪声—&gt; 三光子：更显著地抑制背景荧光，需要更强的能量——Sample Health！</li>
+</ul>
+</li>
+<li>降低光毒性 Photontoxic<ul>
+<li>长波长光</li>
+<li>低峰值光强，长时间曝光</li>
+<li>脉冲激光</li>
+<li>Light-sheet microscopy，有效利用所有光子</li>
+</ul>
+</li>
+</ul>
+<p><strong>活体介观显微成像？</strong></p>
+<p>细胞 —&gt; 器官尺度。</p>
+<h1 id="Lecture-Ⅱ-成像系统设计"><a href="#Lecture-Ⅱ-成像系统设计" class="headerlink" title="Lecture Ⅱ 成像系统设计"></a>Lecture Ⅱ 成像系统设计</h1><h2 id="基本参数"><a href="#基本参数" class="headerlink" title="基本参数"></a>基本参数</h2><h2 id="系统设计流程"><a href="#系统设计流程" class="headerlink" title="系统设计流程"></a>系统设计流程</h2>]]></content>
+      <categories>
+        <category>往日之影</category>
+        <category>枫丹科学院纪事</category>
+        <category>24 Spring</category>
+        <category>Imaging</category>
+        <category>课上拾枝</category>
+        <category>Engineering</category>
+      </categories>
+      <tags>
+        <tag>Imaging</tag>
+        <tag>Microscopy</tag>
       </tags>
   </entry>
 </search>
