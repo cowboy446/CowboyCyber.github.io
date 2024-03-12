@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/03/03/Demo/Hello%20Hexo/</url>
-    <content><![CDATA[<p>Welcome to Hexo Next. <span id="more"></span></p>
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>计算成像导论</title>
     <url>/2024/02/28/College/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F-%E4%BA%A4%E5%8F%89%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<p>参考书：</p>
@@ -37,7 +8,7 @@ href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 <p>《傅里叶光学导论》<a
 href="https://cowboy446.github.io/2024/02/01/College/计算成像/傅里叶光学导论/">（个人笔记）</a></p>
 </blockquote>
-<h1 id="lecture-ⅰ-显微成像概论">Lecture Ⅰ 显微成像概论</h1>
+<h1 id="lecture-1-显微成像概论">Lecture 1 显微成像概论</h1>
 <p>成像技术：传统视频--多维多尺度视频--智能计算成像</p>
 <p>全光函数：<span
 class="math inline">\(f(x,y,z,L,\lambda,t)\)</span>，恢复更多高维信息</p>
@@ -67,26 +38,298 @@ absorption</li>
 <li>长波长光</li>
 <li>低峰值光强，长时间曝光</li>
 <li>脉冲激光</li>
-<li>Light-sheet microscopy，有效利用所有光子</li>
+<li>光片显微镜 Light-sheet microscopy，有效利用所有光子</li>
 </ul></li>
 </ul>
 <p><strong>活体介观显微成像？</strong></p>
 <p>细胞 --&gt; 器官尺度。</p>
-<h1 id="lecture-ⅱ-成像系统设计">Lecture Ⅱ 成像系统设计</h1>
+<h1 id="lecture-2-成像系统设计">Lecture 2 成像系统设计</h1>
 <h2 id="基本参数">基本参数</h2>
+<p><code>放大倍数</code>：<span class="math inline">\(M =
+\frac{f_{\text{image}}}{f_{\text{obj}}}\)</span></p>
+<p><code>空间分辨率</code>：衍射极限， <span class="math inline">\(d =
+\frac{\lambda}{2n\mathrm{sin}\theta}\)</span>，限制采样极限</p>
+<p><code>数值孔径 Numerical Aperture</code>：<span
+class="math inline">\(NA = n\mathrm{sin}\theta\)</span></p>
+<ul>
+<li><span class="math inline">\(NA\)</span>是透镜固有属性，<span
+class="math inline">\(\theta\)</span>是从透镜的光轴到透镜能够接收到的最边缘的光线的角度。</li>
+<li><span
+class="math inline">\(NA\)</span>越大，透镜接收光的能力越强，分辨率越高</li>
+</ul>
+<p><code>景深 Depth of field</code>：<span class="math inline">\(d_{tot}
+= \frac{\lambda n}{NA^2}+\frac{n}{M \cdot NA}e\)</span></p>
+<p><img src = "https://s2.loli.net/2024/03/12/fu6HCMBi9AeQ2WO.png" width = 300></p>
+<p><code>视场大小/视野 Field of View</code>：通常是视场角</p>
+<p><strong>物镜</strong></p>
+<p><img src = "https://s2.loli.net/2024/03/12/HiMqfWGgyvKO2nc.png" width = 400></p>
 <h2 id="系统设计流程">系统设计流程</h2>
+<hr />
+<p><strong>简单显微系统</strong></p>
+<ul>
+<li>视野大小/放大倍数</li>
+<li>分辨率</li>
+<li>工作波长</li>
+<li>工作距离</li>
+<li>景深/轴向分辨率</li>
+</ul>
+<p><strong>相机</strong></p>
+<ul>
+<li>像素数（2*视野/分辨率）</li>
+<li>采集速度</li>
+<li>量子效率、读出噪声</li>
+<li>尺寸</li>
+</ul>
+<hr />
+<h3 id="光学系统的设计">光学系统的设计</h3>
+<p><strong><code>4f system</code></strong>：<span
+class="math inline">\(M = \frac{f_d}{f}\)</span></p>
+<p><img src = "https://s2.loli.net/2024/03/12/gTKo6ZS47X5U8IG.png" width = 650></p>
+<p>级联
+<img src = "https://s2.loli.net/2024/03/12/YgIdcLvVX2qKZaQ.png" width = 600></p>
+<p>轴向间隔（景深）以<span class="math inline">\(M^2\)</span>变化
+<img src = "https://s2.loli.net/2024/03/12/XUojbWOmJT2rSD6.png" width = 600></p>
+<blockquote>
+<p>实际设计</p>
+<ul>
+<li>缩小孔径，增大F数以减小相差（亮度，景深，图像质量的trade-off）</li>
+<li>同样尺寸的镜头，焦距越长越好</li>
+</ul>
+<p>系统设计软件：Zemax，Sequential设计&amp;快速优化</p>
+</blockquote>
+<h3 id="光学系统的搭建">光学系统的搭建</h3>
+]]></content>
+      <categories>
+        <category>往日之影</category>
+        <category>枫丹科学院纪事</category>
+        <category>24 Spring</category>
+        <category>Imaging</category>
+        <category>课上拾枝</category>
+        <category>Engineering</category>
+      </categories>
+      <tags>
+        <tag>Imaging</tag>
+        <tag>Microscopy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>社会心理学</title>
+    <url>/2024/02/29/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</url>
+    <content><![CDATA[<p>参考书：</p>
+<blockquote>
+<p>《社会心理学》（各种版本）</p>
+<p>《社会性动物》，Elliot Aronson，科普读物</p>
+</blockquote>
+<h1 id="lecture-1-导论">Lecture 1 导论</h1>
+<blockquote>
+<p>人与人为什么要相遇？</p>
+</blockquote>
+<h2 id="社会心理学">社会心理学</h2>
+<p><strong><code>社会</code></strong>：<strong>Social</strong>, instead
+of Society：社会场景下的个体</p>
+<ul>
+<li>他人（广义）；</li>
+<li>情绪，思维，行为；</li>
+<li>科学研究</li>
+</ul>
+<p><strong>人格心理学</strong> 与 <strong>社会心理学</strong></p>
+<ul>
+<li><p>兄弟学科
+<strong><code>人格心理学 Personality Psychology</code></strong></p></li>
+<li><p>相同：都在日常行为水平</p></li>
+<li><p>不同：</p>
+<ul>
+<li>人格心理学：个体差异的影响，人格解释；</li>
+<li>社会心理学：社会情境的影响，情境解释；</li>
+<li>基本归因错误 fundamental attribution
+error：强调个体差异的解释，忽略了情境因素</li>
+</ul></li>
+</ul>
+<p><strong>情境，人格与行为</strong> <span class="math display">\[B =
+f(P, E)\]</span></p>
+<ul>
+<li>行为：Behavior，<span class="math inline">\(B\)</span></li>
+<li>人格：Personality，<span class="math inline">\(P\)</span></li>
+<li>情境：Environment，<span class="math inline">\(E\)</span></li>
+<li>人格因素与情境因素的交互作用</li>
+</ul>
+<h2 id="社会心理学的研究方法">社会心理学的研究方法</h2>
+<p><strong>问卷法</strong></p>
+<ul>
+<li>自我报告问卷，状态或感受的主观报告</li>
+<li>常用于人格或个体差异变量的测量</li>
+<li>只能提供<strong>相关性</strong>，不能提供因果关系</li>
+</ul>
+<p><strong>实验法</strong></p>
+<ul>
+<li><p>社会心理学的主要研究方法</p></li>
+<li><p>控制变量（社会情境自变量），观察行为后果</p></li>
+<li><p>高影响力实验 3个经典实验：</p>
+<ul>
+<li>从众实验 Asch 1951</li>
+<li>电击实验 Milgram 1963</li>
+<li>监狱实验 Zimbardo 1971</li>
+</ul></li>
+<li><p>优点：设计精巧的拟真场景，简洁清晰的结论</p></li>
+<li><p>可以提供<strong>因果推论</strong></p></li>
+<li><p>缺点：成本高，精确控制，伦理问题</p></li>
+</ul>
+<p><strong>现代社会心理学实验</strong></p>
+<ul>
+<li>想象情境、虚拟情境</li>
+</ul>
+<h2 id="社会心理学的发展历程">社会心理学的发展历程</h2>
+<p><strong>萌芽时期（1940s以前）</strong></p>
+<ul>
+<li>McDougall：社会心理学的先驱</li>
+</ul>
+<p><strong>兴起时期（1940s）</strong></p>
+<ul>
+<li>Kurt Lewin：社会心理学之父，理论和实验方法基础</li>
+</ul>
+<p><strong>黄金时期（1950s-1970s）</strong></p>
+<ul>
+<li>二战结束后，对历史的反思和社会变迁刺激了社会心理学的发展</li>
+<li>Leon Festinger：认知失调理论</li>
+<li>一系列高影响力的经典实验</li>
+</ul>
+<p><strong>社会认知时期（1980s）</strong></p>
+<ul>
+<li>认知革命席卷心理学，社会心理学开始从认知的角度研究社会信息的加工过程</li>
+</ul>
+<p><strong>文化心理学时期（1980s-1990s）</strong></p>
+<ul>
+<li>社会心理学开始关注文化差异对社会心理现象的影响，涌现出一批文化差异理论</li>
+<li>个体主义与集体主义</li>
+<li>独立-互依自我结构</li>
+<li>整体性-分析性思维</li>
+</ul>
+<p><strong>内隐社会认知（2000s）</strong></p>
+<ul>
+<li>内隐联想测试（IAT）</li>
+<li>近年来受到一定质疑</li>
+</ul>
+<p><strong>社会神经科学（2000s）</strong></p>
+<p><strong>今日的社会心理学</strong></p>
+<ul>
+<li>多元、庞大的研究领域</li>
+</ul>
+<p><strong>可重复性危机</strong></p>
+<ul>
+<li>现象本身的复杂性</li>
+<li>对反直觉结果的过度追求</li>
+<li>一系列开放科学措施：透明化、数据共享、预注册、提前计算样本量</li>
+</ul>
+<h2 id="学习社会心理学的意义">学习社会心理学的意义</h2>
+<p>理解日常背后的心理学原理</p>
+<p>认识到情境的影响</p>
+<p>谦卑与宽容</p>
+<p>人文情怀 &amp; 科学精神的结合</p>
+<h1 id="lecture-2-社会认知">Lecture 2 社会认知</h1>
+<blockquote>
+<p>走向宇宙的 New Type ，就能相互理解了吗？</p>
+</blockquote>
+<h2 id="社会认知的基本原则">社会认知的基本原则</h2>
+<p><strong><code>社会认知 Social Cognition</code></strong>：感知、加工、解读社会信息并做出反应的过程</p>
+<ol type="1">
+<li><p>建构性 constructive</p>
+<ul>
+<li>对社会、世界的认知取决于<strong>固有的经验、知识、动机、思维模式</strong>等因素</li>
+<li>是高度个人化的，每个人不可避免地戴着“有色眼镜”看世界</li>
+<li><strong>自下而上(bottom-up)</strong> 和
+<strong>自上而下(top-down)</strong> 的加工过程交互作用</li>
+</ul></li>
+<li><p>以效率为先</p>
+<ul>
+<li>人类认知系统是为了<strong>节约认知资源</strong>而设计的：人脑的认知资源和外部条件不允许对所有社会信息进行深度加工</li>
+<li>社会认知追求的是快速得到一个可接受的结果，不是最大化准确率</li>
+<li>是各种“偏差”、“误区”的原因</li>
+</ul>
+<blockquote>
+<p>双加工系统理论：</p>
+<p>系统1：快速、直觉、无意识、自动化</p>
+<p>系统2：慢速、反思、需努力的、受控的</p>
+<p>许多社会认知场景依赖于系统1，这类加工通常是快速、节俭的：有偏差，但性价比高</p>
+</blockquote></li>
+</ol>
+<h2 id="自上而下加工图示与启动">自上而下加工：图示与启动</h2>
+<p><strong><code>图示 Schema</code></strong>：一个人关于社会世界的既有知识结构，是对社会世界的一种认知模型</p>
+<ul>
+<li>自我图式：我是什么样的人</li>
+<li>社会规范：什么情境下应该做什么</li>
+<li>刻板印象：对特定群体的先验印象</li>
+<li>关系图式：特定的人际关系应该如何相处</li>
+</ul>
+<p><strong>图示对社会认知的影响</strong></p>
+<ul>
+<li>注意：图示引导人们注意特定的信息，忽略其他信息</li>
+<li>记忆：图示决定了哪些信息被记住，哪些被遗忘</li>
+</ul>
+<p><strong>图示的可提取性</strong></p>
+<ul>
+<li><strong><code>可提取性 availability</code></strong>：一种图示在多大程度上能够被激活</li>
+<li>一个场景下可能有多个图示，图示的可提取性决定了哪个图示被激活</li>
+<li>影响因素：过往经验、当前目标、近期激活</li>
+</ul>
+<p><strong><code>启动 Priming</code></strong>：通过一些情景线索临时激活某种图示，从而影响后续行为</p>
+<ul>
+<li>临时提升某种图示的可提取性</li>
+<li><strong><code>具身认知</code></strong>：身体感觉如何影响社会认知</li>
+<li>社会启动的危机：许多以具身认知为代表的社会启动研究无法复现</li>
+<li>何种刺激能引发何种效果，需要仔细审视相关证据和开放科学方法</li>
+</ul>
+<p><strong>图示对现实的影响：自我实现的预言</strong></p>
+<ul>
+<li><strong><code>自我实现的预言 Self-fulfilling prophecy</code></strong>：预期会影响行为，从而使预期成为现实</li>
+<li>Rosenthal &amp; Jacobson
+1968：老师对学生的预期影响学生的学业成绩</li>
+<li>现实案例：星座、MBTI——给自己贴标签，会影响自己的行为</li>
+</ul>
+<h2 id="自下而上的加工框架效应">自下而上的加工：框架效应</h2>
+<p><strong><code>框架效应 Framing Effect</code></strong>：在社会认知中，信息的呈现方式(How
+it is framed)会对信息的加工产生影响，从而影响决策</p>
+<p><strong>顺序框架</strong>：当许多信息顺次呈现时，呈现顺序会影响加工结果</p>
+<ul>
+<li><p><strong><code>首因效应 Primacy Effect</code></strong>：首先呈现的信息产生更强的影响</p>
+<blockquote>
+<p>Asch 1946：特质描述的顺序对印象的影响——第一印象的重要性</p>
+<p>聪明、勤奋、冲动、挑剔、顽固、嫉妒 vs
+嫉妒、顽固、挑剔、冲动、勤奋、聪明</p>
+<p>第一组的印象更好</p>
+</blockquote></li>
+<li><p><strong><code>近因效应 Recency Effect</code></strong>：最后呈现的信息产生更强的影响</p>
+<blockquote>
+<p>自我介绍时，最后一位上场的人印象更深刻</p>
+<p>按章节顺序复习，最后一章记得最牢</p>
+<p>......</p>
+</blockquote></li>
+</ul>
+<p><strong>积极和消极框架</strong>：信息的呈现方式（积极/消极）会影响人们的决策</p>
+<p><strong>时间框架</strong>：思考的行为或事件在时间上的远近不同，引发不同的感受</p>
+<blockquote>
+<p>某同学在开学时选修了<a
+href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课程</font></a>，认为该课程会令他很有收获，但学期后半，繁重的课业让他疲惫、缺少睡眠，因此感到后悔。这是一个时间框架的例子。</p>
+<p><strong><code>建构水平理论 construal level theory</code></strong>：在时间上距离较远的事物，会在更抽象的水平上加工；时间距离越近，加工水平越具体</p>
+</blockquote>
+<h2 id="信息寻求与确证偏差">信息寻求与确证偏差</h2>
+<p>除了加工被呈现的信息，人们也主动搜集更多的信息，作为决策判断的基础</p>
+<p><strong><code>确证偏差 Confirmation Bias</code></strong>：人们倾向于寻找支持自己观点的信息，而忽略反对自己观点的信息</p>
+<ul>
+<li>这维护了我们价值体系的稳定性，但也可能导致错误的决策</li>
+</ul>
+<blockquote>
+<p><strong><code>信息茧房 information cocoon</code></strong>
+技术的繁荣反而强化了人的确证偏差，而没有致力于促进偏见的消除</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>往日之影</category>
         <category>24 Spring</category>
         <category>课上拾枝</category>
-        <category>Engineering</category>
-        <category>枫丹科学院纪事</category>
-        <category>Imaging</category>
+        <category>Psychology</category>
       </categories>
       <tags>
-        <tag>Imaging</tag>
-        <tag>Microscopy</tag>
+        <tag>Psychology</tag>
       </tags>
   </entry>
   <entry>
@@ -855,221 +1098,32 @@ alt="图片.png" />
       </tags>
   </entry>
   <entry>
-    <title>社会心理学</title>
-    <url>/2024/02/29/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</url>
-    <content><![CDATA[<p>参考书：</p>
-<blockquote>
-<p>《社会心理学》（各种版本）</p>
-<p>《社会性动物》，Elliot Aronson，科普读物</p>
-</blockquote>
-<h1 id="lecture-1-导论">Lecture 1 导论</h1>
-<blockquote>
-<p>人与人为什么要相遇？</p>
-</blockquote>
-<h2 id="社会心理学">社会心理学</h2>
-<p><strong><code>社会</code></strong>：<strong>Social</strong>, instead
-of Society：社会场景下的个体</p>
-<ul>
-<li>他人（广义）；</li>
-<li>情绪，思维，行为；</li>
-<li>科学研究</li>
-</ul>
-<p><strong>人格心理学</strong> 与 <strong>社会心理学</strong></p>
-<ul>
-<li><p>兄弟学科
-<strong><code>人格心理学 Personality Psychology</code></strong></p></li>
-<li><p>相同：都在日常行为水平</p></li>
-<li><p>不同：</p>
-<ul>
-<li>人格心理学：个体差异的影响，人格解释；</li>
-<li>社会心理学：社会情境的影响，情境解释；</li>
-<li>基本归因错误 fundamental attribution
-error：强调个体差异的解释，忽略了情境因素</li>
-</ul></li>
-</ul>
-<p><strong>情境，人格与行为</strong> <span class="math display">\[B =
-f(P, E)\]</span></p>
-<ul>
-<li>行为：Behavior，<span class="math inline">\(B\)</span></li>
-<li>人格：Personality，<span class="math inline">\(P\)</span></li>
-<li>情境：Environment，<span class="math inline">\(E\)</span></li>
-<li>人格因素与情境因素的交互作用</li>
-</ul>
-<h2 id="社会心理学的研究方法">社会心理学的研究方法</h2>
-<p><strong>问卷法</strong></p>
-<ul>
-<li>自我报告问卷，状态或感受的主观报告</li>
-<li>常用于人格或个体差异变量的测量</li>
-<li>只能提供<strong>相关性</strong>，不能提供因果关系</li>
-</ul>
-<p><strong>实验法</strong></p>
-<ul>
-<li><p>社会心理学的主要研究方法</p></li>
-<li><p>控制变量（社会情境自变量），观察行为后果</p></li>
-<li><p>高影响力实验 3个经典实验：</p>
-<ul>
-<li>从众实验 Asch 1951</li>
-<li>电击实验 Milgram 1963</li>
-<li>监狱实验 Zimbardo 1971</li>
-</ul></li>
-<li><p>优点：设计精巧的拟真场景，简洁清晰的结论</p></li>
-<li><p>可以提供<strong>因果推论</strong></p></li>
-<li><p>缺点：成本高，精确控制，伦理问题</p></li>
-</ul>
-<p><strong>现代社会心理学实验</strong></p>
-<ul>
-<li>想象情境、虚拟情境</li>
-</ul>
-<h2 id="社会心理学的发展历程">社会心理学的发展历程</h2>
-<p><strong>萌芽时期（1940s以前）</strong></p>
-<ul>
-<li>McDougall：社会心理学的先驱</li>
-</ul>
-<p><strong>兴起时期（1940s）</strong></p>
-<ul>
-<li>Kurt Lewin：社会心理学之父，理论和实验方法基础</li>
-</ul>
-<p><strong>黄金时期（1950s-1970s）</strong></p>
-<ul>
-<li>二战结束后，对历史的反思和社会变迁刺激了社会心理学的发展</li>
-<li>Leon Festinger：认知失调理论</li>
-<li>一系列高影响力的经典实验</li>
-</ul>
-<p><strong>社会认知时期（1980s）</strong></p>
-<ul>
-<li>认知革命席卷心理学，社会心理学开始从认知的角度研究社会信息的加工过程</li>
-</ul>
-<p><strong>文化心理学时期（1980s-1990s）</strong></p>
-<ul>
-<li>社会心理学开始关注文化差异对社会心理现象的影响，涌现出一批文化差异理论</li>
-<li>个体主义与集体主义</li>
-<li>独立-互依自我结构</li>
-<li>整体性-分析性思维</li>
-</ul>
-<p><strong>内隐社会认知（2000s）</strong></p>
-<ul>
-<li>内隐联想测试（IAT）</li>
-<li>近年来受到一定质疑</li>
-</ul>
-<p><strong>社会神经科学（2000s）</strong></p>
-<p><strong>今日的社会心理学</strong></p>
-<ul>
-<li>多元、庞大的研究领域</li>
-</ul>
-<p><strong>可重复性危机</strong></p>
-<ul>
-<li>现象本身的复杂性</li>
-<li>对反直觉结果的过度追求</li>
-<li>一系列开放科学措施：透明化、数据共享、预注册、提前计算样本量</li>
-</ul>
-<h2 id="学习社会心理学的意义">学习社会心理学的意义</h2>
-<p>理解日常背后的心理学原理</p>
-<p>认识到情境的影响</p>
-<p>谦卑与宽容</p>
-<p>人文情怀 &amp; 科学精神的结合</p>
-<h1 id="lecture-2-社会认知">Lecture 2 社会认知</h1>
-<blockquote>
-<p>走向宇宙的 New Type ，就能相互理解了吗？</p>
-</blockquote>
-<h2 id="社会认知的基本原则">社会认知的基本原则</h2>
-<p><strong><code>社会认知 Social Cognition</code></strong>：感知、加工、解读社会信息并做出反应的过程</p>
-<ol type="1">
-<li><p>建构性 constructive</p>
-<ul>
-<li>对社会、世界的认知取决于<strong>固有的经验、知识、动机、思维模式</strong>等因素</li>
-<li>是高度个人化的，每个人不可避免地戴着“有色眼镜”看世界</li>
-<li><strong>自下而上(bottom-up)</strong> 和
-<strong>自上而下(top-down)</strong> 的加工过程交互作用</li>
-</ul></li>
-<li><p>以效率为先</p>
-<ul>
-<li>人类认知系统是为了<strong>节约认知资源</strong>而设计的：人脑的认知资源和外部条件不允许对所有社会信息进行深度加工</li>
-<li>社会认知追求的是快速得到一个可接受的结果，不是最大化准确率</li>
-<li>是各种“偏差”、“误区”的原因</li>
-</ul>
-<blockquote>
-<p>双加工系统理论：</p>
-<p>系统1：快速、直觉、无意识、自动化</p>
-<p>系统2：慢速、反思、需努力的、受控的</p>
-<p>许多社会认知场景依赖于系统1，这类加工通常是快速、节俭的：有偏差，但性价比高</p>
-</blockquote></li>
-</ol>
-<h2 id="自上而下加工图示与启动">自上而下加工：图示与启动</h2>
-<p><strong><code>图示 Schema</code></strong>：一个人关于社会世界的既有知识结构，是对社会世界的一种认知模型</p>
-<ul>
-<li>自我图式：我是什么样的人</li>
-<li>社会规范：什么情境下应该做什么</li>
-<li>刻板印象：对特定群体的先验印象</li>
-<li>关系图式：特定的人际关系应该如何相处</li>
-</ul>
-<p><strong>图示对社会认知的影响</strong></p>
-<ul>
-<li>注意：图示引导人们注意特定的信息，忽略其他信息</li>
-<li>记忆：图示决定了哪些信息被记住，哪些被遗忘</li>
-</ul>
-<p><strong>图示的可提取性</strong></p>
-<ul>
-<li><strong><code>可提取性 availability</code></strong>：一种图示在多大程度上能够被激活</li>
-<li>一个场景下可能有多个图示，图示的可提取性决定了哪个图示被激活</li>
-<li>影响因素：过往经验、当前目标、近期激活</li>
-</ul>
-<p><strong><code>启动 Priming</code></strong>：通过一些情景线索临时激活某种图示，从而影响后续行为
-- 临时提升某种图示的可提取性 -
-<strong><code>具身认知</code></strong>：身体感觉如何影响社会认知 -
-社会启动的危机：许多以具身认知为代表的社会启动研究无法复现 -
-何种刺激能引发何种效果，需要仔细审视相关证据和开放科学方法</p>
-<p><strong>图示对现实的影响：自我实现的预言</strong></p>
-<ul>
-<li><strong><code>自我实现的预言 Self-fulfilling prophecy</code></strong>：预期会影响行为，从而使预期成为现实</li>
-<li>Rosenthal &amp; Jacobson
-1968：老师对学生的预期影响学生的学业成绩</li>
-<li>现实案例：星座、MBTI——给自己贴标签，会影响自己的行为</li>
-</ul>
-<h2 id="自下而上的加工框架效应">自下而上的加工：框架效应</h2>
-<p><strong><code>框架效应 Framing Effect</code></strong>：在社会认知中，信息的呈现方式(How
-it is framed)会对信息的加工产生影响，从而影响决策</p>
-<p><strong>顺序框架</strong>：当许多信息顺次呈现时，呈现顺序会影响加工结果</p>
-<ul>
-<li><p><strong><code>首因效应 Primacy Effect</code></strong>：首先呈现的信息产生更强的影响</p>
-<blockquote>
-<p>Asch 1946：特质描述的顺序对印象的影响——第一印象的重要性</p>
-<p>聪明、勤奋、冲动、挑剔、顽固、嫉妒 vs
-嫉妒、顽固、挑剔、冲动、勤奋、聪明</p>
-<p>第一组的印象更好</p>
-</blockquote></li>
-<li><p><strong><code>近因效应 Recency Effect</code></strong>：最后呈现的信息产生更强的影响</p>
-<blockquote>
-<p>自我介绍时，最后一位上场的人印象更深刻</p>
-<p>按章节顺序复习，最后一章记得最牢</p>
-<p>......</p>
-</blockquote></li>
-</ul>
-<p><strong>积极和消极框架</strong>：信息的呈现方式（积极/消极）会影响人们的决策</p>
-<p><strong>时间框架</strong>：思考的行为或事件在时间上的远近不同，引发不同的感受</p>
-<blockquote>
-<p>某同学在开学时选修了<a
-href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课程</font></a>，认为该课程会令他很有收获，但学期后半，繁重的课业让他疲惫、缺少睡眠，因此感到后悔。这是一个时间框架的例子。</p>
-<p><strong><code>建构水平理论 construal level theory</code></strong>：在时间上距离较远的事物，会在更抽象的水平上加工；时间距离越近，加工水平越具体</p>
-</blockquote>
-<h2 id="信息寻求与确证偏差">信息寻求与确证偏差</h2>
-<p>除了加工被呈现的信息，人们也主动搜集更多的信息，作为决策判断的基础</p>
-<p><strong><code>确证偏差 Confirmation Bias</code></strong>：人们倾向于寻找支持自己观点的信息，而忽略反对自己观点的信息</p>
-<ul>
-<li>这维护了我们价值体系的稳定性，但也可能导致错误的决策</li>
-</ul>
-<blockquote>
-<p><strong><code>信息茧房 information cocoon</code></strong>
-技术的繁荣反而强化了人的确证偏差，而没有致力于促进偏见的消除</p>
-</blockquote>
+    <title>Hello World</title>
+    <url>/2024/03/03/Demo/Hello%20Hexo/</url>
+    <content><![CDATA[<p>Welcome to Hexo Next. <span id="more"></span></p>
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>往日之影</category>
-        <category>24 Spring</category>
-        <category>课上拾枝</category>
-        <category>Psychology</category>
-      </categories>
-      <tags>
-        <tag>Psychology</tag>
-      </tags>
   </entry>
 </search>
