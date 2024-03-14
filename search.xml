@@ -10,7 +10,7 @@
 </blockquote>
 <h1 id="lecture-1-导论">Lecture 1 导论</h1>
 <blockquote>
-<p>人与人为什么要相遇？</p>
+<p><font color = #034C7A face = 宋体> 人与人为什么要相遇呢？</font></p>
 </blockquote>
 <h2 id="社会心理学">社会心理学</h2>
 <p><strong><code>社会</code></strong>：<strong>Social</strong>, instead
@@ -112,9 +112,10 @@ f(P, E)\]</span></p>
 <p>认识到情境的影响</p>
 <p>谦卑与宽容</p>
 <p>人文情怀 &amp; 科学精神的结合</p>
-<h1 id="lecture-2-社会认知">Lecture 2 社会认知</h1>
+<h1 id="lecture-2-社会认知上">Lecture 2 社会认知（上）</h1>
 <blockquote>
-<p>走向宇宙的 New Type ，就能相互理解了吗？</p>
+<p><font color = #034C7A face = 宋体>走向宇宙的 <font face = Times>New
+Type</font> ，就能相互理解了吗？</font></p>
 </blockquote>
 <h2 id="社会认知的基本原则">社会认知的基本原则</h2>
 <p><strong><code>社会认知 Social Cognition</code></strong>：感知、加工、解读社会信息并做出反应的过程</p>
@@ -205,8 +206,13 @@ href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课
 <li>这维护了我们价值体系的稳定性，但也可能导致错误的决策</li>
 </ul>
 <blockquote>
-<p><strong><code>信息茧房 information cocoon</code></strong>
-技术的繁荣反而强化了人的确证偏差，而没有致力于促进偏见的消除</p>
+<p><strong><code>信息茧房 information cocoon</code></strong>:技术的繁荣反而强化了人的确证偏差，而没有致力于促进偏见的消除</p>
+</blockquote>
+<h1 id="lecture-3-社会认知下">Lecture 3 社会认知（下）</h1>
+<blockquote>
+<p><font color = #034C7A face = Times New Roman> I wanna have a pure
+time ~</p>
+<p>Everyone has a noble mind ~</font></p>
 </blockquote>
 <h2 id="归因">归因</h2>
 <p><strong><code>归因 Attribution</code></strong>：人们如何解释自己和他人的行为</p>
@@ -314,7 +320,7 @@ href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课
 <li>可以理解为一种普遍的图示：人们的行为源于他们是什么样的人，而不是他们所处的情境</li>
 <li><strong><code>知觉显著性偏差 perceptual salience bias</code></strong>：人们通常将注意力集中在人的身上，而忽略了情境</li>
 </ul>
-<p><code>两阶段归因过程</code>：归因过程分为两个阶段，第一个阶段为自动化的内部归因，第二个阶段在此基础上调整，需要有意识的努力</p>
+<p><strong><code>两阶段归因过程</code></strong>：归因过程分为两个阶段，第一个阶段为自动化的内部归因，第二个阶段在此基础上调整，需要有意识的努力</p>
 <pre class="mermaid">graph LR
 A[观察到行为] -->|自动化过程| B[阶段一 内部归因]
 B -->|缺少时间、精力或动机| C[结束]
@@ -326,7 +332,81 @@ E -->C</pre>
 <ul>
 <li><strong><code>自我增强 Self-enhancement</code></strong>：一种常见的动机，是自己自我感觉良好，维护自己的自尊</li>
 <li><strong><code>印象管理 Impression Management</code></strong>：一种常见的策略，是为了给他人留下好印象，而对自己的行为进行解释（公开的自利归因）</li>
+<li>信息差异：自利归因也可能来自于掌握的信息差异 &gt;
+教授：有同学考了高分，因此题不难→考不好是学生自己的问题</li>
+<li>自利归因的适应性价值：阻止
+<strong><code>抑郁性归因风格</code></strong> <a href="#fn1"
+class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>的形成
+<img src = "https://s2.loli.net/2024/03/14/xVfjSyqc51K2bDW.png" width = 700></li>
 </ul>
+<p><strong>3.
+<code>受害人谴责</code></strong>：对受害人谴责的倾向，将受害人的遭遇归因为受害人的内部因素</p>
+<ul>
+<li>“公平世界信念”：人们倾向于相信世界是公平的，好人会得到好报，坏人会受到惩罚，当这种信念受到挑战时，人们可能会作出防御性的归因</li>
+</ul>
+<h3 id="归因的文化差异">归因的文化差异</h3>
+<blockquote>
+<p>Richard Nisbett、彭凯平等人的研究表明，东西方人在归因时有一些差异</p>
+</blockquote>
+<ul>
+<li><p><strong><code>整体性思维 holistic thinking</code></strong>：将客体和环境作为一个整体来加工</p></li>
+<li><p><strong><code>分析性思维 analytic thinking</code></strong>：从环境中分离出客体，将其作为独立的实体来加工</p></li>
+</ul>
+<p>归因的差异：东方人更倾向于外部归因，西方人更倾向于内部归因</p>
+<ul>
+<li>研究结果：东方人更关注情境因素，从而<strong>更易于避免基本归因错误</strong></li>
+</ul>
+<p><img src = "https://s2.loli.net/2024/03/14/SXYvuprPUFNGmD3.jpg" width = 600></p>
+<h2 id="思维启发式">思维启发式</h2>
+<blockquote>
+<p>Herbert Simon，有限理性(bonded reasonality)概念： -
+人们做决策时只能具备有限的理性 -
+人们做出的选择是满意的(satisfactory)，而不是最优的(optimal)</p>
+</blockquote>
+<p><strong><code>启发式 Heuristic</code></strong>：一些允许人们作出高效决策的思维捷径，但也可能导致认知偏差</p>
+<p><strong>常见思维的启发式</strong>：</p>
+<ul>
+<li><p><strong><code>满意启发式 satisficing heuristic</code></strong>：面对决策问题时，持续搜索代替选项，达到满意阈值</p>
+<ul>
+<li>人格因素：最优化决策风格 vs 满意型决策风格</li>
+</ul></li>
+<li><p><strong><code>可提取性启发式 available heuristic</code></strong>：根据事物在记忆中的提取难易程度来判断其可能性</p>
+<blockquote>
+<p>坐飞机和坐火车，哪个事故率更高？</p>
+<p>关于飞机事故的报道更多</p>
+</blockquote></li>
+<li><p><strong><code>代表性启发式 representativeness heuristic</code></strong>：如果某人与某个群体的典型特征相似，则推定此人属于该群体</p>
+<ul>
+<li>使用这种启发式时，可能会忽略
+<strong><code>基线比率信息 base rate information</code></strong>
+(信息的缺失)</li>
+</ul></li>
+<li><p><strong><code>锚定启发式 anchoring heuristic</code></strong>：人们在做判断时，可能会受到一个锚定点或参照点的影响</p></li>
+</ul>
+<h2 id="进化视角下的社会认知">进化视角下的社会认知</h2>
+<p><strong>效率与准确率的权衡</strong></p>
+<ul>
+<li>社会认知的基本原则之一：以效率为先，不求一定准确</li>
+<li>各种“偏差”、“偏见”、“误区”，可能都是<strong>进化而来的适应性策略</strong>：在效率和准确率之间找到平衡点</li>
+</ul>
+<p><strong>原始大脑与“时代病”</strong></p>
+<ul>
+<li><p>人类的大脑在百万年的“狩猎-采集者”生活方式中进化而来，但是近两百年的社会高速发展使大脑的进化速度被远远甩在后面</p></li>
+<li><p><strong>各种“时代病”的根源</strong></p>
+<blockquote>
+<p>New Type —— 新的希望！</p>
+</blockquote></li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li
+id="fn1"><p>抑郁患者常见的归因风格，把好事归结为外部、临时、具体因素，把坏事归结为内部、持久、普遍因素<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 ]]></content>
       <categories>
         <category>往日之影</category>
