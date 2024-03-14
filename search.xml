@@ -1,119 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>计算成像导论</title>
-    <url>/2024/02/28/College/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F-%E4%BA%A4%E5%8F%89%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<p>参考书：</p>
-<blockquote>
-<p>《傅里叶光学导论》<a
-href="https://cowboy446.github.io/2024/02/01/College/计算成像/傅里叶光学导论/">（个人笔记）</a></p>
-</blockquote>
-<h1 id="lecture-1-显微成像概论">Lecture 1 显微成像概论</h1>
-<p>成像技术：传统视频--多维多尺度视频--智能计算成像</p>
-<p>全光函数：<span
-class="math inline">\(f(x,y,z,L,\lambda,t)\)</span>，恢复更多高维信息</p>
-<p>计算成像：Encode-Decode</p>
-<h2 id="现代显微成像">现代显微成像</h2>
-<p><strong>免疫荧光染色</strong></p>
-<blockquote>
-<p>Photons不是越多越好</p>
-</blockquote>
-<ul>
-<li>减弱背景荧光：confocal microscopy 单光子共聚焦--&gt;静态光学层析
-<ul>
-<li>点扫描，需要提高成像速度</li>
-<li>提高速度：Line-scan（对二维背景光过滤能力下降）/Spinning disk</li>
-</ul></li>
-<li>提高穿透：双光子/多光子
-<ul>
-<li>波长长的入射光穿透能力更强（指数级别），但还要考虑water
-absorption</li>
-<li>也是点扫描</li>
-<li>非线性激活，能量平方关系--&gt;聚焦面荧光效果最好，去除杂散光，光学层析</li>
-<li>基本限制：背景荧光噪声--&gt;
-三光子：更显著地抑制背景荧光，需要更强的能量——Sample Health</li>
-</ul></li>
-<li>降低光毒性 Photontoxic
-<ul>
-<li>长波长光</li>
-<li>低峰值光强，长时间曝光</li>
-<li>脉冲激光</li>
-<li>光片显微镜 Light-sheet microscopy，有效利用所有光子</li>
-</ul></li>
-</ul>
-<p><strong>活体介观显微成像？</strong></p>
-<p>细胞 --&gt; 器官尺度。</p>
-<h1 id="lecture-2-成像系统设计">Lecture 2 成像系统设计</h1>
-<h2 id="基本参数">基本参数</h2>
-<p><code>放大倍数</code>：<span class="math inline">\(M =
-\frac{f_{\text{image}}}{f_{\text{obj}}}\)</span></p>
-<p><code>空间分辨率</code>：衍射极限， <span class="math inline">\(d =
-\frac{\lambda}{2n\mathrm{sin}\theta}\)</span>，限制采样极限</p>
-<p><code>数值孔径 Numerical Aperture</code>：<span
-class="math inline">\(NA = n\mathrm{sin}\theta\)</span></p>
-<ul>
-<li><span class="math inline">\(NA\)</span>是透镜固有属性，<span
-class="math inline">\(\theta\)</span>是从透镜的光轴到透镜能够接收到的最边缘的光线的角度。</li>
-<li><span
-class="math inline">\(NA\)</span>越大，透镜接收光的能力越强，分辨率越高</li>
-</ul>
-<p><code>景深 Depth of field</code>：<span class="math inline">\(d_{tot}
-= \frac{\lambda n}{NA^2}+\frac{n}{M \cdot NA}e\)</span></p>
-<p><img src = "https://s2.loli.net/2024/03/12/fu6HCMBi9AeQ2WO.png" width = 300></p>
-<p><code>视场大小/视野 Field of View</code>：通常是视场角</p>
-<p><strong>物镜</strong></p>
-<p><img src = "https://s2.loli.net/2024/03/12/HiMqfWGgyvKO2nc.png" width = 400></p>
-<h2 id="系统设计流程">系统设计流程</h2>
-<hr />
-<p><strong>简单显微系统</strong></p>
-<ul>
-<li>视野大小/放大倍数</li>
-<li>分辨率</li>
-<li>工作波长</li>
-<li>工作距离</li>
-<li>景深/轴向分辨率</li>
-</ul>
-<p><strong>相机</strong></p>
-<ul>
-<li>像素数（2*视野/分辨率）</li>
-<li>采集速度</li>
-<li>量子效率、读出噪声</li>
-<li>尺寸</li>
-</ul>
-<hr />
-<h3 id="光学系统的设计">光学系统的设计</h3>
-<p><strong><code>4f system</code></strong>：<span
-class="math inline">\(M = \frac{f_d}{f}\)</span></p>
-<p><img src = "https://s2.loli.net/2024/03/12/gTKo6ZS47X5U8IG.png" width = 650></p>
-<p>级联
-<img src = "https://s2.loli.net/2024/03/12/YgIdcLvVX2qKZaQ.png" width = 600></p>
-<p>轴向间隔（景深）以<span class="math inline">\(M^2\)</span>变化
-<img src = "https://s2.loli.net/2024/03/12/XUojbWOmJT2rSD6.png" width = 600></p>
-<blockquote>
-<p>实际设计</p>
-<ul>
-<li>缩小孔径，增大F数以减小相差（亮度，景深，图像质量的trade-off）</li>
-<li>同样尺寸的镜头，焦距越长越好</li>
-</ul>
-<p>系统设计软件：Zemax，Sequential设计&amp;快速优化</p>
-</blockquote>
-<h3 id="光学系统的搭建">光学系统的搭建</h3>
-<p><img src = "https://s2.loli.net/2024/03/13/G9l6KVjF5AgEudD.png" width = 600></p>
-]]></content>
-      <categories>
-        <category>往日之影</category>
-        <category>枫丹科学院纪事</category>
-        <category>24 Spring</category>
-        <category>Imaging</category>
-        <category>课上拾枝</category>
-        <category>Engineering</category>
-      </categories>
-      <tags>
-        <tag>Imaging</tag>
-        <tag>Microscopy</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>社会心理学</title>
     <url>/2024/02/29/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</url>
     <content><![CDATA[<p>参考书：</p>
@@ -142,9 +29,8 @@ of Society：社会场景下的个体</p>
 <ul>
 <li>人格心理学：个体差异的影响，人格解释；</li>
 <li>社会心理学：社会情境的影响，情境解释；</li>
-<li>基本归因错误 fundamental attribution
-error：强调个体差异的解释，忽略了情境因素</li>
 </ul></li>
+<li><p><strong><code>基本归因错误 fundamental attribution error</code></strong>：强调个体差异的解释，忽略了情境因素</p></li>
 </ul>
 <p><strong>情境，人格与行为</strong> <span class="math display">\[B =
 f(P, E)\]</span></p>
@@ -322,6 +208,125 @@ href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课
 <p><strong><code>信息茧房 information cocoon</code></strong>
 技术的繁荣反而强化了人的确证偏差，而没有致力于促进偏见的消除</p>
 </blockquote>
+<h2 id="归因">归因</h2>
+<p><strong><code>归因 Attribution</code></strong>：人们如何解释自己和他人的行为</p>
+<blockquote>
+<p>Fritz Heider：开创了社会心理学的归因研究</p>
+<p>Heider 认为每个人都会通过朴素或常识的心理学理论来解释他人的行为</p>
+</blockquote>
+<p><strong>最重要的归因维度：内部归因&amp;外部归因</strong></p>
+<ul>
+<li><strong><code>内部归因（禀赋归因）</code></strong>：将行为归因于个体内因素，如人格、态度、能力
+&gt; 我没认真听 ≠ 我菜</li>
+<li><strong><code>外部归因（情境归因）</code></strong>：将行为归因于外部因素，如任务难度、运气、其他人的影响
+&gt; 什么垃圾给分，一定是体制的问题。</li>
+</ul>
+<h3 id="归因的思维过程">归因的思维过程</h3>
+<blockquote>
+<p>Kelley
+提出共变模型解释归因的思维过程（<em>该理论基于理性人假设</em>），认为人们在归因时会考虑三种信息：</p>
+</blockquote>
+<p><strong><code>共识性信息 Consensus Information</code></strong>：其他人对相同的刺激对象是否做出相似的反应</p>
+<ul>
+<li>高共识性：刺激对象是主要原因</li>
+<li>低共识性：行动者是主要原因</li>
+</ul>
+<p><strong><code>特殊性信息 Distinctiveness Information</code></strong>：行为者对其他人是否做出相似的反应</p>
+<ul>
+<li>高特殊性：刺激对象是主要原因</li>
+<li>低特殊性：行动者是主要原因</li>
+</ul>
+<p><strong><code>一致性信息 Consistency Information</code></strong>：行为者在不同时间和情境下是否做出相似的反应</p>
+<ul>
+<li>高一致性：参考另外两种信息</li>
+<li>低一致性：归因为偶然因素</li>
+</ul>
+<table>
+<caption>
+<strong>共变模型</strong>
+</caption>
+<tr>
+<th>
+共识性
+</th>
+<th>
+特殊性
+</th>
+<th>
+一致性
+</th>
+<th>
+结论
+</th>
+</tr>
+<tr>
+<td>
+低
+</td>
+<td>
+低
+</td>
+<td>
+高
+</td>
+<td>
+（行动者）内部归因
+</td>
+</tr>
+<tr>
+<td>
+高
+</td>
+<td>
+高
+</td>
+<td>
+高
+</td>
+<td>
+（行动者）外部归因
+</td>
+</tr>
+<tr>
+<td>
+高或低
+</td>
+<td>
+高或低
+</td>
+<td>
+低
+</td>
+<td>
+偶然因素
+</td>
+</tr>
+</table>
+<p><strong>对共变模型的评价：</strong></p>
+<ul>
+<li><p>人不一定能保持理性或获得需要的信息，常常快速、粗糙地判断</p></li>
+<li><p>尽管如此，所描述的机制在许多时候是适用的</p></li>
+</ul>
+<h3 id="常见的归因偏差">常见的归因偏差</h3>
+<p><strong>1.
+<code>基本归因错误 Fundamental Attribution Error</code></strong>：过度强调个体差异的解释，忽略了情境因素</p>
+<ul>
+<li>可以理解为一种普遍的图示：人们的行为源于他们是什么样的人，而不是他们所处的情境</li>
+<li><strong><code>知觉显著性偏差 perceptual salience bias</code></strong>：人们通常将注意力集中在人的身上，而忽略了情境</li>
+</ul>
+<p><code>两阶段归因过程</code>：归因过程分为两个阶段，第一个阶段为自动化的内部归因，第二个阶段在此基础上调整，需要有意识的努力</p>
+<pre class="mermaid">graph LR
+A[观察到行为] -->|自动化过程| B[阶段一 内部归因]
+B -->|缺少时间、精力或动机| C[结束]
+B -->|有时间、精力或动机| D[阶段二 考虑其他解释]
+D -->E[调整初步归因]
+E -->C</pre>
+<p><strong>2.
+<code>自利归因偏差 Self-serving Bias</code></strong>：将成功归因为内部因素，将失败归因为外部因素</p>
+<ul>
+<li><strong><code>自我增强 Self-enhancement</code></strong>：一种常见的动机，是自己自我感觉良好，维护自己的自尊</li>
+<li><strong><code>印象管理 Impression Management</code></strong>：一种常见的策略，是为了给他人留下好印象，而对自己的行为进行解释（公开的自利归因）</li>
+</ul>
 ]]></content>
       <categories>
         <category>往日之影</category>
@@ -331,6 +336,119 @@ href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课
       </categories>
       <tags>
         <tag>Psychology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算成像导论</title>
+    <url>/2024/02/28/College/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F-%E4%BA%A4%E5%8F%89%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>参考书：</p>
+<blockquote>
+<p>《傅里叶光学导论》<a
+href="https://cowboy446.github.io/2024/02/01/College/计算成像/傅里叶光学导论/">（个人笔记）</a></p>
+</blockquote>
+<h1 id="lecture-1-显微成像概论">Lecture 1 显微成像概论</h1>
+<p>成像技术：传统视频--多维多尺度视频--智能计算成像</p>
+<p>全光函数：<span
+class="math inline">\(f(x,y,z,L,\lambda,t)\)</span>，恢复更多高维信息</p>
+<p>计算成像：Encode-Decode</p>
+<h2 id="现代显微成像">现代显微成像</h2>
+<p><strong>免疫荧光染色</strong></p>
+<blockquote>
+<p>Photons不是越多越好</p>
+</blockquote>
+<ul>
+<li>减弱背景荧光：confocal microscopy 单光子共聚焦--&gt;静态光学层析
+<ul>
+<li>点扫描，需要提高成像速度</li>
+<li>提高速度：Line-scan（对二维背景光过滤能力下降）/Spinning disk</li>
+</ul></li>
+<li>提高穿透：双光子/多光子
+<ul>
+<li>波长长的入射光穿透能力更强（指数级别），但还要考虑water
+absorption</li>
+<li>也是点扫描</li>
+<li>非线性激活，能量平方关系--&gt;聚焦面荧光效果最好，去除杂散光，光学层析</li>
+<li>基本限制：背景荧光噪声--&gt;
+三光子：更显著地抑制背景荧光，需要更强的能量——Sample Health</li>
+</ul></li>
+<li>降低光毒性 Photontoxic
+<ul>
+<li>长波长光</li>
+<li>低峰值光强，长时间曝光</li>
+<li>脉冲激光</li>
+<li>光片显微镜 Light-sheet microscopy，有效利用所有光子</li>
+</ul></li>
+</ul>
+<p><strong>活体介观显微成像？</strong></p>
+<p>细胞 --&gt; 器官尺度。</p>
+<h1 id="lecture-2-成像系统设计">Lecture 2 成像系统设计</h1>
+<h2 id="基本参数">基本参数</h2>
+<p><code>放大倍数</code>：<span class="math inline">\(M =
+\frac{f_{\text{image}}}{f_{\text{obj}}}\)</span></p>
+<p><code>空间分辨率</code>：衍射极限， <span class="math inline">\(d =
+\frac{\lambda}{2n\mathrm{sin}\theta}\)</span>，限制采样极限</p>
+<p><code>数值孔径 Numerical Aperture</code>：<span
+class="math inline">\(NA = n\mathrm{sin}\theta\)</span></p>
+<ul>
+<li><span class="math inline">\(NA\)</span>是透镜固有属性，<span
+class="math inline">\(\theta\)</span>是从透镜的光轴到透镜能够接收到的最边缘的光线的角度。</li>
+<li><span
+class="math inline">\(NA\)</span>越大，透镜接收光的能力越强，分辨率越高</li>
+</ul>
+<p><code>景深 Depth of field</code>：<span class="math inline">\(d_{tot}
+= \frac{\lambda n}{NA^2}+\frac{n}{M \cdot NA}e\)</span></p>
+<p><img src = "https://s2.loli.net/2024/03/12/fu6HCMBi9AeQ2WO.png" width = 300></p>
+<p><code>视场大小/视野 Field of View</code>：通常是视场角</p>
+<p><strong>物镜</strong></p>
+<p><img src = "https://s2.loli.net/2024/03/12/HiMqfWGgyvKO2nc.png" width = 400></p>
+<h2 id="系统设计流程">系统设计流程</h2>
+<hr />
+<p><strong>简单显微系统</strong></p>
+<ul>
+<li>视野大小/放大倍数</li>
+<li>分辨率</li>
+<li>工作波长</li>
+<li>工作距离</li>
+<li>景深/轴向分辨率</li>
+</ul>
+<p><strong>相机</strong></p>
+<ul>
+<li>像素数（2*视野/分辨率）</li>
+<li>采集速度</li>
+<li>量子效率、读出噪声</li>
+<li>尺寸</li>
+</ul>
+<hr />
+<h3 id="光学系统的设计">光学系统的设计</h3>
+<p><strong><code>4f system</code></strong>：<span
+class="math inline">\(M = \frac{f_d}{f}\)</span></p>
+<p><img src = "https://s2.loli.net/2024/03/12/gTKo6ZS47X5U8IG.png" width = 650></p>
+<p>级联
+<img src = "https://s2.loli.net/2024/03/12/YgIdcLvVX2qKZaQ.png" width = 600></p>
+<p>轴向间隔（景深）以<span class="math inline">\(M^2\)</span>变化
+<img src = "https://s2.loli.net/2024/03/12/XUojbWOmJT2rSD6.png" width = 600></p>
+<blockquote>
+<p>实际设计</p>
+<ul>
+<li>缩小孔径，增大F数以减小相差（亮度，景深，图像质量的trade-off）</li>
+<li>同样尺寸的镜头，焦距越长越好</li>
+</ul>
+<p>系统设计软件：Zemax，Sequential设计&amp;快速优化</p>
+</blockquote>
+<h3 id="光学系统的搭建">光学系统的搭建</h3>
+<p><img src = "https://s2.loli.net/2024/03/13/G9l6KVjF5AgEudD.png" width = 600></p>
+]]></content>
+      <categories>
+        <category>往日之影</category>
+        <category>枫丹科学院纪事</category>
+        <category>24 Spring</category>
+        <category>Imaging</category>
+        <category>课上拾枝</category>
+        <category>Engineering</category>
+      </categories>
+      <tags>
+        <tag>Imaging</tag>
+        <tag>Microscopy</tag>
       </tags>
   </entry>
   <entry>
