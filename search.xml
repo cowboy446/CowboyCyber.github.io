@@ -548,6 +548,136 @@ A.T</font>立场全开！ </font></p>
 <p>2013年，牛津词典将selfie评为年度词汇</p>
 </blockquote></li>
 </ul>
+<h1 id="lecture-5-态度与行为">Lecture 5 态度与行为</h1>
+<p><img src = "7138559-e8c8771c1728707f.webp" width = 500></p>
+<h2 id="态度">态度</h2>
+<h3 id="什么是态度">什么是态度</h3>
+<p><strong><code>态度</code></strong>：对特定目标的积极或消极的评价</p>
+<blockquote>
+<p>自尊是一种对自己的态度</p>
+</blockquote>
+<p><strong>态度的ABC模型</strong>：一般认为，态度是由三个互相联系的部分组成的，即<strong><code>态度的ABC模型</code></strong>：</p>
+<ul>
+<li><strong>Affective</strong> Component：情感成分</li>
+<li><strong>Behavioral</strong> Component：行为成分</li>
+<li><strong>Cognitive</strong> Component：认知成分</li>
+</ul>
+<blockquote>
+<p>地域歧视：</p>
+<ul>
+<li>A：对来自某地的人感到厌恶</li>
+<li>B：因为某人来自某地而拒绝招聘</li>
+<li>C：认为来自某地的人都是犯罪分子</li>
+</ul>
+<p><font color="purple">原神玩家是这样的。</font></p>
+</blockquote>
+<p><strong>态度的测量</strong></p>
+<ul>
+<li><p>传统上态度一般通过自我报告的方式来测量</p>
+<p><strong><code>李克特量表</code></strong>：心理测量学家李克特（Rensis
+Likert）的发明，通常为5点到7点的对称选项</p>
+<p><img src="image-2.png" /></p></li>
+<li><p>内隐态度测量</p>
+<ul>
+<li><p><code>内隐态度 implicit attitude</code>：个体自发的，无意识的评价</p></li>
+<li><p>主要测量方法：<code>内隐联想测试 IAT（Implicit Association Test）</code></p>
+<blockquote>
+<p><strong>IAT</strong>
+是一种用于测量个体内隐态度的心理学测试方法，通过测量个体对两个概念的反应时间来判断个体对这两个概念的态度。</p>
+<p>例如，通过测量个体对“黑人”和“白人”两个概念的反应时间来判断个体对黑人和白人的态度。</p>
+<p>关于其含义的解读存在争议：是否真的是态度？是否真的是内隐的？</p>
+</blockquote></li>
+<li><p>内隐自尊：自我更容易与积极概念联系，而不是与消极概念联系</p></li>
+</ul></li>
+</ul>
+<p><strong>态度与行为的关系</strong></p>
+<ul>
+<li><p>许多研究发现，态度与行为之间的关系并不稳定，态度并不总是能够预测行为</p>
+<ul>
+<li>对作弊的态度并不能预测实际作弊行为</li>
+<li>对宗教的态度只能较弱地预测参加宗教活动的行为</li>
+<li>态度上反对种族歧视的人，对实际的歧视无动于衷</li>
+</ul></li>
+<li><p>态度与行为关系的复杂性：</p>
+<ul>
+<li>态度-行为之间存在复杂的交互影响，社会心理学中存在不同理论来刻画这些影响</li>
+<li><strong>态度影响行为</strong>：计划行为理论</li>
+<li><strong>行为影响态度</strong>：认知失调理论</li>
+</ul></li>
+</ul>
+<h2 id="态度影响行为计划行为理论">态度影响行为：计划行为理论</h2>
+<h3 id="理性行动理论">理性行动理论</h3>
+<p><strong><code>理性行动理论 Rational Action Theory</code></strong>：描述了人们如何根据自己的态度和主观规范来决定是否采取某种行为</p>
+<pre class="mermaid">graph LR
+    A[态度：润是不是好事] --> B[行为意图：润的意愿]
+    C[主观规范：同学是不是都要润] --> B
+    B --> D[行为：毕业之后润不润]</pre>
+<ul>
+<li><strong>态度</strong>：态度越积极，行为意图越强</li>
+<li><strong><code>主观规范 subjective norm</code></strong>：感知到的开展或不开展这种行为的社会压力</li>
+<li><strong><code>行为意图 behavior intention</code></strong>：开展某项行为的意图在前因变量和实际行为之间起到了中介作用</li>
+<li>对于不同人而言，主观规范和态度所占的权重不同</li>
+</ul>
+<h3 id="计划行为理论">计划行为理论</h3>
+<p><strong><code>计划行为理论 Theory of Planned Behavior</code></strong>：在理性行动理论的基础上，增加了对行为控制的考虑</p>
+<pre class="mermaid">graph LR
+    A[态度：润是不是好事] --> B[行为意图：润的意愿]
+    C[主观规范：同学是不是都要润] --> B
+    E[<font color = red>行为控制：容不容易润</font>] --> B
+    B --> D[行为：毕业之后润不润]
+    E --> D</pre>
+<ul>
+<li><strong>行为控制</strong>：个体对行为的控制程度，包括行为的难易程度、行为的自我效能等</li>
+</ul>
+<p><strong>计划行为理论的影响与评价</strong></p>
+<ul>
+<li><p>态度行为研究中最有影响力的理论框架，被广泛应用于许多领域，如政治、环境、健康等</p></li>
+<li><p>一些批评：</p>
+<ul>
+<li>忽略了动机、需求、情绪等因素的影响</li>
+<li>前因变量与行为之间的关系并不总是单向的</li>
+</ul></li>
+</ul>
+<h2 id="行为影响态度认知失调理论">行为影响态度：认知失调理论</h2>
+<p><strong>认知失调理论的提出</strong></p>
+<ul>
+<li><p>Leon Festinger，1957年提出</p>
+<p><img src="cover387_20240328191110.jpg" /></p></li>
+</ul>
+<p><strong><code>认知失调 cognitive dissonance</code></strong>：当头脑中两种认知存在冲突时，我们会感到不适，并会采取措施减少这种不适感</p>
+<h3
+id="认知失调视角下的态度-行为关系">认知失调视角下的态度-行为关系</h3>
+<p>根据认知失调，当态度和行为出现矛盾时，个体可能会采取多种措施化解失调</p>
+<ul>
+<li>改变行为：戒烟</li>
+<li>改变认知：专家都是胡扯</li>
+<li>引入新认知：吸烟缓解压力</li>
+<li>选择性暴露信息：戒了健康节目</li>
+</ul>
+<p><strong>相关现象</strong></p>
+<ul>
+<li>合理化不足</li>
+<li>对努力的合理化
+<ul>
+<li>既然已经付出了努力，那么这个结果一定是值得的</li>
+</ul></li>
+<li><code>决策后失调 post-decision dissonance</code>：在多个吸引力相似的选项之间作出选择后，因可能选错而感到不安
+<ul>
+<li>后果：对所选选项的评价更高，对未选选项的评价更低</li>
+</ul></li>
+</ul>
+<h3 id="自我感知理论">自我感知理论</h3>
+<p><strong><code>自我感知理论 self-perception theory</code></strong>：认知失调理论的竞争理论，认为个体通过观察自己的行为来了解自己的态度（<em>没有先验的态度</em>）</p>
+<p><strong><code>过度合理化效应</code></strong>：如果人们因喜爱而做某事，给予外部报酬会降低他们对这项活动的兴趣</p>
+<pre class="mermaid">graph TB
+    A[喜欢的活动] --> B[无报酬]
+    A --> C[给予外部报酬]
+    
+    B --> |自我感知| D[内部动机]
+    D --> |增强| A
+    C --> |自我感知| E[外部动机]
+    
+    E --> |减弱| A</pre>
 <section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
@@ -1447,149 +1577,137 @@ alt="图片.png" />
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/03/21/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E8%87%AA%E6%88%91/</url>
-    <content><![CDATA[<blockquote>
-<p><font color = #034C7A face = 楷体><font face = times>
-A.T</font>立场全开！ </font></p>
+    <title>5</title>
+    <url>/2024/03/28/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/5/</url>
+    <content><![CDATA[<p><img src="7138559-e8c8771c1728707f.webp" /></p>
+<h2 id="态度">态度</h2>
+<h3 id="什么是态度">什么是态度</h3>
+<p><strong><code>态度</code></strong>：对特定目标的积极或消极的评价</p>
+<blockquote>
+<p>自尊是一种对自己的态度</p>
 </blockquote>
-<h2 id="自我">自我？</h2>
-<p><strong><code>自我</code></strong>：哲学和心理学探讨最多的话题之一，但是没有一个统一的定义。</p>
-<p><strong>自我的进化来源</strong></p>
+<p><strong>态度的ABC模型</strong>：一般认为，态度是由三个互相联系的部分组成的，即<strong><code>态度的ABC模型</code></strong>：</p>
 <ul>
-<li>人类的自我意识是在进化过程中逐渐形成的，具有进化轨迹，而非突然出现</li>
-<li>测量动物是否具有自我意识的方法：镜像自我认知测试
+<li><strong>Affective</strong> Component：情感成分</li>
+<li><strong>Behavioral</strong> Component：行为成分</li>
+<li><strong>Cognitive</strong> Component：认知成分</li>
+</ul>
+<blockquote>
+<p>地域歧视：</p>
 <ul>
-<li>人类两岁后可以通过测试；黑猩猩、恒河猴、亚洲象、海豚、小鼠等哺乳动物；欧洲喜鹊、裂唇鱼等非哺乳动物。</li>
-<li><font color = red><em>未通过测试的动物是否真的没有自我意识？</em></font></li>
+<li>A：对来自某地的人感到厌恶</li>
+<li>B：因为某人来自某地而拒绝招聘</li>
+<li>C：认为来自某地的人都是犯罪分子</li>
+</ul>
+<p><font color="purple">原神玩家是这样的。</font></p>
+</blockquote>
+<p><strong>态度的测量</strong></p>
+<ul>
+<li><p>传统上态度一般通过自我报告的方式来测量</p>
+<p><strong><code>李克特量表</code></strong>：心理测量学家李克特（Rensis
+Likert）的发明，通常为5点到7点的对称选项</p>
+<p><img src="image-2.png" /></p></li>
+<li><p>内隐态度测量</p>
+<ul>
+<li><p><code>内隐态度 implicit attitude</code>：个体自发的，无意识的评价</p></li>
+<li><p>主要测量方法：<code>内隐联想测试 IAT（Implicit Association Test）</code></p>
+<blockquote>
+<p><strong>IAT</strong>
+是一种用于测量个体内隐态度的心理学测试方法，通过测量个体对两个概念的反应时间来判断个体对这两个概念的态度。</p>
+<p>例如，通过测量个体对“黑人”和“白人”两个概念的反应时间来判断个体对黑人和白人的态度。</p>
+<p>关于其含义的解读存在争议：是否真的是态度？是否真的是内隐的？</p>
+</blockquote></li>
+<li><p>内隐自尊：自我更容易与积极概念联系，而不是与消极概念联系</p></li>
 </ul></li>
 </ul>
-<p><strong>人类自我的特点</strong></p>
+<p><strong>态度与行为的关系</strong></p>
 <ul>
-<li>多维度：人类的自我由许多性质和功能不同的部分组合成，这些部分构成了一个多维度、多层次的结构</li>
-<li>社会性：天然具有社会属性，与个体所属的社会情境紧密交织</li>
-</ul>
-<h2 id="自我图式">自我图式</h2>
-<p><strong><code>自我图式 self-schemata</code></strong>：一个人关于自己的知识</p>
-<blockquote>
-<p><em>我是_____。</em></p>
-</blockquote>
-<p>自我图示不会涵盖一个人的所有方面，而是反映了个体和社会环境最看重的方面
-- 少数族裔成员可能拥有种族自我图式，也可能没有</p>
-<p><strong>自我图式的影响</strong></p>
-<p>自我图式不一定客观准确，但会影响到我们对于自我相关信息的加工</p>
-<p><strong>关系自我</strong></p>
+<li><p>许多研究发现，态度与行为之间的关系并不稳定，态度并不总是能够预测行为</p>
 <ul>
-<li>自我图式不仅包括一般性的自我知识，也包括特定社会情境下的自我知识</li>
-<li>关系情境是最重要的社会情境之一</li>
-<li><strong><code>关系自我 relational self</code></strong>：与重要的人际关系相关的自我知识</li>
-</ul>
-<p><strong>文化差异</strong></p>
+<li>对作弊的态度并不能预测实际作弊行为</li>
+<li>对宗教的态度只能较弱地预测参加宗教活动的行为</li>
+<li>态度上反对种族歧视的人，对实际的歧视无动于衷</li>
+</ul></li>
+<li><p>态度与行为关系的复杂性：</p>
 <ul>
-<li><p><strong>关系自我一致性</strong>：东方人相比于西方人，在不同关系中的自我一致性更低，并且这种低跨关系一致性对心理健康的负面影响也较小</p>
-<p><img src="image.png" /></p></li>
-<li><p><strong>独立-互依自我结构</strong>：我们如何看待自我和他人的关系也受文化影响</p>
+<li>态度-行为之间存在复杂的交互影响，社会心理学中存在不同理论来刻画这些影响</li>
+<li><strong>态度影响行为</strong>：计划行为理论</li>
+<li><strong>行为影响态度</strong>：认知失调理论</li>
+</ul></li>
+</ul>
+<h2 id="态度影响行为计划行为理论">态度影响行为：计划行为理论</h2>
+<h3 id="理性行动理论">理性行动理论</h3>
+<p><strong><code>理性行动理论 Rational Action Theory</code></strong>：描述了人们如何根据自己的态度和主观规范来决定是否采取某种行为</p>
+<pre class="mermaid">graph LR
+    A[态度：润是不是好事] --> B[行为意图：润的意愿]
+    C[主观规范：同学是不是都要润] --> B
+    B --> D[行为：毕业之后润不润]</pre>
 <ul>
-<li><code>独立型 independent self-construal</code>：自我独立于社会环境，通过个体内部属性定义自我</li>
-<li><code>互依型 interdependent self-construal</code>：自我融入在社会环境中，通过社会身份定义自我，强调社会关系和谐</li>
+<li><strong>态度</strong>：态度越积极，行为意图越强</li>
+<li><strong><code>主观规范 subjective norm</code></strong>：感知到的开展或不开展这种行为的社会压力</li>
+<li><strong><code>行为意图 behavior intention</code></strong>：开展某项行为的意图在前因变量和实际行为之间起到了中介作用</li>
+<li>对于不同人而言，主观规范和态度所占的权重不同</li>
 </ul>
-<blockquote>
-<p>possibilities：地理决定论的演化过程；一部分刻在基因上</p>
-</blockquote>
-<p><img src="image-1.png" /></p></li>
-</ul>
-<h2 id="自尊-自我增强">自尊 &amp; 自我增强</h2>
-<h3 id="自尊">自尊</h3>
-<p><strong><code>自尊 self-esteem</code></strong>：个体对自己的总体评价</p>
+<h3 id="计划行为理论">计划行为理论</h3>
+<p><strong><code>计划行为理论 Theory of Planned Behavior</code></strong>：在理性行动理论的基础上，增加了对行为控制的考虑</p>
+<pre class="mermaid">graph LR
+    A[态度：润是不是好事] --> B[行为意图：润的意愿]
+    C[主观规范：同学是不是都要润] --> B
+    E[<font color = red>行为控制：容不容易润</font>] --> B
+    B --> D[行为：毕业之后润不润]
+    E --> D</pre>
 <ul>
-<li><code>整体自尊 global self-esteem</code></li>
-<li><code>特定自尊 domain self-esteem</code>：对自己在特定领域的评价</li>
+<li><strong>行为控制</strong>：个体对行为的控制程度，包括行为的难易程度、行为的自我效能等</li>
 </ul>
-<p><strong>自尊的进化基础</strong></p>
+<p><strong>计划行为理论的影响与评价</strong></p>
 <ul>
-<li>根据社会计量假设，自尊本质上是一种内在、主观的指数，它反映了他人对我们的评价，以及我们被他人接纳或排斥的可能性（Leary
-&amp; Baumeister, 2000）</li>
-<li>人作为社会性动物，需要快速评估自己的社会表现，因此进化出自尊这种心理功能</li>
-</ul>
-<h3 id="自我增强">自我增强</h3>
-<p><strong><code>自我增强 self-enhancement</code></strong>：使自己自我感觉良好，维持积极自尊的倾向。是一种普遍的心理现象，导致一系列行为结果：</p>
+<li><p>态度行为研究中最有影响力的理论框架，被广泛应用于许多领域，如政治、环境、健康等</p></li>
+<li><p>一些批评：</p>
 <ul>
-<li><p>自利归因</p></li>
-<li><p><code>比平均更好效应 better-than-average effect</code>：大多数人认为自己在积极特质上高于平均水平</p></li>
-<li><p><code>虚假一致性效应 false consensus effect</code>：人们倾向于高估别人对自己所持立场的支持程度</p></li>
-<li><p><code>虚假独特性效应 false uniqueness effect</code>：对于自身属性、能力或成就，低估了其在人群中的普遍程度</p>
-<blockquote>
-<p>虚假一致性 vs 虚假独特性？</p>
+<li>忽略了动机、需求、情绪等因素的影响</li>
+<li>前因变量与行为之间的关系并不总是单向的</li>
+</ul></li>
+</ul>
+<h2 id="行为影响态度认知失调理论">行为影响态度：认知失调理论</h2>
+<p><strong>认知失调理论的提出</strong></p>
 <ul>
-<li>对于失败或消极的事物，人们倾向于出现虚假一致性偏差；</li>
-<li>对于成功或积极的事物，人们倾向于出现虚假独特性偏差</li>
+<li><p>Leon Festinger，1957年提出</p>
+<p><img src="cover387_20240328191110.jpg" /></p></li>
 </ul>
-<p><strong>本质上都服务于自我增强动机</strong>，目的是为了让我们感觉更好</p>
-</blockquote></li>
-</ul>
-<p><strong><code>自我肯定理论 self-affirmation theory</code></strong>：当人们遇到威胁自我形象的事情时，会通过强化自己在其他领域的自尊来缓解这种威胁</p>
-<p><strong>关于自我增强的文化差异的争议</strong></p>
-<p>2000年代初，有研究发现，东亚文化中的人们似乎没有西方人那样的自我增强倾向，甚至有自我贬低的倾向。这一发现引发了学术界的广泛讨论。</p>
-<blockquote>
-<p>观点1：自我增强动机只存在于西方个人主义文化，在东方集体主义文化中存在的是<strong>自我批评</strong>（Heine，1999）</p>
-<p>观点2：东方文化也有自我增强动机，但增强的是集体主义文化所看重的特质（Sedikides，2003）</p>
-<p>观点3：东方文化也有自我增强，但被谦虚的文化规范所掩盖（Kurman，2001）</p>
-</blockquote>
-<p><strong><code>自我验证理论 self-verification theory</code></strong>：我们并不总是追求积极的自我印象，有时我们也追求准确的自我认知（人们会努力使他人确证我们固有的自我信念，无论积极还是消极）</p>
+<p><strong><code>认知失调 cognitive dissonance</code></strong>：当头脑中两种认知存在冲突时，我们会感到不适，并会采取措施减少这种不适感</p>
+<h3
+id="认知失调视角下的态度-行为关系">认知失调视角下的态度-行为关系</h3>
+<p>根据认知失调，当态度和行为出现矛盾时，个体可能会采取多种措施化解失调</p>
 <ul>
-<li><p>关注与自我信念一致的信息</p>
-<blockquote>
-<p>持有负面自我信念的人，更倾向于关注别人负面的评价</p>
-</blockquote></li>
-<li><p>建立与自我信念一致的关系</p>
-<blockquote>
-<p>恋人对彼此的看法一致时，关系的投入度更高，即使看法是负面的</p>
-</blockquote></li>
+<li>改变行为：戒烟</li>
+<li>改变认知：专家都是胡扯</li>
+<li>引入新认知：吸烟缓解压力</li>
+<li>选择性暴露信息：戒了健康节目</li>
 </ul>
-<h1 id="社会情境下的自我">社会情境下的自我</h1>
-<h2 id="社会比较">社会比较</h2>
-<p><strong><code>社会比较 social comparison</code></strong></p>
+<p><strong>相关现象</strong></p>
 <ul>
-<li><code>上行/向上比较 upward comparison</code>：与比自己更优秀的人比较</li>
-<li><code>下行/向下比较 downward comparison</code>：与比自己更差的人比较</li>
-</ul>
-<p><strong>社会比较的后果</strong></p>
-<blockquote>
-<p>特奖，典</p>
-</blockquote>
+<li>合理化不足</li>
+<li>对努力的合理化
 <ul>
-<li>向下比较令人快乐；向上比较令人不快乐</li>
-<li>unfortunately，人们更倾向于向上比较</li>
-<li>这可以解释为什么物质财富的增加不一定带来幸福感的增加</li>
-</ul>
-<h2 id="我眼中的他人眼中的我">我眼中的他人眼中的我</h2>
-<p>我们对<strong>别人看待自己的方式</strong>的理解可能存在系统性的偏差</p>
+<li>既然已经付出了努力，那么这个结果一定是值得的</li>
+</ul></li>
+<li><code>决策后失调 post-decision dissonance</code>：在多个吸引力相似的选项之间作出选择后，因可能选错而感到不安
 <ul>
-<li><code>聚光灯效应 spotlight effect</code>：人们往往高估了别人对自己的关注程度</li>
-<li><code>透明感错觉 illusion of transparency</code>：人们往往高估了自己的内心体验对他人的可见程度</li>
+<li>后果：对所选选项的评价更高，对未选选项的评价更低</li>
+</ul></li>
 </ul>
-<h2 id="自我展示">自我展示</h2>
-<p><strong><code>自我展示 self-presentation</code></strong>：通过特定行为给别人留下积极印象</p>
-<ul>
-<li>自我展示可以视为印象管理的一个特例</li>
-<li><code>自我监督 self-monitoring</code>：个体对自己的行为进行监控，以便在不同情境中展示不同的自我</li>
-<li>高/低自我监督者</li>
-</ul>
-<p><strong><code>自我妨碍 self-handicapping</code></strong>：在面临可能失败的情境中，通过制造障碍来保护自己的自尊</p>
-<blockquote>
-<p>预计到自己考不好，于是不复习，以便将失败归因于缺乏努力</p>
-</blockquote>
-<ul>
-<li>是达成<strong>自我展示</strong>这一目的的策略</li>
-</ul>
-<p><strong>互联网上的自我展示</strong></p>
-<ul>
-<li><p>互联网上的自我展示是一种新的社会情境下的自我展示</p></li>
-<li><p>Web 2.0时代的代表性自我展示行为：自拍 selfie</p>
-<blockquote>
-<p>2013年，牛津词典将selfie评为年度词汇</p>
-</blockquote></li>
-</ul>
+<h3 id="自我感知理论">自我感知理论</h3>
+<p><strong><code>自我感知理论 self-perception theory</code></strong>：认知失调理论的竞争理论，认为个体通过观察自己的行为来了解自己的态度（<em>没有先验的态度</em>）</p>
+<p><strong><code>过度合理化效应</code></strong>：如果人们因喜爱而做某事，给予外部报酬会降低他们对这项活动的兴趣</p>
+<pre class="mermaid">graph TB
+    A[喜欢的活动] --> B[无报酬]
+    A --> C[给予外部报酬]
+    
+    B --> |自我感知| D[内部动机]
+    D --> |增强| A
+    C --> |自我感知| E[外部动机]
+    
+    E --> |减弱| A</pre>
 ]]></content>
   </entry>
   <entry>
