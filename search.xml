@@ -549,9 +549,10 @@ A.T</font>立场全开！ </font></p>
 </blockquote></li>
 </ul>
 <h1 id="lecture-5-态度与行为">Lecture 5 态度与行为</h1>
-<p><img src = "7138559-e8c8771c1728707f.webp" width = 500></p>
-<h2 id="态度">态度</h2>
-<h3 id="什么是态度">什么是态度</h3>
+<blockquote>
+<p><img src = "https://s2.loli.net/2024/03/28/WhRGpEYo1Ldn4iz.png" width = 300></p>
+</blockquote>
+<h2 id="态度">态度？</h2>
 <p><strong><code>态度</code></strong>：对特定目标的积极或消极的评价</p>
 <blockquote>
 <p>自尊是一种对自己的态度</p>
@@ -576,7 +577,7 @@ A.T</font>立场全开！ </font></p>
 <li><p>传统上态度一般通过自我报告的方式来测量</p>
 <p><strong><code>李克特量表</code></strong>：心理测量学家李克特（Rensis
 Likert）的发明，通常为5点到7点的对称选项</p>
-<p><img src="image-2.png" /></p></li>
+<p><img src = "https://s2.loli.net/2024/03/28/qOMZU8zYLbGJjPD.png" width = 700></p></li>
 <li><p>内隐态度测量</p>
 <ul>
 <li><p><code>内隐态度 implicit attitude</code>：个体自发的，无意识的评价</p></li>
@@ -605,7 +606,7 @@ Likert）的发明，通常为5点到7点的对称选项</p>
 <li><strong>行为影响态度</strong>：认知失调理论</li>
 </ul></li>
 </ul>
-<h2 id="态度影响行为计划行为理论">态度影响行为：计划行为理论</h2>
+<h2 id="态度影响行为">态度影响行为</h2>
 <h3 id="理性行动理论">理性行动理论</h3>
 <p><strong><code>理性行动理论 Rational Action Theory</code></strong>：描述了人们如何根据自己的态度和主观规范来决定是否采取某种行为</p>
 <pre class="mermaid">graph LR
@@ -638,15 +639,12 @@ Likert）的发明，通常为5点到7点的对称选项</p>
 <li>前因变量与行为之间的关系并不总是单向的</li>
 </ul></li>
 </ul>
-<h2 id="行为影响态度认知失调理论">行为影响态度：认知失调理论</h2>
-<p><strong>认知失调理论的提出</strong></p>
-<ul>
-<li><p>Leon Festinger，1957年提出</p>
-<p><img src="cover387_20240328191110.jpg" /></p></li>
-</ul>
+<h2 id="行为影响态度">行为影响态度</h2>
+<h3 id="认知失调理论">认知失调理论</h3>
+<p>Leon Festinger，1957年提出</p>
+<p><img src = "https://s2.loli.net/2024/03/28/IvYNioD3UnKZtPm.png" width = 700 alt = "我感谢天地！"></p>
 <p><strong><code>认知失调 cognitive dissonance</code></strong>：当头脑中两种认知存在冲突时，我们会感到不适，并会采取措施减少这种不适感</p>
-<h3
-id="认知失调视角下的态度-行为关系">认知失调视角下的态度-行为关系</h3>
+<p><strong>认知失调视角下的态度-行为关系</strong></p>
 <p>根据认知失调，当态度和行为出现矛盾时，个体可能会采取多种措施化解失调</p>
 <ul>
 <li>改变行为：戒烟</li>
@@ -667,17 +665,12 @@ id="认知失调视角下的态度-行为关系">认知失调视角下的态度-
 </ul></li>
 </ul>
 <h3 id="自我感知理论">自我感知理论</h3>
-<p><strong><code>自我感知理论 self-perception theory</code></strong>：认知失调理论的竞争理论，认为个体通过观察自己的行为来了解自己的态度（<em>没有先验的态度</em>）</p>
+<p><strong><code>自我感知理论 self-perception theory</code></strong>：认知失调理论的竞争理论，认为个体通过自己的行为推测自己的态度（<em>没有先验的态度</em>）</p>
 <p><strong><code>过度合理化效应</code></strong>：如果人们因喜爱而做某事，给予外部报酬会降低他们对这项活动的兴趣</p>
-<pre class="mermaid">graph TB
-    A[喜欢的活动] --> B[无报酬]
-    A --> C[给予外部报酬]
-    
-    B --> |自我感知| D[内部动机]
-    D --> |增强| A
-    C --> |自我感知| E[外部动机]
-    
-    E --> |减弱| A</pre>
+<p><strong><code>吊桥效应</code></strong>：被试将吊桥带来的生理唤起解读为爱情（行为--&gt;态度）</p>
+<hr />
+<p><img src = "https://s2.loli.net/2024/03/28/dQOsEo3Up1PW2yL.jpg" width = 800></p>
+<hr />
 <section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
@@ -1575,140 +1568,6 @@ alt="图片.png" />
       <tags>
         <tag>Imaging</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>5</title>
-    <url>/2024/03/28/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/5/</url>
-    <content><![CDATA[<p><img src="7138559-e8c8771c1728707f.webp" /></p>
-<h2 id="态度">态度</h2>
-<h3 id="什么是态度">什么是态度</h3>
-<p><strong><code>态度</code></strong>：对特定目标的积极或消极的评价</p>
-<blockquote>
-<p>自尊是一种对自己的态度</p>
-</blockquote>
-<p><strong>态度的ABC模型</strong>：一般认为，态度是由三个互相联系的部分组成的，即<strong><code>态度的ABC模型</code></strong>：</p>
-<ul>
-<li><strong>Affective</strong> Component：情感成分</li>
-<li><strong>Behavioral</strong> Component：行为成分</li>
-<li><strong>Cognitive</strong> Component：认知成分</li>
-</ul>
-<blockquote>
-<p>地域歧视：</p>
-<ul>
-<li>A：对来自某地的人感到厌恶</li>
-<li>B：因为某人来自某地而拒绝招聘</li>
-<li>C：认为来自某地的人都是犯罪分子</li>
-</ul>
-<p><font color="purple">原神玩家是这样的。</font></p>
-</blockquote>
-<p><strong>态度的测量</strong></p>
-<ul>
-<li><p>传统上态度一般通过自我报告的方式来测量</p>
-<p><strong><code>李克特量表</code></strong>：心理测量学家李克特（Rensis
-Likert）的发明，通常为5点到7点的对称选项</p>
-<p><img src="image-2.png" /></p></li>
-<li><p>内隐态度测量</p>
-<ul>
-<li><p><code>内隐态度 implicit attitude</code>：个体自发的，无意识的评价</p></li>
-<li><p>主要测量方法：<code>内隐联想测试 IAT（Implicit Association Test）</code></p>
-<blockquote>
-<p><strong>IAT</strong>
-是一种用于测量个体内隐态度的心理学测试方法，通过测量个体对两个概念的反应时间来判断个体对这两个概念的态度。</p>
-<p>例如，通过测量个体对“黑人”和“白人”两个概念的反应时间来判断个体对黑人和白人的态度。</p>
-<p>关于其含义的解读存在争议：是否真的是态度？是否真的是内隐的？</p>
-</blockquote></li>
-<li><p>内隐自尊：自我更容易与积极概念联系，而不是与消极概念联系</p></li>
-</ul></li>
-</ul>
-<p><strong>态度与行为的关系</strong></p>
-<ul>
-<li><p>许多研究发现，态度与行为之间的关系并不稳定，态度并不总是能够预测行为</p>
-<ul>
-<li>对作弊的态度并不能预测实际作弊行为</li>
-<li>对宗教的态度只能较弱地预测参加宗教活动的行为</li>
-<li>态度上反对种族歧视的人，对实际的歧视无动于衷</li>
-</ul></li>
-<li><p>态度与行为关系的复杂性：</p>
-<ul>
-<li>态度-行为之间存在复杂的交互影响，社会心理学中存在不同理论来刻画这些影响</li>
-<li><strong>态度影响行为</strong>：计划行为理论</li>
-<li><strong>行为影响态度</strong>：认知失调理论</li>
-</ul></li>
-</ul>
-<h2 id="态度影响行为计划行为理论">态度影响行为：计划行为理论</h2>
-<h3 id="理性行动理论">理性行动理论</h3>
-<p><strong><code>理性行动理论 Rational Action Theory</code></strong>：描述了人们如何根据自己的态度和主观规范来决定是否采取某种行为</p>
-<pre class="mermaid">graph LR
-    A[态度：润是不是好事] --> B[行为意图：润的意愿]
-    C[主观规范：同学是不是都要润] --> B
-    B --> D[行为：毕业之后润不润]</pre>
-<ul>
-<li><strong>态度</strong>：态度越积极，行为意图越强</li>
-<li><strong><code>主观规范 subjective norm</code></strong>：感知到的开展或不开展这种行为的社会压力</li>
-<li><strong><code>行为意图 behavior intention</code></strong>：开展某项行为的意图在前因变量和实际行为之间起到了中介作用</li>
-<li>对于不同人而言，主观规范和态度所占的权重不同</li>
-</ul>
-<h3 id="计划行为理论">计划行为理论</h3>
-<p><strong><code>计划行为理论 Theory of Planned Behavior</code></strong>：在理性行动理论的基础上，增加了对行为控制的考虑</p>
-<pre class="mermaid">graph LR
-    A[态度：润是不是好事] --> B[行为意图：润的意愿]
-    C[主观规范：同学是不是都要润] --> B
-    E[<font color = red>行为控制：容不容易润</font>] --> B
-    B --> D[行为：毕业之后润不润]
-    E --> D</pre>
-<ul>
-<li><strong>行为控制</strong>：个体对行为的控制程度，包括行为的难易程度、行为的自我效能等</li>
-</ul>
-<p><strong>计划行为理论的影响与评价</strong></p>
-<ul>
-<li><p>态度行为研究中最有影响力的理论框架，被广泛应用于许多领域，如政治、环境、健康等</p></li>
-<li><p>一些批评：</p>
-<ul>
-<li>忽略了动机、需求、情绪等因素的影响</li>
-<li>前因变量与行为之间的关系并不总是单向的</li>
-</ul></li>
-</ul>
-<h2 id="行为影响态度认知失调理论">行为影响态度：认知失调理论</h2>
-<p><strong>认知失调理论的提出</strong></p>
-<ul>
-<li><p>Leon Festinger，1957年提出</p>
-<p><img src="cover387_20240328191110.jpg" /></p></li>
-</ul>
-<p><strong><code>认知失调 cognitive dissonance</code></strong>：当头脑中两种认知存在冲突时，我们会感到不适，并会采取措施减少这种不适感</p>
-<h3
-id="认知失调视角下的态度-行为关系">认知失调视角下的态度-行为关系</h3>
-<p>根据认知失调，当态度和行为出现矛盾时，个体可能会采取多种措施化解失调</p>
-<ul>
-<li>改变行为：戒烟</li>
-<li>改变认知：专家都是胡扯</li>
-<li>引入新认知：吸烟缓解压力</li>
-<li>选择性暴露信息：戒了健康节目</li>
-</ul>
-<p><strong>相关现象</strong></p>
-<ul>
-<li>合理化不足</li>
-<li>对努力的合理化
-<ul>
-<li>既然已经付出了努力，那么这个结果一定是值得的</li>
-</ul></li>
-<li><code>决策后失调 post-decision dissonance</code>：在多个吸引力相似的选项之间作出选择后，因可能选错而感到不安
-<ul>
-<li>后果：对所选选项的评价更高，对未选选项的评价更低</li>
-</ul></li>
-</ul>
-<h3 id="自我感知理论">自我感知理论</h3>
-<p><strong><code>自我感知理论 self-perception theory</code></strong>：认知失调理论的竞争理论，认为个体通过观察自己的行为来了解自己的态度（<em>没有先验的态度</em>）</p>
-<p><strong><code>过度合理化效应</code></strong>：如果人们因喜爱而做某事，给予外部报酬会降低他们对这项活动的兴趣</p>
-<pre class="mermaid">graph TB
-    A[喜欢的活动] --> B[无报酬]
-    A --> C[给予外部报酬]
-    
-    B --> |自我感知| D[内部动机]
-    D --> |增强| A
-    C --> |自我感知| E[外部动机]
-    
-    E --> |减弱| A</pre>
-]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
