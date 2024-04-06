@@ -1,697 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>社会心理学</title>
-    <url>/2024/02/29/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</url>
-    <content><![CDATA[<p>参考书：</p>
-<blockquote>
-<p>《社会心理学》（各种版本）</p>
-<p>《社会性动物》，Elliot Aronson，科普读物</p>
-</blockquote>
-<h1 id="lecture-1-导论">Lecture 1 导论</h1>
-<blockquote>
-<p><font color = #034C7A face = 楷体> 人与人为什么要相遇呢？</font></p>
-</blockquote>
-<h2 id="社会心理学">社会心理学</h2>
-<p><strong><code>社会</code></strong>：<strong>Social</strong>, instead
-of Society：社会场景下的个体</p>
-<ul>
-<li>他人（广义）；</li>
-<li>情绪，思维，行为；</li>
-<li>科学研究</li>
-</ul>
-<p><strong>人格心理学</strong> 与 <strong>社会心理学</strong></p>
-<ul>
-<li><p>兄弟学科
-<strong><code>人格心理学 Personality Psychology</code></strong></p></li>
-<li><p>相同：都在日常行为水平</p></li>
-<li><p>不同：</p>
-<ul>
-<li>人格心理学：个体差异的影响，人格解释；</li>
-<li>社会心理学：社会情境的影响，情境解释；</li>
-</ul></li>
-<li><p><strong><code>基本归因错误 fundamental attribution error</code></strong>：强调个体差异的解释，忽略了情境因素</p></li>
-</ul>
-<p><strong>情境，人格与行为</strong> <span class="math display">\[B =
-f(P, E)\]</span></p>
-<ul>
-<li>行为：Behavior，<span class="math inline">\(B\)</span></li>
-<li>人格：Personality，<span class="math inline">\(P\)</span></li>
-<li>情境：Environment，<span class="math inline">\(E\)</span></li>
-<li>人格因素与情境因素的交互作用</li>
-</ul>
-<h2 id="社会心理学的研究方法">社会心理学的研究方法</h2>
-<p><strong>问卷法</strong></p>
-<ul>
-<li>自我报告问卷，状态或感受的主观报告</li>
-<li>常用于人格或个体差异变量的测量</li>
-<li>只能提供<strong>相关性</strong>，不能提供因果关系</li>
-</ul>
-<p><strong>实验法</strong></p>
-<ul>
-<li><p>社会心理学的主要研究方法</p></li>
-<li><p>控制变量（社会情境自变量），观察行为后果</p></li>
-<li><p>高影响力实验 3个经典实验：</p>
-<ul>
-<li>从众实验 Asch 1951</li>
-<li>电击实验 Milgram 1963</li>
-<li>监狱实验 Zimbardo 1971</li>
-</ul></li>
-<li><p>优点：设计精巧的拟真场景，简洁清晰的结论</p></li>
-<li><p>可以提供<strong>因果推论</strong></p></li>
-<li><p>缺点：成本高，精确控制，伦理问题</p></li>
-</ul>
-<p><strong>现代社会心理学实验</strong></p>
-<ul>
-<li>想象情境、虚拟情境</li>
-</ul>
-<h2 id="社会心理学的发展历程">社会心理学的发展历程</h2>
-<p><strong>萌芽时期（1940s以前）</strong></p>
-<ul>
-<li>McDougall：社会心理学的先驱</li>
-</ul>
-<p><strong>兴起时期（1940s）</strong></p>
-<ul>
-<li>Kurt Lewin：社会心理学之父，理论和实验方法基础</li>
-</ul>
-<p><strong>黄金时期（1950s-1970s）</strong></p>
-<ul>
-<li>二战结束后，对历史的反思和社会变迁刺激了社会心理学的发展</li>
-<li>Leon Festinger：认知失调理论</li>
-<li>一系列高影响力的经典实验</li>
-</ul>
-<p><strong>社会认知时期（1980s）</strong></p>
-<ul>
-<li>认知革命席卷心理学，社会心理学开始从认知的角度研究社会信息的加工过程</li>
-</ul>
-<p><strong>文化心理学时期（1980s-1990s）</strong></p>
-<ul>
-<li>社会心理学开始关注文化差异对社会心理现象的影响，涌现出一批文化差异理论</li>
-<li>个体主义与集体主义</li>
-<li>独立-互依自我结构</li>
-<li>整体性-分析性思维</li>
-</ul>
-<p><strong>内隐社会认知（2000s）</strong></p>
-<ul>
-<li>内隐联想测试（IAT）</li>
-<li>近年来受到一定质疑</li>
-</ul>
-<p><strong>社会神经科学（2000s）</strong></p>
-<p><strong>今日的社会心理学</strong></p>
-<ul>
-<li>多元、庞大的研究领域</li>
-</ul>
-<p><strong>可重复性危机</strong></p>
-<ul>
-<li>现象本身的复杂性</li>
-<li>对反直觉结果的过度追求</li>
-<li>一系列开放科学措施：透明化、数据共享、预注册、提前计算样本量</li>
-</ul>
-<h2 id="学习社会心理学的意义">学习社会心理学的意义</h2>
-<p>理解日常背后的心理学原理</p>
-<p>认识到情境的影响</p>
-<p>谦卑与宽容</p>
-<p>人文情怀 &amp; 科学精神的结合</p>
-<h1 id="lecture-2-社会认知上">Lecture 2 社会认知（上）</h1>
-<blockquote>
-<p><font color = #034C7A face = 楷体>走向宇宙的 <font face = Times>New
-Type</font> ，就能相互理解了吗？</font></p>
-</blockquote>
-<h2 id="社会认知的基本原则">社会认知的基本原则</h2>
-<p><strong><code>社会认知 Social Cognition</code></strong>：感知、加工、解读社会信息并做出反应的过程</p>
-<ol type="1">
-<li><p>建构性 constructive</p>
-<ul>
-<li>对社会、世界的认知取决于<strong>固有的经验、知识、动机、思维模式</strong>等因素</li>
-<li>是高度个人化的，每个人不可避免地戴着“有色眼镜”看世界</li>
-<li><strong>自下而上(bottom-up)</strong> 和
-<strong>自上而下(top-down)</strong> 的加工过程交互作用</li>
-</ul></li>
-<li><p>以效率为先</p>
-<ul>
-<li>人类认知系统是为了<strong>节约认知资源</strong>而设计的：人脑的认知资源和外部条件不允许对所有社会信息进行深度加工</li>
-<li>社会认知追求的是快速得到一个可接受的结果，不是最大化准确率</li>
-<li>是各种“偏差”、“误区”的原因</li>
-</ul>
-<blockquote>
-<p>双加工系统理论：</p>
-<p>系统1：快速、直觉、无意识、自动化</p>
-<p>系统2：慢速、反思、需努力的、受控的</p>
-<p>许多社会认知场景依赖于系统1，这类加工通常是快速、节俭的：有偏差，但性价比高</p>
-</blockquote></li>
-</ol>
-<h2 id="自上而下加工图示与启动">自上而下加工：图示与启动</h2>
-<p><strong><code>图示 Schema</code></strong>：一个人关于社会世界的既有知识结构，是对社会世界的一种认知模型</p>
-<ul>
-<li>自我图式：我是什么样的人</li>
-<li>社会规范：什么情境下应该做什么</li>
-<li>刻板印象：对特定群体的先验印象</li>
-<li>关系图式：特定的人际关系应该如何相处</li>
-</ul>
-<p><strong>图示对社会认知的影响</strong></p>
-<ul>
-<li>注意：图示引导人们注意特定的信息，忽略其他信息</li>
-<li>记忆：图示决定了哪些信息被记住，哪些被遗忘</li>
-</ul>
-<p><strong>图示的可提取性</strong></p>
-<ul>
-<li><strong><code>可提取性 availability</code></strong>：一种图示在多大程度上能够被激活</li>
-<li>一个场景下可能有多个图示，图示的可提取性决定了哪个图示被激活</li>
-<li>影响因素：过往经验、当前目标、近期激活</li>
-</ul>
-<p><strong><code>启动 Priming</code></strong>：通过一些情景线索临时激活某种图示，从而影响后续行为</p>
-<ul>
-<li>临时提升某种图示的可提取性</li>
-<li><strong><code>具身认知</code></strong>：身体感觉如何影响社会认知</li>
-<li>社会启动的危机：许多以具身认知为代表的社会启动研究无法复现</li>
-<li>何种刺激能引发何种效果，需要仔细审视相关证据和开放科学方法</li>
-</ul>
-<p><strong>图示对现实的影响：自我实现的预言</strong></p>
-<ul>
-<li><strong><code>自我实现的预言 Self-fulfilling prophecy</code></strong>：预期会影响行为，从而使预期成为现实</li>
-<li>Rosenthal &amp; Jacobson
-1968：老师对学生的预期影响学生的学业成绩</li>
-<li>现实案例：星座、MBTI——给自己贴标签，会影响自己的行为</li>
-</ul>
-<h2 id="自下而上的加工框架效应">自下而上的加工：框架效应</h2>
-<p><strong><code>框架效应 Framing Effect</code></strong>：在社会认知中，信息的呈现方式(How
-it is framed)会对信息的加工产生影响，从而影响决策</p>
-<p><strong>顺序框架</strong>：当许多信息顺次呈现时，呈现顺序会影响加工结果</p>
-<ul>
-<li><p><strong><code>首因效应 Primacy Effect</code></strong>：首先呈现的信息产生更强的影响</p>
-<blockquote>
-<p>Asch 1946：特质描述的顺序对印象的影响——第一印象的重要性</p>
-<p>聪明、勤奋、冲动、挑剔、顽固、嫉妒 vs
-嫉妒、顽固、挑剔、冲动、勤奋、聪明</p>
-<p>第一组的印象更好</p>
-</blockquote></li>
-<li><p><strong><code>近因效应 Recency Effect</code></strong>：最后呈现的信息产生更强的影响</p>
-<blockquote>
-<p>自我介绍时，最后一位上场的人印象更深刻</p>
-<p>按章节顺序复习，最后一章记得最牢</p>
-<p>......</p>
-</blockquote></li>
-</ul>
-<p><strong>积极和消极框架</strong>：信息的呈现方式（积极/消极）会影响人们的决策</p>
-<p><strong>时间框架</strong>：思考的行为或事件在时间上的远近不同，引发不同的感受</p>
-<blockquote>
-<p>某同学在开学时选修了<a
-href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课程</font></a>，认为该课程会令他很有收获，但学期后半，繁重的课业让他疲惫、缺少睡眠，因此感到后悔。这是一个时间框架的例子。</p>
-<p><strong><code>建构水平理论 construal level theory</code></strong>：在时间上距离较远的事物，会在更抽象的水平上加工；时间距离越近，加工水平越具体</p>
-</blockquote>
-<h2 id="信息寻求与确证偏差">信息寻求与确证偏差</h2>
-<p>除了加工被呈现的信息，人们也主动搜集更多的信息，作为决策判断的基础</p>
-<p><strong><code>确证偏差 Confirmation Bias</code></strong>：人们倾向于寻找支持自己观点的信息，而忽略反对自己观点的信息</p>
-<ul>
-<li>这维护了我们价值体系的稳定性，但也可能导致错误的决策</li>
-</ul>
-<blockquote>
-<p><strong><code>信息茧房 information cocoon</code></strong>:技术的繁荣反而强化了人的确证偏差，而没有致力于促进偏见的消除</p>
-</blockquote>
-<h1 id="lecture-3-社会认知下">Lecture 3 社会认知（下）</h1>
-<blockquote>
-<p><font color = #034C7A face = Times New Roman> I wanna have a pure
-time ~</p>
-<p>Everyone's a noble mind ~</font></p>
-</blockquote>
-<h2 id="归因">归因</h2>
-<p><strong><code>归因 Attribution</code></strong>：人们如何解释自己和他人的行为</p>
-<blockquote>
-<p>Fritz Heider：开创了社会心理学的归因研究</p>
-<p>Heider 认为每个人都会通过朴素或常识的心理学理论来解释他人的行为</p>
-</blockquote>
-<p><strong>最重要的归因维度：内部归因&amp;外部归因</strong></p>
-<ul>
-<li><p><strong><code>内部归因（禀赋归因）</code></strong>：将行为归因于个体内因素，如人格、态度、能力</p>
-<blockquote>
-<p>我没认真听 ≠ 我菜</p>
-</blockquote></li>
-<li><p><strong><code>外部归因（情境归因）</code></strong>：将行为归因于外部因素，如任务难度、运气、其他人的影响</p>
-<blockquote>
-<p>什么垃圾给分，一定是体制的问题。</p>
-</blockquote></li>
-</ul>
-<h3 id="归因的思维过程">归因的思维过程</h3>
-<blockquote>
-<p>Kelley
-提出共变模型解释归因的思维过程（<em>该理论基于理性人假设</em>），认为人们在归因时会考虑三种信息：</p>
-</blockquote>
-<p><strong><code>共识性信息 Consensus Information</code></strong>：其他人对相同的刺激对象是否做出相似的反应</p>
-<ul>
-<li>高共识性：刺激对象是主要原因</li>
-<li>低共识性：行动者是主要原因</li>
-</ul>
-<p><strong><code>特殊性信息 Distinctiveness Information</code></strong>：行为者对其他人是否做出相似的反应</p>
-<ul>
-<li>高特殊性：刺激对象是主要原因</li>
-<li>低特殊性：行动者是主要原因</li>
-</ul>
-<p><strong><code>一致性信息 Consistency Information</code></strong>：行为者在不同时间和情境下是否做出相似的反应</p>
-<ul>
-<li>高一致性：参考另外两种信息</li>
-<li>低一致性：归因为偶然因素</li>
-</ul>
-<table>
-<caption>
-<strong>共变模型</strong>
-</caption>
-<tr>
-<th>
-共识性
-</th>
-<th>
-特殊性
-</th>
-<th>
-一致性
-</th>
-<th>
-结论
-</th>
-</tr>
-<tr>
-<td>
-低
-</td>
-<td>
-低
-</td>
-<td>
-高
-</td>
-<td>
-（行动者）内部归因
-</td>
-</tr>
-<tr>
-<td>
-高
-</td>
-<td>
-高
-</td>
-<td>
-高
-</td>
-<td>
-（行动者）外部归因
-</td>
-</tr>
-<tr>
-<td>
-高或低
-</td>
-<td>
-高或低
-</td>
-<td>
-低
-</td>
-<td>
-偶然因素
-</td>
-</tr>
-</table>
-<p><strong>对共变模型的评价：</strong></p>
-<ul>
-<li><p>人不一定能保持理性或获得需要的信息，常常快速、粗糙地判断</p></li>
-<li><p>尽管如此，所描述的机制在许多时候是适用的</p></li>
-</ul>
-<h3 id="常见的归因偏差">常见的归因偏差</h3>
-<p><strong>1.
-<code>基本归因错误 Fundamental Attribution Error</code></strong>：过度强调个体差异的解释，忽略了情境因素</p>
-<ul>
-<li>可以理解为一种普遍的图示：人们的行为源于他们是什么样的人，而不是他们所处的情境</li>
-<li><strong><code>知觉显著性偏差 perceptual salience bias</code></strong>：人们通常将注意力集中在人的身上，而忽略了情境</li>
-</ul>
-<p><strong><code>两阶段归因过程</code></strong>：归因过程分为两个阶段，第一个阶段为自动化的内部归因，第二个阶段在此基础上调整，需要有意识的努力</p>
-<pre class="mermaid">graph LR
-A[观察到行为] -->|自动化过程| B[阶段一 内部归因]
-B -->|缺少时间、精力或动机| C[结束]
-B -->|有时间、精力或动机| D[阶段二 考虑其他解释]
-D -->E[调整初步归因]
-E -->C</pre>
-<p><strong>2.
-<code>自利归因偏差 Self-serving Bias</code></strong>：将成功归因为内部因素，将失败归因为外部因素</p>
-<ul>
-<li><p><strong><code>自我增强 Self-enhancement</code></strong>：一种常见的动机，是自己自我感觉良好，维护自己的自尊</p></li>
-<li><p><strong><code>印象管理 Impression Management</code></strong>：一种常见的策略，是为了给他人留下好印象，而对自己的行为进行解释（公开的自利归因）</p></li>
-<li><p>信息差异：自利归因也可能来自于掌握的信息差异</p>
-<blockquote>
-<p>教授：有同学考了高分，因此题不难→考不好是学生自己的问题</p>
-</blockquote></li>
-<li><p>自利归因的适应性价值：阻止
-<strong><code>抑郁性归因风格</code></strong> <a href="#fn1"
-class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a>的形成
-<img src = "https://s2.loli.net/2024/03/14/xVfjSyqc51K2bDW.png" width = 700></p></li>
-</ul>
-<p><strong>3.
-<code>受害人谴责</code></strong>：对受害人谴责的倾向，将受害人的遭遇归因为受害人的内部因素</p>
-<ul>
-<li>“公平世界信念”：人们倾向于相信世界是公平的，好人会得到好报，坏人会受到惩罚，当这种信念受到挑战时，人们可能会作出防御性的归因</li>
-</ul>
-<h3 id="归因的文化差异">归因的文化差异</h3>
-<blockquote>
-<p>Richard Nisbett、彭凯平等人的研究表明，东西方人在归因时有一些差异</p>
-</blockquote>
-<ul>
-<li><p><strong><code>整体性思维 holistic thinking</code></strong>：将客体和环境作为一个整体来加工</p></li>
-<li><p><strong><code>分析性思维 analytic thinking</code></strong>：从环境中分离出客体，将其作为独立的实体来加工</p></li>
-</ul>
-<p>归因的差异：东方人更倾向于外部归因，西方人更倾向于内部归因</p>
-<ul>
-<li>研究结果：东方人更关注情境因素，从而<strong>更易于避免基本归因错误</strong></li>
-</ul>
-<p><img src = "https://s2.loli.net/2024/03/14/SXYvuprPUFNGmD3.jpg" width = 600></p>
-<h2 id="思维启发式">思维启发式</h2>
-<blockquote>
-<p>Herbert Simon，有限理性(bonded reasonality)概念：</p>
-<ul>
-<li>人们做决策时只能具备有限的理性</li>
-<li>人们做出的选择是满意的(satisfactory)，而不是最优的(optimal)</li>
-</ul>
-</blockquote>
-<p><strong><code>启发式 Heuristic</code></strong>：一些允许人们作出高效决策的思维捷径，但也可能导致认知偏差</p>
-<p><strong>常见思维的启发式</strong>：</p>
-<ul>
-<li><p><strong><code>满意启发式 satisficing heuristic</code></strong>：面对决策问题时，持续搜索代替选项，达到满意阈值</p>
-<ul>
-<li>人格因素：最优化决策风格 vs 满意型决策风格</li>
-</ul></li>
-<li><p><strong><code>可提取性启发式 available heuristic</code></strong>：根据事物在记忆中的提取难易程度来判断其可能性</p>
-<blockquote>
-<p>坐飞机和坐火车，哪个事故率更高？</p>
-<p>关于飞机事故的报道更多</p>
-</blockquote></li>
-<li><p><strong><code>代表性启发式 representativeness heuristic</code></strong>：如果某人与某个群体的典型特征相似，则推定此人属于该群体</p>
-<ul>
-<li>使用这种启发式时，可能会忽略
-<strong><code>基线比率信息 base rate information</code></strong>
-(信息的缺失)</li>
-</ul></li>
-<li><p><strong><code>锚定启发式 anchoring heuristic</code></strong>：人们在做判断时，可能会受到一个锚定点或参照点的影响</p></li>
-</ul>
-<h2 id="进化视角下的社会认知">进化视角下的社会认知</h2>
-<p><strong>效率与准确率的权衡</strong></p>
-<ul>
-<li>社会认知的基本原则之一：以效率为先，不求一定准确</li>
-<li>各种“偏差”、“偏见”、“误区”，可能都是<strong>进化而来的适应性策略</strong>：在效率和准确率之间找到平衡点</li>
-</ul>
-<p><strong>原始大脑与“时代病”</strong></p>
-<ul>
-<li><p>人类的大脑在百万年的“狩猎-采集者”生活方式中进化而来，但是近两百年的社会高速发展使大脑的进化速度被远远甩在后面</p></li>
-<li><p><strong>各种“时代病”的根源</strong></p>
-<blockquote>
-<p>New Type —— 新的希望？</p>
-</blockquote></li>
-</ul>
-<h1 id="lecture-4-社会自我">Lecture 4 社会自我</h1>
-<blockquote>
-<p><font color = #034C7A face = 楷体><font face = times>
-A.T</font>立场全开！ </font></p>
-</blockquote>
-<h2 id="自我">自我？</h2>
-<p><strong><code>自我</code></strong>：哲学和心理学探讨最多的话题之一，但是没有一个统一的定义。</p>
-<p><strong>自我的进化来源</strong></p>
-<ul>
-<li>人类的自我意识是在进化过程中逐渐形成的，具有进化轨迹，而非突然出现</li>
-<li>测量动物是否具有自我意识的方法：镜像自我认知测试
-<ul>
-<li>人类两岁后可以通过测试；黑猩猩、恒河猴、亚洲象、海豚、小鼠等哺乳动物；欧洲喜鹊、裂唇鱼等非哺乳动物。</li>
-<li><font color = red><em>未通过测试的动物是否真的没有自我意识？</em></font></li>
-</ul></li>
-</ul>
-<p><strong>人类自我的特点</strong></p>
-<ul>
-<li>多维度：人类的自我由许多性质和功能不同的部分组合成，这些部分构成了一个多维度、多层次的结构</li>
-<li>社会性：天然具有社会属性，与个体所属的社会情境紧密交织</li>
-</ul>
-<h2 id="自我图式">自我图式</h2>
-<p><strong><code>自我图式 self-schemata</code></strong>：一个人关于自己的知识</p>
-<blockquote>
-<p><em>我是_____。</em></p>
-</blockquote>
-<p>自我图示不会涵盖一个人的所有方面，而是反映了个体和社会环境最看重的方面
-- 少数族裔成员可能拥有种族自我图式，也可能没有</p>
-<p><strong>自我图式的影响</strong></p>
-<p>自我图式不一定客观准确，但会影响到我们对于自我相关信息的加工</p>
-<p><strong>关系自我</strong></p>
-<ul>
-<li>自我图式不仅包括一般性的自我知识，也包括特定社会情境下的自我知识</li>
-<li>关系情境是最重要的社会情境之一</li>
-<li><strong><code>关系自我 relational self</code></strong>：与重要的人际关系相关的自我知识</li>
-</ul>
-<p><strong>文化差异</strong></p>
-<ul>
-<li><p><strong>关系自我一致性</strong>：东方人相比于西方人，在不同关系中的自我一致性更低，并且这种低跨关系一致性对心理健康的负面影响也较小</p>
-<p><img src = "https://s2.loli.net/2024/03/22/DWhuvsCG8jaQzcl.png" width = 600></p></li>
-<li><p><strong>独立-互依自我结构</strong>：我们如何看待自我和他人的关系也受文化影响</p>
-<ul>
-<li><code>独立型 independent self-construal</code>：自我独立于社会环境，通过个体内部属性定义自我</li>
-<li><code>互依型 interdependent self-construal</code>：自我融入在社会环境中，通过社会身份定义自我，强调社会关系和谐</li>
-</ul>
-<blockquote>
-<p>possibilities：地理决定论的演化过程；一部分刻在基因上</p>
-</blockquote>
-<p><img src = "https://s2.loli.net/2024/03/22/K68pvdTDxQzNPyf.png" width =200></p></li>
-</ul>
-<h2 id="自尊-自我增强">自尊 &amp; 自我增强</h2>
-<h3 id="自尊">自尊</h3>
-<p><strong><code>自尊 self-esteem</code></strong>：个体对自己的总体评价</p>
-<ul>
-<li><code>整体自尊 global self-esteem</code></li>
-<li><code>特定自尊 domain self-esteem</code>：对自己在特定领域的评价</li>
-</ul>
-<p><strong>自尊的进化基础</strong></p>
-<ul>
-<li>根据社会计量假设，自尊本质上是一种内在、主观的指数，它反映了他人对我们的评价，以及我们被他人接纳或排斥的可能性（Leary
-&amp; Baumeister, 2000）</li>
-<li>人作为社会性动物，需要快速评估自己的社会表现，因此进化出自尊这种心理功能</li>
-</ul>
-<h3 id="自我增强">自我增强</h3>
-<p><strong><code>自我增强 self-enhancement</code></strong>：使自己自我感觉良好，维持积极自尊的倾向。是一种普遍的心理现象，导致一系列行为结果：</p>
-<ul>
-<li><p>自利归因</p></li>
-<li><p><code>比平均更好效应 better-than-average effect</code>：大多数人认为自己在积极特质上高于平均水平</p></li>
-<li><p><code>虚假一致性效应 false consensus effect</code>：人们倾向于高估别人对自己所持立场的支持程度</p></li>
-<li><p><code>虚假独特性效应 false uniqueness effect</code>：对于自身属性、能力或成就，低估了其在人群中的普遍程度</p>
-<blockquote>
-<p>虚假一致性 vs 虚假独特性？</p>
-<ul>
-<li>对于失败或消极的事物，人们倾向于出现虚假一致性偏差；</li>
-<li>对于成功或积极的事物，人们倾向于出现虚假独特性偏差</li>
-</ul>
-<p><strong>本质上都服务于自我增强动机</strong>，目的是为了让我们感觉更好</p>
-</blockquote></li>
-</ul>
-<p><strong><code>自我肯定理论 self-affirmation theory</code></strong>：当人们遇到威胁自我形象的事情时，会通过强化自己在其他领域的自尊来缓解这种威胁</p>
-<p><strong>关于自我增强的文化差异的争议</strong></p>
-<p>2000年代初，有研究发现，东亚文化中的人们似乎没有西方人那样的自我增强倾向，甚至有自我贬低的倾向。这一发现引发了学术界的广泛讨论。</p>
-<blockquote>
-<p>观点1：自我增强动机只存在于西方个人主义文化，在东方集体主义文化中存在的是<strong>自我批评</strong>（Heine，1999）</p>
-<p>观点2：东方文化也有自我增强动机，但增强的是集体主义文化所看重的特质（Sedikides，2003）</p>
-<p>观点3：东方文化也有自我增强，但被谦虚的文化规范所掩盖（Kurman，2001）</p>
-</blockquote>
-<p><strong><code>自我验证理论 self-verification theory</code></strong>：我们并不总是追求积极的自我印象，有时我们也追求准确的自我认知（人们会努力使他人确证我们固有的自我信念，无论积极还是消极）</p>
-<ul>
-<li><p>关注与自我信念一致的信息</p>
-<blockquote>
-<p>持有负面自我信念的人，更倾向于关注别人负面的评价</p>
-</blockquote></li>
-<li><p>建立与自我信念一致的关系</p>
-<blockquote>
-<p>恋人对彼此的看法一致时，关系的投入度更高，即使看法是负面的</p>
-</blockquote></li>
-</ul>
-<h2 id="社会情境下的自我">社会情境下的自我</h2>
-<h3 id="社会比较">社会比较</h3>
-<p><strong><code>社会比较 social comparison</code></strong></p>
-<ul>
-<li><code>上行/向上比较 upward comparison</code>：与比自己更优秀的人比较</li>
-<li><code>下行/向下比较 downward comparison</code>：与比自己更差的人比较</li>
-</ul>
-<p><strong>社会比较的后果</strong></p>
-<blockquote>
-<p>特奖，典</p>
-</blockquote>
-<ul>
-<li>向下比较令人快乐；向上比较令人不快乐</li>
-<li>unfortunately，人们更倾向于向上比较</li>
-<li>这可以解释为什么物质财富的增加不一定带来幸福感的增加</li>
-</ul>
-<h3 id="我眼中的他人眼中的我">我眼中的他人眼中的我</h3>
-<p>我们对<strong>别人看待自己的方式</strong>的理解可能存在系统性的偏差</p>
-<ul>
-<li><code>聚光灯效应 spotlight effect</code>：人们往往高估了别人对自己的关注程度</li>
-<li><code>透明感错觉 illusion of transparency</code>：人们往往高估了自己的内心体验对他人的可见程度</li>
-</ul>
-<h3 id="自我展示">自我展示</h3>
-<p><strong><code>自我展示 self-presentation</code></strong>：通过特定行为给别人留下积极印象</p>
-<ul>
-<li>自我展示可以视为印象管理的一个特例</li>
-<li><code>自我监督 self-monitoring</code>：个体对自己的行为进行监控，以便在不同情境中展示不同的自我</li>
-<li>高/低自我监督者</li>
-</ul>
-<p><strong><code>自我妨碍 self-handicapping</code></strong>：在面临可能失败的情境中，通过制造障碍来保护自己的自尊</p>
-<blockquote>
-<p>预计到自己考不好，于是不复习，以便将失败归因于缺乏努力</p>
-</blockquote>
-<ul>
-<li>是达成<strong>自我展示</strong>这一目的的策略</li>
-</ul>
-<p><strong>互联网上的自我展示</strong></p>
-<ul>
-<li><p>互联网上的自我展示是一种新的社会情境下的自我展示</p></li>
-<li><p>Web 2.0时代的代表性自我展示行为：自拍 selfie</p>
-<blockquote>
-<p>2013年，牛津词典将selfie评为年度词汇</p>
-</blockquote></li>
-</ul>
-<h1 id="lecture-5-态度与行为">Lecture 5 态度与行为</h1>
-<blockquote>
-<p><img src = "https://s2.loli.net/2024/03/28/WhRGpEYo1Ldn4iz.png" width = 300></p>
-</blockquote>
-<h2 id="态度">态度？</h2>
-<p><strong><code>态度</code></strong>：对特定目标的积极或消极的评价</p>
-<blockquote>
-<p>自尊是一种对自己的态度</p>
-</blockquote>
-<p><strong>态度的ABC模型</strong>：一般认为，态度是由三个互相联系的部分组成的，即<strong><code>态度的ABC模型</code></strong>：</p>
-<ul>
-<li><strong>Affective</strong> Component：情感成分</li>
-<li><strong>Behavioral</strong> Component：行为成分</li>
-<li><strong>Cognitive</strong> Component：认知成分</li>
-</ul>
-<blockquote>
-<p>地域歧视：</p>
-<ul>
-<li>A：对来自某地的人感到厌恶</li>
-<li>B：因为某人来自某地而拒绝招聘</li>
-<li>C：认为来自某地的人都是犯罪分子</li>
-</ul>
-<p><font color="purple">原神玩家是这样的。</font></p>
-</blockquote>
-<p><strong>态度的测量</strong></p>
-<ul>
-<li><p>传统上态度一般通过自我报告的方式来测量</p>
-<p><strong><code>李克特量表</code></strong>：心理测量学家李克特（Rensis
-Likert）的发明，通常为5点到7点的对称选项</p>
-<p><img src = "https://s2.loli.net/2024/03/28/qOMZU8zYLbGJjPD.png" width = 700></p></li>
-<li><p>内隐态度测量</p>
-<ul>
-<li><p><code>内隐态度 implicit attitude</code>：个体自发的，无意识的评价</p></li>
-<li><p>主要测量方法：<code>内隐联想测试 IAT（Implicit Association Test）</code></p>
-<blockquote>
-<p><strong>IAT</strong>
-是一种用于测量个体内隐态度的心理学测试方法，通过测量个体对两个概念的反应时间来判断个体对这两个概念的态度。</p>
-<p>例如，通过测量个体对“黑人”和“白人”两个概念的反应时间来判断个体对黑人和白人的态度。</p>
-<p>关于其含义的解读存在争议：是否真的是态度？是否真的是内隐的？</p>
-</blockquote></li>
-<li><p>内隐自尊：自我更容易与积极概念联系，而不是与消极概念联系</p></li>
-</ul></li>
-</ul>
-<p><strong>态度与行为的关系</strong></p>
-<ul>
-<li><p>许多研究发现，态度与行为之间的关系并不稳定，态度并不总是能够预测行为</p>
-<ul>
-<li>对作弊的态度并不能预测实际作弊行为</li>
-<li>对宗教的态度只能较弱地预测参加宗教活动的行为</li>
-<li>态度上反对种族歧视的人，对实际的歧视无动于衷</li>
-</ul></li>
-<li><p>态度与行为关系的复杂性：</p>
-<ul>
-<li>态度-行为之间存在复杂的交互影响，社会心理学中存在不同理论来刻画这些影响</li>
-<li><strong>态度影响行为</strong>：计划行为理论</li>
-<li><strong>行为影响态度</strong>：认知失调理论</li>
-</ul></li>
-</ul>
-<h2 id="态度影响行为">态度影响行为</h2>
-<h3 id="理性行动理论">理性行动理论</h3>
-<p><strong><code>理性行动理论 Rational Action Theory</code></strong>：描述了人们如何根据自己的态度和主观规范来决定是否采取某种行为</p>
-<pre class="mermaid">graph LR
-    A[态度：润是不是好事] --> B[行为意图：润的意愿]
-    C[主观规范：同学是不是都要润] --> B
-    B --> D[行为：毕业之后润不润]</pre>
-<ul>
-<li><strong>态度</strong>：态度越积极，行为意图越强</li>
-<li><strong><code>主观规范 subjective norm</code></strong>：感知到的开展或不开展这种行为的社会压力</li>
-<li><strong><code>行为意图 behavior intention</code></strong>：开展某项行为的意图在前因变量和实际行为之间起到了中介作用</li>
-<li>对于不同人而言，主观规范和态度所占的权重不同</li>
-</ul>
-<h3 id="计划行为理论">计划行为理论</h3>
-<p><strong><code>计划行为理论 Theory of Planned Behavior</code></strong>：在理性行动理论的基础上，增加了对行为控制的考虑</p>
-<pre class="mermaid">graph LR
-    A[态度：润是不是好事] --> B[行为意图：润的意愿]
-    C[主观规范：同学是不是都要润] --> B
-    E[<font color = red>行为控制：容不容易润</font>] --> B
-    B --> D[行为：毕业之后润不润]
-    E --> D</pre>
-<ul>
-<li><strong>行为控制</strong>：个体对行为的控制程度，包括行为的难易程度、行为的自我效能等</li>
-</ul>
-<p><strong>计划行为理论的影响与评价</strong></p>
-<ul>
-<li><p>态度行为研究中最有影响力的理论框架，被广泛应用于许多领域，如政治、环境、健康等</p></li>
-<li><p>一些批评：</p>
-<ul>
-<li>忽略了动机、需求、情绪等因素的影响</li>
-<li>前因变量与行为之间的关系并不总是单向的</li>
-</ul></li>
-</ul>
-<h2 id="行为影响态度">行为影响态度</h2>
-<h3 id="认知失调理论">认知失调理论</h3>
-<p>Leon Festinger，1957年提出</p>
-<p><img src = "https://s2.loli.net/2024/03/28/IvYNioD3UnKZtPm.png" width = 700 alt = "我感谢天地！"></p>
-<p><strong><code>认知失调 cognitive dissonance</code></strong>：当头脑中两种认知存在冲突时，我们会感到不适，并会采取措施减少这种不适感</p>
-<p><strong>认知失调视角下的态度-行为关系</strong></p>
-<p>根据认知失调，当态度和行为出现矛盾时，个体可能会采取多种措施化解失调</p>
-<ul>
-<li>改变行为：戒烟</li>
-<li>改变认知：专家都是胡扯</li>
-<li>引入新认知：吸烟缓解压力</li>
-<li>选择性暴露信息：戒了健康节目</li>
-</ul>
-<p><strong>相关现象</strong></p>
-<ul>
-<li>合理化不足</li>
-<li>对努力的合理化
-<ul>
-<li>既然已经付出了努力，那么这个结果一定是值得的</li>
-</ul></li>
-<li><code>决策后失调 post-decision dissonance</code>：在多个吸引力相似的选项之间作出选择后，因可能选错而感到不安
-<ul>
-<li>后果：对所选选项的评价更高，对未选选项的评价更低</li>
-</ul></li>
-</ul>
-<h3 id="自我感知理论">自我感知理论</h3>
-<p><strong><code>自我感知理论 self-perception theory</code></strong>：认知失调理论的竞争理论，认为个体通过自己的行为推测自己的态度（<em>没有先验的态度</em>）</p>
-<p><strong><code>过度合理化效应</code></strong>：如果人们因喜爱而做某事，给予外部报酬会降低他们对这项活动的兴趣</p>
-<p><strong><code>吊桥效应</code></strong>：被试将吊桥带来的生理唤起解读为爱情（行为--&gt;态度）</p>
-<hr />
-<p><img src = "https://s2.loli.net/2024/03/28/dQOsEo3Up1PW2yL.jpg" width = 800></p>
-<hr />
-<section id="footnotes" class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li
-id="fn1"><p>抑郁患者常见的归因风格，把好事归结为外部、临时、具体因素，把坏事归结为内部、持久、普遍因素<a
-href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>往日之影</category>
-        <category>24 Spring</category>
-        <category>课上拾枝</category>
-        <category>Psychology</category>
-      </categories>
-      <tags>
-        <tag>Psychology</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>计算成像导论</title>
     <url>/2024/02/28/College/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F-%E4%BA%A4%E5%8F%89%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<p>参考书：</p>
@@ -790,6 +99,33 @@ class="math inline">\(M = \frac{f_d}{f}\)</span></p>
 </blockquote>
 <h3 id="光学系统的搭建">光学系统的搭建</h3>
 <p><img src = "https://s2.loli.net/2024/03/13/G9l6KVjF5AgEudD.png" width = 600></p>
+<h1 id="lecture-3-卷积解卷积">Lecture 3 卷积&amp;解卷积</h1>
+<h2 id="数字化建模卷积">数字化建模——卷积</h2>
+<p>成像系统：低通滤波器 <span class="math inline">\(b = x*c\)</span></p>
+<ul>
+<li><span class="math inline">\(c\)</span>：点扩散函数 <span
+class="math inline">\(PSF\)</span></li>
+<li><span class="math inline">\(x\)</span>：原像</li>
+<li><span
+class="math inline">\(b\)</span>：经过透镜系统后呈现在相机前的像</li>
+</ul>
+<p><img src = "https://s2.loli.net/2024/04/06/qb64rQZKuEfUsgc.png" width = 500></p>
+<p><img src = "https://s2.loli.net/2024/04/06/dEaxRc2hfsFnJ7U.png" width = 500></p>
+<h2 id="解卷积-deconvolution">解卷积 deconvolution</h2>
+<p><span class="math inline">\(b = x*c\)</span></p>
+<p>已知 <span class="math inline">\(b,c\)</span> 求解 <span
+class="math inline">\(x\)</span></p>
+<ul>
+<li>直接求逆：病态问题</li>
+<li>维纳滤波</li>
+<li>迭代优化算法/DL</li>
+<li>点扩散优化</li>
+</ul>
+<p><img src = "https://s2.loli.net/2024/04/06/NgGwU6cP3ZsQ1um.png" width = 200></p>
+<p><strong>Rechardson-Lucy(RL) deconvolution</strong></p>
+<figure class="highlight matlab"><figcaption><span>2D-RL deconvolution</span></figcaption><table><tr><td class="code"><pre><span class="line">maxiter = <span class="number">10</span>;</span><br><span class="line"><span class="comment">% Initialization</span></span><br><span class="line">deblurred_img = <span class="built_in">ones</span>([<span class="built_in">size</span>(WF)]); <span class="comment">% set image as initial guess</span></span><br><span class="line">psf_T = psf(<span class="keyword">end</span>:<span class="number">-1</span>:<span class="number">1</span>,<span class="keyword">end</span>:<span class="number">-1</span>:<span class="number">1</span>); <span class="comment">% flipped psf for bp</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> iter = <span class="number">1</span>:maxiter</span><br><span class="line">    convolved_img = conv2(deblurred_img,psf,<span class="string">&#x27;same&#x27;</span>);</span><br><span class="line">    errorRelative = double(WF)./convolved_img;</span><br><span class="line"></span><br><span class="line">    <span class="comment">% error bp using flipped psf</span></span><br><span class="line">    error = conv2(deblurred_img,psf_T,<span class="string">&#x27;same&#x27;</span>);</span><br><span class="line">    <span class="comment">% update the deblurred img</span></span><br><span class="line">    deblurred_img = error.*errorRelative;</span><br><span class="line">    deblurred_img(<span class="built_in">isnan</span>(deblurred_img)) = <span class="number">0</span>;</span><br><span class="line">    deblurred_img(deblurred_img &lt; <span class="number">0</span>) = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight matlab"><figcaption><span>3D-RL deconvolution</span></figcaption><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="lecture-4-光场成像">Lecture 4 光场成像</h1>
 ]]></content>
       <categories>
         <category>往日之影</category>
@@ -802,6 +138,86 @@ class="math inline">\(M = \frac{f_d}{f}\)</span></p>
       <tags>
         <tag>Imaging</tag>
         <tag>Microscopy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Light Field Microscopy</title>
+    <url>/2024/04/01/College/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/LFM/</url>
+    <content><![CDATA[<style>
+table th{
+  text-align: center;
+}
+</style>
+<table>
+<tr>
+<th>
+</th>
+<th>
+Motion Blur 运动模糊
+</th>
+<th>
+Artifact 伪影
+</th>
+<th>
+Aberration 像差
+</th>
+</tr>
+<tr>
+<td>
+成因
+</td>
+<td>
+物体在成像过程中移动导致光线在成像平面上模糊分布
+</td>
+<td>
+在成像或图像处理中引入的错误/异常.e.g.传感器噪声、镜头畸变、图像压缩。不一定与物体运动有关
+</td>
+<td>
+成像系统中光线偏离理想聚焦位置造成图像模糊/失真。主要涉及光线折射、聚焦过程
+</td>
+</tr>
+<tr>
+<td>
+影响
+</td>
+<td>
+图像中产生模糊
+</td>
+<td>
+表现为图像中出现的不自然的结构、色彩失真或几何形状异常等现象
+</td>
+<td>
+球差，色差，像差畸变（Distortion）...
+</td>
+</tr>
+<tr>
+<td>
+解决
+</td>
+<td>
+提高时间分辨率
+</td>
+<td>
+图像处理，去噪，去畸变
+</td>
+<td>
+光学设计，调整镜头位置，使用适当的滤波器
+</td>
+</table>
+<hr />
+<ul>
+<li>LFM &amp; sLFM</li>
+<li>Digital Adaptive Optics（DAO）</li>
+<li>DAOSLIMIT</li>
+</ul>
+<h2 id="principles">Principles</h2>
+]]></content>
+      <categories>
+        <category>枫丹科学院纪事</category>
+        <category>Imaging</category>
+      </categories>
+      <tags>
+        <tag>Imaging</tag>
       </tags>
   </entry>
   <entry>
@@ -1567,6 +983,697 @@ alt="图片.png" />
       </categories>
       <tags>
         <tag>Imaging</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>社会心理学</title>
+    <url>/2024/02/29/College/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</url>
+    <content><![CDATA[<p>参考书：</p>
+<blockquote>
+<p>《社会心理学》（各种版本）</p>
+<p>《社会性动物》，Elliot Aronson，科普读物</p>
+</blockquote>
+<h1 id="lecture-1-导论">Lecture 1 导论</h1>
+<blockquote>
+<p><font color = #034C7A face = 楷体> 人与人为什么要相遇呢？</font></p>
+</blockquote>
+<h2 id="社会心理学">社会心理学</h2>
+<p><strong><code>社会</code></strong>：<strong>Social</strong>, instead
+of Society：社会场景下的个体</p>
+<ul>
+<li>他人（广义）；</li>
+<li>情绪，思维，行为；</li>
+<li>科学研究</li>
+</ul>
+<p><strong>人格心理学</strong> 与 <strong>社会心理学</strong></p>
+<ul>
+<li><p>兄弟学科
+<strong><code>人格心理学 Personality Psychology</code></strong></p></li>
+<li><p>相同：都在日常行为水平</p></li>
+<li><p>不同：</p>
+<ul>
+<li>人格心理学：个体差异的影响，人格解释；</li>
+<li>社会心理学：社会情境的影响，情境解释；</li>
+</ul></li>
+<li><p><strong><code>基本归因错误 fundamental attribution error</code></strong>：强调个体差异的解释，忽略了情境因素</p></li>
+</ul>
+<p><strong>情境，人格与行为</strong> <span class="math display">\[B =
+f(P, E)\]</span></p>
+<ul>
+<li>行为：Behavior，<span class="math inline">\(B\)</span></li>
+<li>人格：Personality，<span class="math inline">\(P\)</span></li>
+<li>情境：Environment，<span class="math inline">\(E\)</span></li>
+<li>人格因素与情境因素的交互作用</li>
+</ul>
+<h2 id="社会心理学的研究方法">社会心理学的研究方法</h2>
+<p><strong>问卷法</strong></p>
+<ul>
+<li>自我报告问卷，状态或感受的主观报告</li>
+<li>常用于人格或个体差异变量的测量</li>
+<li>只能提供<strong>相关性</strong>，不能提供因果关系</li>
+</ul>
+<p><strong>实验法</strong></p>
+<ul>
+<li><p>社会心理学的主要研究方法</p></li>
+<li><p>控制变量（社会情境自变量），观察行为后果</p></li>
+<li><p>高影响力实验 3个经典实验：</p>
+<ul>
+<li>从众实验 Asch 1951</li>
+<li>电击实验 Milgram 1963</li>
+<li>监狱实验 Zimbardo 1971</li>
+</ul></li>
+<li><p>优点：设计精巧的拟真场景，简洁清晰的结论</p></li>
+<li><p>可以提供<strong>因果推论</strong></p></li>
+<li><p>缺点：成本高，精确控制，伦理问题</p></li>
+</ul>
+<p><strong>现代社会心理学实验</strong></p>
+<ul>
+<li>想象情境、虚拟情境</li>
+</ul>
+<h2 id="社会心理学的发展历程">社会心理学的发展历程</h2>
+<p><strong>萌芽时期（1940s以前）</strong></p>
+<ul>
+<li>McDougall：社会心理学的先驱</li>
+</ul>
+<p><strong>兴起时期（1940s）</strong></p>
+<ul>
+<li>Kurt Lewin：社会心理学之父，理论和实验方法基础</li>
+</ul>
+<p><strong>黄金时期（1950s-1970s）</strong></p>
+<ul>
+<li>二战结束后，对历史的反思和社会变迁刺激了社会心理学的发展</li>
+<li>Leon Festinger：认知失调理论</li>
+<li>一系列高影响力的经典实验</li>
+</ul>
+<p><strong>社会认知时期（1980s）</strong></p>
+<ul>
+<li>认知革命席卷心理学，社会心理学开始从认知的角度研究社会信息的加工过程</li>
+</ul>
+<p><strong>文化心理学时期（1980s-1990s）</strong></p>
+<ul>
+<li>社会心理学开始关注文化差异对社会心理现象的影响，涌现出一批文化差异理论</li>
+<li>个体主义与集体主义</li>
+<li>独立-互依自我结构</li>
+<li>整体性-分析性思维</li>
+</ul>
+<p><strong>内隐社会认知（2000s）</strong></p>
+<ul>
+<li>内隐联想测试（IAT）</li>
+<li>近年来受到一定质疑</li>
+</ul>
+<p><strong>社会神经科学（2000s）</strong></p>
+<p><strong>今日的社会心理学</strong></p>
+<ul>
+<li>多元、庞大的研究领域</li>
+</ul>
+<p><strong>可重复性危机</strong></p>
+<ul>
+<li>现象本身的复杂性</li>
+<li>对反直觉结果的过度追求</li>
+<li>一系列开放科学措施：透明化、数据共享、预注册、提前计算样本量</li>
+</ul>
+<h2 id="学习社会心理学的意义">学习社会心理学的意义</h2>
+<p>理解日常背后的心理学原理</p>
+<p>认识到情境的影响</p>
+<p>谦卑与宽容</p>
+<p>人文情怀 &amp; 科学精神的结合</p>
+<h1 id="lecture-2-社会认知上">Lecture 2 社会认知（上）</h1>
+<blockquote>
+<p><font color = #034C7A face = 楷体>走向宇宙的 <font face = Times>New
+Type</font> ，就能相互理解了吗？</font></p>
+</blockquote>
+<h2 id="社会认知的基本原则">社会认知的基本原则</h2>
+<p><strong><code>社会认知 Social Cognition</code></strong>：感知、加工、解读社会信息并做出反应的过程</p>
+<ol type="1">
+<li><p>建构性 constructive</p>
+<ul>
+<li>对社会、世界的认知取决于<strong>固有的经验、知识、动机、思维模式</strong>等因素</li>
+<li>是高度个人化的，每个人不可避免地戴着“有色眼镜”看世界</li>
+<li><strong>自下而上(bottom-up)</strong> 和
+<strong>自上而下(top-down)</strong> 的加工过程交互作用</li>
+</ul></li>
+<li><p>以效率为先</p>
+<ul>
+<li>人类认知系统是为了<strong>节约认知资源</strong>而设计的：人脑的认知资源和外部条件不允许对所有社会信息进行深度加工</li>
+<li>社会认知追求的是快速得到一个可接受的结果，不是最大化准确率</li>
+<li>是各种“偏差”、“误区”的原因</li>
+</ul>
+<blockquote>
+<p>双加工系统理论：</p>
+<p>系统1：快速、直觉、无意识、自动化</p>
+<p>系统2：慢速、反思、需努力的、受控的</p>
+<p>许多社会认知场景依赖于系统1，这类加工通常是快速、节俭的：有偏差，但性价比高</p>
+</blockquote></li>
+</ol>
+<h2 id="自上而下加工图示与启动">自上而下加工：图示与启动</h2>
+<p><strong><code>图示 Schema</code></strong>：一个人关于社会世界的既有知识结构，是对社会世界的一种认知模型</p>
+<ul>
+<li>自我图式：我是什么样的人</li>
+<li>社会规范：什么情境下应该做什么</li>
+<li>刻板印象：对特定群体的先验印象</li>
+<li>关系图式：特定的人际关系应该如何相处</li>
+</ul>
+<p><strong>图示对社会认知的影响</strong></p>
+<ul>
+<li>注意：图示引导人们注意特定的信息，忽略其他信息</li>
+<li>记忆：图示决定了哪些信息被记住，哪些被遗忘</li>
+</ul>
+<p><strong>图示的可提取性</strong></p>
+<ul>
+<li><strong><code>可提取性 availability</code></strong>：一种图示在多大程度上能够被激活</li>
+<li>一个场景下可能有多个图示，图示的可提取性决定了哪个图示被激活</li>
+<li>影响因素：过往经验、当前目标、近期激活</li>
+</ul>
+<p><strong><code>启动 Priming</code></strong>：通过一些情景线索临时激活某种图示，从而影响后续行为</p>
+<ul>
+<li>临时提升某种图示的可提取性</li>
+<li><strong><code>具身认知</code></strong>：身体感觉如何影响社会认知</li>
+<li>社会启动的危机：许多以具身认知为代表的社会启动研究无法复现</li>
+<li>何种刺激能引发何种效果，需要仔细审视相关证据和开放科学方法</li>
+</ul>
+<p><strong>图示对现实的影响：自我实现的预言</strong></p>
+<ul>
+<li><strong><code>自我实现的预言 Self-fulfilling prophecy</code></strong>：预期会影响行为，从而使预期成为现实</li>
+<li>Rosenthal &amp; Jacobson
+1968：老师对学生的预期影响学生的学业成绩</li>
+<li>现实案例：星座、MBTI——给自己贴标签，会影响自己的行为</li>
+</ul>
+<h2 id="自下而上的加工框架效应">自下而上的加工：框架效应</h2>
+<p><strong><code>框架效应 Framing Effect</code></strong>：在社会认知中，信息的呈现方式(How
+it is framed)会对信息的加工产生影响，从而影响决策</p>
+<p><strong>顺序框架</strong>：当许多信息顺次呈现时，呈现顺序会影响加工结果</p>
+<ul>
+<li><p><strong><code>首因效应 Primacy Effect</code></strong>：首先呈现的信息产生更强的影响</p>
+<blockquote>
+<p>Asch 1946：特质描述的顺序对印象的影响——第一印象的重要性</p>
+<p>聪明、勤奋、冲动、挑剔、顽固、嫉妒 vs
+嫉妒、顽固、挑剔、冲动、勤奋、聪明</p>
+<p>第一组的印象更好</p>
+</blockquote></li>
+<li><p><strong><code>近因效应 Recency Effect</code></strong>：最后呈现的信息产生更强的影响</p>
+<blockquote>
+<p>自我介绍时，最后一位上场的人印象更深刻</p>
+<p>按章节顺序复习，最后一章记得最牢</p>
+<p>......</p>
+</blockquote></li>
+</ul>
+<p><strong>积极和消极框架</strong>：信息的呈现方式（积极/消极）会影响人们的决策</p>
+<p><strong>时间框架</strong>：思考的行为或事件在时间上的远近不同，引发不同的感受</p>
+<blockquote>
+<p>某同学在开学时选修了<a
+href="https://jyywiki.cn/OS/2024/"><font color = 61AFEF>一门任务量大的课程</font></a>，认为该课程会令他很有收获，但学期后半，繁重的课业让他疲惫、缺少睡眠，因此感到后悔。这是一个时间框架的例子。</p>
+<p><strong><code>建构水平理论 construal level theory</code></strong>：在时间上距离较远的事物，会在更抽象的水平上加工；时间距离越近，加工水平越具体</p>
+</blockquote>
+<h2 id="信息寻求与确证偏差">信息寻求与确证偏差</h2>
+<p>除了加工被呈现的信息，人们也主动搜集更多的信息，作为决策判断的基础</p>
+<p><strong><code>确证偏差 Confirmation Bias</code></strong>：人们倾向于寻找支持自己观点的信息，而忽略反对自己观点的信息</p>
+<ul>
+<li>这维护了我们价值体系的稳定性，但也可能导致错误的决策</li>
+</ul>
+<blockquote>
+<p><strong><code>信息茧房 information cocoon</code></strong>:技术的繁荣反而强化了人的确证偏差，而没有致力于促进偏见的消除</p>
+</blockquote>
+<h1 id="lecture-3-社会认知下">Lecture 3 社会认知（下）</h1>
+<blockquote>
+<p><font color = #034C7A face = Times New Roman> I wanna have a pure
+time ~</p>
+<p>Everyone's a noble mind ~</font></p>
+</blockquote>
+<h2 id="归因">归因</h2>
+<p><strong><code>归因 Attribution</code></strong>：人们如何解释自己和他人的行为</p>
+<blockquote>
+<p>Fritz Heider：开创了社会心理学的归因研究</p>
+<p>Heider 认为每个人都会通过朴素或常识的心理学理论来解释他人的行为</p>
+</blockquote>
+<p><strong>最重要的归因维度：内部归因&amp;外部归因</strong></p>
+<ul>
+<li><p><strong><code>内部归因（禀赋归因）</code></strong>：将行为归因于个体内因素，如人格、态度、能力</p>
+<blockquote>
+<p>我没认真听 ≠ 我菜</p>
+</blockquote></li>
+<li><p><strong><code>外部归因（情境归因）</code></strong>：将行为归因于外部因素，如任务难度、运气、其他人的影响</p>
+<blockquote>
+<p>什么垃圾给分，一定是体制的问题。</p>
+</blockquote></li>
+</ul>
+<h3 id="归因的思维过程">归因的思维过程</h3>
+<blockquote>
+<p>Kelley
+提出共变模型解释归因的思维过程（<em>该理论基于理性人假设</em>），认为人们在归因时会考虑三种信息：</p>
+</blockquote>
+<p><strong><code>共识性信息 Consensus Information</code></strong>：其他人对相同的刺激对象是否做出相似的反应</p>
+<ul>
+<li>高共识性：刺激对象是主要原因</li>
+<li>低共识性：行动者是主要原因</li>
+</ul>
+<p><strong><code>特殊性信息 Distinctiveness Information</code></strong>：行为者对其他人是否做出相似的反应</p>
+<ul>
+<li>高特殊性：刺激对象是主要原因</li>
+<li>低特殊性：行动者是主要原因</li>
+</ul>
+<p><strong><code>一致性信息 Consistency Information</code></strong>：行为者在不同时间和情境下是否做出相似的反应</p>
+<ul>
+<li>高一致性：参考另外两种信息</li>
+<li>低一致性：归因为偶然因素</li>
+</ul>
+<table>
+<caption>
+<strong>共变模型</strong>
+</caption>
+<tr>
+<th>
+共识性
+</th>
+<th>
+特殊性
+</th>
+<th>
+一致性
+</th>
+<th>
+结论
+</th>
+</tr>
+<tr>
+<td>
+低
+</td>
+<td>
+低
+</td>
+<td>
+高
+</td>
+<td>
+（行动者）内部归因
+</td>
+</tr>
+<tr>
+<td>
+高
+</td>
+<td>
+高
+</td>
+<td>
+高
+</td>
+<td>
+（行动者）外部归因
+</td>
+</tr>
+<tr>
+<td>
+高或低
+</td>
+<td>
+高或低
+</td>
+<td>
+低
+</td>
+<td>
+偶然因素
+</td>
+</tr>
+</table>
+<p><strong>对共变模型的评价：</strong></p>
+<ul>
+<li><p>人不一定能保持理性或获得需要的信息，常常快速、粗糙地判断</p></li>
+<li><p>尽管如此，所描述的机制在许多时候是适用的</p></li>
+</ul>
+<h3 id="常见的归因偏差">常见的归因偏差</h3>
+<p><strong>1.
+<code>基本归因错误 Fundamental Attribution Error</code></strong>：过度强调个体差异的解释，忽略了情境因素</p>
+<ul>
+<li>可以理解为一种普遍的图示：人们的行为源于他们是什么样的人，而不是他们所处的情境</li>
+<li><strong><code>知觉显著性偏差 perceptual salience bias</code></strong>：人们通常将注意力集中在人的身上，而忽略了情境</li>
+</ul>
+<p><strong><code>两阶段归因过程</code></strong>：归因过程分为两个阶段，第一个阶段为自动化的内部归因，第二个阶段在此基础上调整，需要有意识的努力</p>
+<pre class="mermaid">graph LR
+A[观察到行为] -->|自动化过程| B[阶段一 内部归因]
+B -->|缺少时间、精力或动机| C[结束]
+B -->|有时间、精力或动机| D[阶段二 考虑其他解释]
+D -->E[调整初步归因]
+E -->C</pre>
+<p><strong>2.
+<code>自利归因偏差 Self-serving Bias</code></strong>：将成功归因为内部因素，将失败归因为外部因素</p>
+<ul>
+<li><p><strong><code>自我增强 Self-enhancement</code></strong>：一种常见的动机，是自己自我感觉良好，维护自己的自尊</p></li>
+<li><p><strong><code>印象管理 Impression Management</code></strong>：一种常见的策略，是为了给他人留下好印象，而对自己的行为进行解释（公开的自利归因）</p></li>
+<li><p>信息差异：自利归因也可能来自于掌握的信息差异</p>
+<blockquote>
+<p>教授：有同学考了高分，因此题不难→考不好是学生自己的问题</p>
+</blockquote></li>
+<li><p>自利归因的适应性价值：阻止
+<strong><code>抑郁性归因风格</code></strong> <a href="#fn1"
+class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>的形成
+<img src = "https://s2.loli.net/2024/03/14/xVfjSyqc51K2bDW.png" width = 700></p></li>
+</ul>
+<p><strong>3.
+<code>受害人谴责</code></strong>：对受害人谴责的倾向，将受害人的遭遇归因为受害人的内部因素</p>
+<ul>
+<li>“公平世界信念”：人们倾向于相信世界是公平的，好人会得到好报，坏人会受到惩罚，当这种信念受到挑战时，人们可能会作出防御性的归因</li>
+</ul>
+<h3 id="归因的文化差异">归因的文化差异</h3>
+<blockquote>
+<p>Richard Nisbett、彭凯平等人的研究表明，东西方人在归因时有一些差异</p>
+</blockquote>
+<ul>
+<li><p><strong><code>整体性思维 holistic thinking</code></strong>：将客体和环境作为一个整体来加工</p></li>
+<li><p><strong><code>分析性思维 analytic thinking</code></strong>：从环境中分离出客体，将其作为独立的实体来加工</p></li>
+</ul>
+<p>归因的差异：东方人更倾向于外部归因，西方人更倾向于内部归因</p>
+<ul>
+<li>研究结果：东方人更关注情境因素，从而<strong>更易于避免基本归因错误</strong></li>
+</ul>
+<p><img src = "https://s2.loli.net/2024/03/14/SXYvuprPUFNGmD3.jpg" width = 600></p>
+<h2 id="思维启发式">思维启发式</h2>
+<blockquote>
+<p>Herbert Simon，有限理性(bonded reasonality)概念：</p>
+<ul>
+<li>人们做决策时只能具备有限的理性</li>
+<li>人们做出的选择是满意的(satisfactory)，而不是最优的(optimal)</li>
+</ul>
+</blockquote>
+<p><strong><code>启发式 Heuristic</code></strong>：一些允许人们作出高效决策的思维捷径，但也可能导致认知偏差</p>
+<p><strong>常见思维的启发式</strong>：</p>
+<ul>
+<li><p><strong><code>满意启发式 satisficing heuristic</code></strong>：面对决策问题时，持续搜索代替选项，达到满意阈值</p>
+<ul>
+<li>人格因素：最优化决策风格 vs 满意型决策风格</li>
+</ul></li>
+<li><p><strong><code>可提取性启发式 available heuristic</code></strong>：根据事物在记忆中的提取难易程度来判断其可能性</p>
+<blockquote>
+<p>坐飞机和坐火车，哪个事故率更高？</p>
+<p>关于飞机事故的报道更多</p>
+</blockquote></li>
+<li><p><strong><code>代表性启发式 representativeness heuristic</code></strong>：如果某人与某个群体的典型特征相似，则推定此人属于该群体</p>
+<ul>
+<li>使用这种启发式时，可能会忽略
+<strong><code>基线比率信息 base rate information</code></strong>
+(信息的缺失)</li>
+</ul></li>
+<li><p><strong><code>锚定启发式 anchoring heuristic</code></strong>：人们在做判断时，可能会受到一个锚定点或参照点的影响</p></li>
+</ul>
+<h2 id="进化视角下的社会认知">进化视角下的社会认知</h2>
+<p><strong>效率与准确率的权衡</strong></p>
+<ul>
+<li>社会认知的基本原则之一：以效率为先，不求一定准确</li>
+<li>各种“偏差”、“偏见”、“误区”，可能都是<strong>进化而来的适应性策略</strong>：在效率和准确率之间找到平衡点</li>
+</ul>
+<p><strong>原始大脑与“时代病”</strong></p>
+<ul>
+<li><p>人类的大脑在百万年的“狩猎-采集者”生活方式中进化而来，但是近两百年的社会高速发展使大脑的进化速度被远远甩在后面</p></li>
+<li><p><strong>各种“时代病”的根源</strong></p>
+<blockquote>
+<p>New Type —— 新的希望？</p>
+</blockquote></li>
+</ul>
+<h1 id="lecture-4-社会自我">Lecture 4 社会自我</h1>
+<blockquote>
+<p><font color = #034C7A face = 楷体><font face = times>
+A.T</font>立场全开！ </font></p>
+</blockquote>
+<h2 id="自我">自我？</h2>
+<p><strong><code>自我</code></strong>：哲学和心理学探讨最多的话题之一，但是没有一个统一的定义。</p>
+<p><strong>自我的进化来源</strong></p>
+<ul>
+<li>人类的自我意识是在进化过程中逐渐形成的，具有进化轨迹，而非突然出现</li>
+<li>测量动物是否具有自我意识的方法：镜像自我认知测试
+<ul>
+<li>人类两岁后可以通过测试；黑猩猩、恒河猴、亚洲象、海豚、小鼠等哺乳动物；欧洲喜鹊、裂唇鱼等非哺乳动物。</li>
+<li><font color = red><em>未通过测试的动物是否真的没有自我意识？</em></font></li>
+</ul></li>
+</ul>
+<p><strong>人类自我的特点</strong></p>
+<ul>
+<li>多维度：人类的自我由许多性质和功能不同的部分组合成，这些部分构成了一个多维度、多层次的结构</li>
+<li>社会性：天然具有社会属性，与个体所属的社会情境紧密交织</li>
+</ul>
+<h2 id="自我图式">自我图式</h2>
+<p><strong><code>自我图式 self-schemata</code></strong>：一个人关于自己的知识</p>
+<blockquote>
+<p><em>我是_____。</em></p>
+</blockquote>
+<p>自我图示不会涵盖一个人的所有方面，而是反映了个体和社会环境最看重的方面
+- 少数族裔成员可能拥有种族自我图式，也可能没有</p>
+<p><strong>自我图式的影响</strong></p>
+<p>自我图式不一定客观准确，但会影响到我们对于自我相关信息的加工</p>
+<p><strong>关系自我</strong></p>
+<ul>
+<li>自我图式不仅包括一般性的自我知识，也包括特定社会情境下的自我知识</li>
+<li>关系情境是最重要的社会情境之一</li>
+<li><strong><code>关系自我 relational self</code></strong>：与重要的人际关系相关的自我知识</li>
+</ul>
+<p><strong>文化差异</strong></p>
+<ul>
+<li><p><strong>关系自我一致性</strong>：东方人相比于西方人，在不同关系中的自我一致性更低，并且这种低跨关系一致性对心理健康的负面影响也较小</p>
+<p><img src = "https://s2.loli.net/2024/03/22/DWhuvsCG8jaQzcl.png" width = 600></p></li>
+<li><p><strong>独立-互依自我结构</strong>：我们如何看待自我和他人的关系也受文化影响</p>
+<ul>
+<li><code>独立型 independent self-construal</code>：自我独立于社会环境，通过个体内部属性定义自我</li>
+<li><code>互依型 interdependent self-construal</code>：自我融入在社会环境中，通过社会身份定义自我，强调社会关系和谐</li>
+</ul>
+<blockquote>
+<p>possibilities：地理决定论的演化过程；一部分刻在基因上</p>
+</blockquote>
+<p><img src = "https://s2.loli.net/2024/03/22/K68pvdTDxQzNPyf.png" width =200></p></li>
+</ul>
+<h2 id="自尊-自我增强">自尊 &amp; 自我增强</h2>
+<h3 id="自尊">自尊</h3>
+<p><strong><code>自尊 self-esteem</code></strong>：个体对自己的总体评价</p>
+<ul>
+<li><code>整体自尊 global self-esteem</code></li>
+<li><code>特定自尊 domain self-esteem</code>：对自己在特定领域的评价</li>
+</ul>
+<p><strong>自尊的进化基础</strong></p>
+<ul>
+<li>根据社会计量假设，自尊本质上是一种内在、主观的指数，它反映了他人对我们的评价，以及我们被他人接纳或排斥的可能性（Leary
+&amp; Baumeister, 2000）</li>
+<li>人作为社会性动物，需要快速评估自己的社会表现，因此进化出自尊这种心理功能</li>
+</ul>
+<h3 id="自我增强">自我增强</h3>
+<p><strong><code>自我增强 self-enhancement</code></strong>：使自己自我感觉良好，维持积极自尊的倾向。是一种普遍的心理现象，导致一系列行为结果：</p>
+<ul>
+<li><p>自利归因</p></li>
+<li><p><code>比平均更好效应 better-than-average effect</code>：大多数人认为自己在积极特质上高于平均水平</p></li>
+<li><p><code>虚假一致性效应 false consensus effect</code>：人们倾向于高估别人对自己所持立场的支持程度</p></li>
+<li><p><code>虚假独特性效应 false uniqueness effect</code>：对于自身属性、能力或成就，低估了其在人群中的普遍程度</p>
+<blockquote>
+<p>虚假一致性 vs 虚假独特性？</p>
+<ul>
+<li>对于失败或消极的事物，人们倾向于出现虚假一致性偏差；</li>
+<li>对于成功或积极的事物，人们倾向于出现虚假独特性偏差</li>
+</ul>
+<p><strong>本质上都服务于自我增强动机</strong>，目的是为了让我们感觉更好</p>
+</blockquote></li>
+</ul>
+<p><strong><code>自我肯定理论 self-affirmation theory</code></strong>：当人们遇到威胁自我形象的事情时，会通过强化自己在其他领域的自尊来缓解这种威胁</p>
+<p><strong>关于自我增强的文化差异的争议</strong></p>
+<p>2000年代初，有研究发现，东亚文化中的人们似乎没有西方人那样的自我增强倾向，甚至有自我贬低的倾向。这一发现引发了学术界的广泛讨论。</p>
+<blockquote>
+<p>观点1：自我增强动机只存在于西方个人主义文化，在东方集体主义文化中存在的是<strong>自我批评</strong>（Heine，1999）</p>
+<p>观点2：东方文化也有自我增强动机，但增强的是集体主义文化所看重的特质（Sedikides，2003）</p>
+<p>观点3：东方文化也有自我增强，但被谦虚的文化规范所掩盖（Kurman，2001）</p>
+</blockquote>
+<p><strong><code>自我验证理论 self-verification theory</code></strong>：我们并不总是追求积极的自我印象，有时我们也追求准确的自我认知（人们会努力使他人确证我们固有的自我信念，无论积极还是消极）</p>
+<ul>
+<li><p>关注与自我信念一致的信息</p>
+<blockquote>
+<p>持有负面自我信念的人，更倾向于关注别人负面的评价</p>
+</blockquote></li>
+<li><p>建立与自我信念一致的关系</p>
+<blockquote>
+<p>恋人对彼此的看法一致时，关系的投入度更高，即使看法是负面的</p>
+</blockquote></li>
+</ul>
+<h2 id="社会情境下的自我">社会情境下的自我</h2>
+<h3 id="社会比较">社会比较</h3>
+<p><strong><code>社会比较 social comparison</code></strong></p>
+<ul>
+<li><code>上行/向上比较 upward comparison</code>：与比自己更优秀的人比较</li>
+<li><code>下行/向下比较 downward comparison</code>：与比自己更差的人比较</li>
+</ul>
+<p><strong>社会比较的后果</strong></p>
+<blockquote>
+<p>特奖，典</p>
+</blockquote>
+<ul>
+<li>向下比较令人快乐；向上比较令人不快乐</li>
+<li>unfortunately，人们更倾向于向上比较</li>
+<li>这可以解释为什么物质财富的增加不一定带来幸福感的增加</li>
+</ul>
+<h3 id="我眼中的他人眼中的我">我眼中的他人眼中的我</h3>
+<p>我们对<strong>别人看待自己的方式</strong>的理解可能存在系统性的偏差</p>
+<ul>
+<li><code>聚光灯效应 spotlight effect</code>：人们往往高估了别人对自己的关注程度</li>
+<li><code>透明感错觉 illusion of transparency</code>：人们往往高估了自己的内心体验对他人的可见程度</li>
+</ul>
+<h3 id="自我展示">自我展示</h3>
+<p><strong><code>自我展示 self-presentation</code></strong>：通过特定行为给别人留下积极印象</p>
+<ul>
+<li>自我展示可以视为印象管理的一个特例</li>
+<li><code>自我监督 self-monitoring</code>：个体对自己的行为进行监控，以便在不同情境中展示不同的自我</li>
+<li>高/低自我监督者</li>
+</ul>
+<p><strong><code>自我妨碍 self-handicapping</code></strong>：在面临可能失败的情境中，通过制造障碍来保护自己的自尊</p>
+<blockquote>
+<p>预计到自己考不好，于是不复习，以便将失败归因于缺乏努力</p>
+</blockquote>
+<ul>
+<li>是达成<strong>自我展示</strong>这一目的的策略</li>
+</ul>
+<p><strong>互联网上的自我展示</strong></p>
+<ul>
+<li><p>互联网上的自我展示是一种新的社会情境下的自我展示</p></li>
+<li><p>Web 2.0时代的代表性自我展示行为：自拍 selfie</p>
+<blockquote>
+<p>2013年，牛津词典将selfie评为年度词汇</p>
+</blockquote></li>
+</ul>
+<h1 id="lecture-5-态度与行为">Lecture 5 态度与行为</h1>
+<blockquote>
+<p><img src = "https://s2.loli.net/2024/03/28/WhRGpEYo1Ldn4iz.png" width = 300></p>
+</blockquote>
+<h2 id="态度">态度？</h2>
+<p><strong><code>态度</code></strong>：对特定目标的积极或消极的评价</p>
+<blockquote>
+<p>自尊是一种对自己的态度</p>
+</blockquote>
+<p><strong>态度的ABC模型</strong>：一般认为，态度是由三个互相联系的部分组成的，即<strong><code>态度的ABC模型</code></strong>：</p>
+<ul>
+<li><strong>Affective</strong> Component：情感成分</li>
+<li><strong>Behavioral</strong> Component：行为成分</li>
+<li><strong>Cognitive</strong> Component：认知成分</li>
+</ul>
+<blockquote>
+<p>地域歧视：</p>
+<ul>
+<li>A：对来自某地的人感到厌恶</li>
+<li>B：因为某人来自某地而拒绝招聘</li>
+<li>C：认为来自某地的人都是犯罪分子</li>
+</ul>
+<p><font color="purple">原神玩家是这样的。</font></p>
+</blockquote>
+<p><strong>态度的测量</strong></p>
+<ul>
+<li><p>传统上态度一般通过自我报告的方式来测量</p>
+<p><strong><code>李克特量表</code></strong>：心理测量学家李克特（Rensis
+Likert）的发明，通常为5点到7点的对称选项</p>
+<p><img src = "https://s2.loli.net/2024/03/28/qOMZU8zYLbGJjPD.png" width = 700></p></li>
+<li><p>内隐态度测量</p>
+<ul>
+<li><p><code>内隐态度 implicit attitude</code>：个体自发的，无意识的评价</p></li>
+<li><p>主要测量方法：<code>内隐联想测试 IAT（Implicit Association Test）</code></p>
+<blockquote>
+<p><strong>IAT</strong>
+是一种用于测量个体内隐态度的心理学测试方法，通过测量个体对两个概念的反应时间来判断个体对这两个概念的态度。</p>
+<p>例如，通过测量个体对“黑人”和“白人”两个概念的反应时间来判断个体对黑人和白人的态度。</p>
+<p>关于其含义的解读存在争议：是否真的是态度？是否真的是内隐的？</p>
+</blockquote></li>
+<li><p>内隐自尊：自我更容易与积极概念联系，而不是与消极概念联系</p></li>
+</ul></li>
+</ul>
+<p><strong>态度与行为的关系</strong></p>
+<ul>
+<li><p>许多研究发现，态度与行为之间的关系并不稳定，态度并不总是能够预测行为</p>
+<ul>
+<li>对作弊的态度并不能预测实际作弊行为</li>
+<li>对宗教的态度只能较弱地预测参加宗教活动的行为</li>
+<li>态度上反对种族歧视的人，对实际的歧视无动于衷</li>
+</ul></li>
+<li><p>态度与行为关系的复杂性：</p>
+<ul>
+<li>态度-行为之间存在复杂的交互影响，社会心理学中存在不同理论来刻画这些影响</li>
+<li><strong>态度影响行为</strong>：计划行为理论</li>
+<li><strong>行为影响态度</strong>：认知失调理论</li>
+</ul></li>
+</ul>
+<h2 id="态度影响行为">态度影响行为</h2>
+<h3 id="理性行动理论">理性行动理论</h3>
+<p><strong><code>理性行动理论 Rational Action Theory</code></strong>：描述了人们如何根据自己的态度和主观规范来决定是否采取某种行为</p>
+<pre class="mermaid">graph LR
+    A[态度：润是不是好事] --> B[行为意图：润的意愿]
+    C[主观规范：同学是不是都要润] --> B
+    B --> D[行为：毕业之后润不润]</pre>
+<ul>
+<li><strong>态度</strong>：态度越积极，行为意图越强</li>
+<li><strong><code>主观规范 subjective norm</code></strong>：感知到的开展或不开展这种行为的社会压力</li>
+<li><strong><code>行为意图 behavior intention</code></strong>：开展某项行为的意图在前因变量和实际行为之间起到了中介作用</li>
+<li>对于不同人而言，主观规范和态度所占的权重不同</li>
+</ul>
+<h3 id="计划行为理论">计划行为理论</h3>
+<p><strong><code>计划行为理论 Theory of Planned Behavior</code></strong>：在理性行动理论的基础上，增加了对行为控制的考虑</p>
+<pre class="mermaid">graph LR
+    A[态度：润是不是好事] --> B[行为意图：润的意愿]
+    C[主观规范：同学是不是都要润] --> B
+    E[<font color = red>行为控制：容不容易润</font>] --> B
+    B --> D[行为：毕业之后润不润]
+    E --> D</pre>
+<ul>
+<li><strong>行为控制</strong>：个体对行为的控制程度，包括行为的难易程度、行为的自我效能等</li>
+</ul>
+<p><strong>计划行为理论的影响与评价</strong></p>
+<ul>
+<li><p>态度行为研究中最有影响力的理论框架，被广泛应用于许多领域，如政治、环境、健康等</p></li>
+<li><p>一些批评：</p>
+<ul>
+<li>忽略了动机、需求、情绪等因素的影响</li>
+<li>前因变量与行为之间的关系并不总是单向的</li>
+</ul></li>
+</ul>
+<h2 id="行为影响态度">行为影响态度</h2>
+<h3 id="认知失调理论">认知失调理论</h3>
+<p>Leon Festinger，1957年提出</p>
+<p><img src = "https://s2.loli.net/2024/03/28/IvYNioD3UnKZtPm.png" width = 700 alt = "我感谢天地！"></p>
+<p><strong><code>认知失调 cognitive dissonance</code></strong>：当头脑中两种认知存在冲突时，我们会感到不适，并会采取措施减少这种不适感</p>
+<p><strong>认知失调视角下的态度-行为关系</strong></p>
+<p>根据认知失调，当态度和行为出现矛盾时，个体可能会采取多种措施化解失调</p>
+<ul>
+<li>改变行为：戒烟</li>
+<li>改变认知：专家都是胡扯</li>
+<li>引入新认知：吸烟缓解压力</li>
+<li>选择性暴露信息：戒了健康节目</li>
+</ul>
+<p><strong>相关现象</strong></p>
+<ul>
+<li>合理化不足</li>
+<li>对努力的合理化
+<ul>
+<li>既然已经付出了努力，那么这个结果一定是值得的</li>
+</ul></li>
+<li><code>决策后失调 post-decision dissonance</code>：在多个吸引力相似的选项之间作出选择后，因可能选错而感到不安
+<ul>
+<li>后果：对所选选项的评价更高，对未选选项的评价更低</li>
+</ul></li>
+</ul>
+<h3 id="自我感知理论">自我感知理论</h3>
+<p><strong><code>自我感知理论 self-perception theory</code></strong>：认知失调理论的竞争理论，认为个体通过自己的行为推测自己的态度（<em>没有先验的态度</em>）</p>
+<p><strong><code>过度合理化效应</code></strong>：如果人们因喜爱而做某事，给予外部报酬会降低他们对这项活动的兴趣</p>
+<p><strong><code>吊桥效应</code></strong>：被试将吊桥带来的生理唤起解读为爱情（行为--&gt;态度）</p>
+<hr />
+<p><img src = "https://s2.loli.net/2024/03/28/dQOsEo3Up1PW2yL.jpg" width = 800></p>
+<hr />
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li
+id="fn1"><p>抑郁患者常见的归因风格，把好事归结为外部、临时、具体因素，把坏事归结为内部、持久、普遍因素<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>往日之影</category>
+        <category>24 Spring</category>
+        <category>课上拾枝</category>
+        <category>Psychology</category>
+      </categories>
+      <tags>
+        <tag>Psychology</tag>
       </tags>
   </entry>
   <entry>
