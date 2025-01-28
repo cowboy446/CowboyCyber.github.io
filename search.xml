@@ -910,9 +910,9 @@ class="math inline">\(T\)</span>，从而变换为Jordan标准型</li>
         <category>课上拾枝</category>
       </categories>
       <tags>
+        <tag>System</tag>
         <tag>Imaging</tag>
         <tag>Microscopy</tag>
-        <tag>System</tag>
       </tags>
   </entry>
   <entry>
@@ -2468,6 +2468,54 @@ href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       </categories>
       <tags>
         <tag>Psychology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Explore DeepSeek R1</title>
+    <url>/2025/01/27/Insights/AI/explore_deepseek/</url>
+    <content><![CDATA[<p>据说幻方科技这家量化公司在几年前显卡被制裁前囤积了不少A100，因此能负担这种规模的模型训练。</p>
+<!-- ## 关于蒸馏
+
+DeepSeek的回答：
+
+<img src = 'https://s2.loli.net/2025/01/28/XEMdOActTZqCobf.png' width = '75%' alt = 'DeepSeek的回答'> -->
+<h2 id="关于rl">关于RL</h2>
+<p>DeepSeek-R1-zero采用无SFT(Supervised
+Fine-Tuning)的方式进行大规模RL训练，reward如下：</p>
+<ul>
+<li><p>准确率奖励</p></li>
+<li><p>格式奖励：对思维链条（CoT，Chain of
+Thought）进行建模，作为输出<code>&lt;think&gt;...&lt;/think&gt;</code>部分的奖励</p>
+<p><img src = 'https://s2.loli.net/2025/01/28/iYXdKJC7GhTqVmO.png' width = '75%' alt = 'RL reward Model' style = 'border-radius: 10px' /></p></li>
+</ul>
+<p><img src = 'https://s2.loli.net/2025/01/28/BGatO8CoFqIxEnS.png' width = '75%' alt = 'RL reward Model' style = 'border-radius: 10px' /></p>
+<p>结果表明不靠传统的SFT，纯RL的训练方法对于LLM训练是具有可行性的。R1-zero的性能和OpenAI-o1接近。</p>
+<p>搜了一下，主流LLM训练中也采用了RL的方法，同时也是训练的核心，deepseek在这一点上并非totally
+brand
+new，重点是提升了CoT的侧重，以及把SFT的部分优化掉了（后续的R1将其少量加入，作为冷启动，但重点仍然是RL）。</p>
+<p>那么一个问题是，RL虽然理论上一定能收敛，但没有SFT提供比较好的初始值，收敛速度怎么样。但结果看起来，CoT方面的RL训练cover掉了这个问题？</p>
+<p>另外感觉有意思的是，对CoT进行RL的思路是不是比较拟人，或者说，对这个过程的理解可以不从概率模型的角度，而是只从人类的逻辑推理角度出发，目标是实现<strong>逻辑</strong>本身的端到端学习，这样得到的就是“思考机器”，而不是“真理机器”。</p>
+<p>理论和实验的分析在<a
+href="https://zhuanlan.zhihu.com/p/19530895760">这篇知乎文章</a>里写的比较详细，后边还有模型蒸馏部分，各种对比实验和讨论。鼠鼠理论深度还是不太够，稍微关注下具体的效果。</p>
+<h2 id="国产之光">国产之光？</h2>
+<p>网页端和app免费开放了671B的R1版本，也提供了本地部署蒸馏模型的方法，回校以后拿台式机试试。目前在网页端R1的体验和GPT-4比较类似——</p>
+<ol type="1">
+<li><p>日常任务：学法语的体验优于限量版的GPT-4口牙！</p>
+<p><img src = 'https://s2.loli.net/2025/01/28/ksq9nbcjHapfiBD.png' width = '60%' alt = '学法语相当可以' style = 'border-radius: 10px' /></p>
+<p>不过目前不支持图片输入（附件只能读取文本信息）。总的来说在手机上下载一个日常用途的app还是很方便的，不用担心网络问题。有时候服务器压力大用不了。</p></li>
+<li><p>哪里来的逆天语料库
+<img src = 'https://s2.loli.net/2025/01/28/lO5pQd6wqb4EzPv.png' width = '60%' alt = '逆天语料库' style = 'border-radius: 10px' /></p>
+<p>我自己试了一下，和网上别人prompt出来的结果差不多，它的潜能在攻击性上简直深不见底。。。它从简中互联网上学了太多东西了。</p></li>
+<li><p>它不干了。
+<img src = 'https://s2.loli.net/2025/01/28/ChEAPblcHFr7Z1w.png' width = '80%' alt = '它不干了' style = 'border-radius: 10px' />
+读不了大pdf还是服务器压力太大了？</p></li>
+</ol>
+]]></content>
+      <categories>
+        <category>漫游</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
       </tags>
   </entry>
 </search>
