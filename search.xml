@@ -1632,6 +1632,10 @@ G_1(s)\cdot[I+G_2(s)G_1(s)]^{-1}\)</span></li>
 <li>基于积分器串联+常值反馈，得到能控、能观标准型，二者互为对偶</li>
 </ol>
 <embed src="https://cowboy446.github.io/pdf/2024/状态空间的实现.pdf" width="90%" height="600px" type='application/pdf' style="border-radius: 10px;" />
+<h3 id="标准型">标准型</h3>
+<p>能控标准型，能观标准型</p>
+<p>对角标准型，Jordan标准型</p>
+<p><img src = 'https://s2.loli.net/2025/02/01/5dvPkZh8CDjiH2o.png' width = '50%' style = 'border-radius: 10px' alt = '状态空间标准型'></p>
 <h3 id="系统的等价变换">系统的等价变换</h3>
 <p>对于系统[1]</p>
 <p><span class="math display">\[\begin{cases}
@@ -1673,6 +1677,38 @@ T^{-1}x\)</span>变换为对角型，<span class="math inline">\(T =
 [P_1,P_2,\cdots,P_n]\)</span>特征向量矩阵</li>
 <li>矩阵有重特征值，仍可迭代计算求出能变换为Jordan标准型的特征向量矩阵<span
 class="math inline">\(T\)</span>，从而变换为Jordan标准型</li>
+</ul>
+<h2
+id="线性系统状态方程的解时域分析">线性系统状态方程的解（时域分析）</h2>
+<p><strong>矩阵指数</strong>：<span class="math inline">\(\phi(t) =
+e^{At}\)</span></p>
+<ul>
+<li>定义式：<span class="math inline">\(e^{At} = I + At +
+\frac{A^2t^2}{2!} + \cdots\)</span> = _{k=0}^{} $</li>
+<li>反Laplace变换：<span class="math inline">\(e^{At} =
+\mathcal{L}^{-1}\{[sI-A]^{-1}\}\)</span></li>
+</ul>
+<p><strong>线性连续定常系统状态方程<span class="math inline">\(\dot{x} =
+Ax+Bu\)</span>的解</strong>：</p>
+<p><span class="math inline">\(x(t) = e^{At}x(0)+\int_0^t
+e^{A(t-\tau)}Bu(\tau)d\tau\)</span>,</p>
+<ul>
+<li>自由解<span class="math inline">\(x_f(t) =
+e^{At}x(0)\)</span>，为初始时刻状态向量到<span
+class="math inline">\(t\)</span>时刻的状态向量的变换，矩阵指数<span
+class="math inline">\(e^{At}\)</span>为<strong>状态转移矩阵</strong></li>
+<li>强迫解<span class="math inline">\(x_p(t) = \int_0^t
+e^{A(t-\tau)}Bu(\tau)d\tau\)</span>，从时域上看为状态转移矩阵<span
+class="math inline">\(e^{At}\)</span>与输入信号<span
+class="math inline">\(Bu(t)\)</span>的卷积</li>
+<li>可通过Laplace变换，两边从变换域解方程：<span
+class="math inline">\(x(s) =
+[sI-A]^{-1}x(0)+[sI-A]^{-1}Bu(s)\)</span></li>
+</ul>
+<p><strong>状态转移矩阵的性质</strong></p>
+<ul>
+<li>大多数直接用级数展开定义式推导即可，很符合直觉</li>
+<li>对角标准型、Jordan型可变换</li>
 </ul>
 <h1 id="控制系统经典部分">控制系统（经典部分）</h1>
 <h2 id="时域分析">时域分析</h2>
